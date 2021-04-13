@@ -1,0 +1,4 @@
+2021-03-21T04:25:26+00:00 CRITICAL Cannot declare class WC_API_Client, because the name is already in use in /var/www/html/wp-content/plugins/Centre-Point-Operation-Dashboard/class-wc-api-client.php on line 14
+
+2021-03-21T06:21:27+00:00 CRITICAL Cannot declare class WC_API_Client, because the name is already in use in /var/www/html/wp-content/plugins/Centre-Point-Operation-Dashboard/class-wc-api-client.php on line 14
+

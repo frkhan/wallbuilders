@@ -1,0 +1,42 @@
+/* Admin Notices CSS */
+.rfbwp-notice {
+	border-radius: 3px;
+	padding: 20px;
+	margin: 20px 20px 0 0;
+	background: #fff;
+}
+.rfbwp-notice.rfbwp-notice-error {
+	border-bottom: 4px solid #E74C3C;
+}
+.rfbwp-notice.rfbwp-notice-warning {
+	border-bottom: 4px solid #eb7b3f;
+}
+.rfbwp-notice.rfbwp-notice-info {
+	border-bottom: 4px solid #2997c3;
+}
+
+.rfbwp-notice .rfbwp-notice-dismiss {
+	float: right;
+	text-decoration: none;
+	color: #666;
+	outline: 0;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+.rfbwp-notice-dismiss:hover {
+	color: #000;
+	transform: rotate( 90deg );
+}
+
+.rfbwp-notice-dismiss {	
+	-webkit-transition: all .25s ease-in-out;
+	-moz-transition: all .25s ease-in-out;
+	-ms-transition: all .25s ease-in-out;
+	-o-transition: all .25s ease-in-out;
+	transition: all .25s ease-in-out;
+}
+
+/* Menu fix */
+#toplevel_page_mp-settings .wp-first-item {
+	display: none;
+}

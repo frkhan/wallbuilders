@@ -1,0 +1,219 @@
+.setup-container {
+  max-width: 500px;
+  width: 80%;
+  margin: auto;
+  display: block; }
+
+.progress {
+  width: 1000px;
+  margin: 20px auto;
+  text-align: center; }
+
+.progress .circle, .progress .bar {
+  display: inline-block;
+  background: #fff;
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  border: 1px solid #d5d5da; }
+
+.progress .bar {
+  position: relative;
+  width: 80px;
+  height: 6px;
+  top: -33px;
+  margin-left: -5px;
+  margin-right: -5px;
+  border-left: none;
+  border-right: none;
+  border-radius: 0; }
+
+.progress .circle .label {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  border-radius: 32px;
+  margin-top: 4px;
+  color: #b5b5ba;
+  font-size: 17px; }
+
+.progress .circle .title {
+  color: #b5b5ba;
+  font-size: 13px;
+  line-height: 30px;
+  margin-left: -5px;
+  white-space: nowrap; }
+
+/* Done / Active */
+.progress .bar.done,
+.progress .circle.done {
+  background: #0c95be; }
+
+.progress .circle.active {
+  background: #0c95be; }
+
+.progress .circle.active .label {
+  color: #FFF;
+  background: #0c95be;
+  box-shadow: inset 0 0 0px transparent;
+  transform: translateX(-1px); }
+
+.progress .circle.active .title {
+  color: #0c95be; }
+
+.button-caution {
+  background: #f44336 !important;
+  border-color: #f44336 #f44336 #f44336 !important;
+  box-shadow: 0 1px 0 #f44336 !important;
+  color: #fff !important;
+  text-decoration: none !important; }
+
+.button-right {
+  float: right; }
+
+.timeline {
+  list-style: none;
+  margin: 25px 0 22px;
+  padding: 0;
+  position: relative;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.timeline:after {
+  border: 6px solid;
+  border-top-width: 13px;
+  border-color: #00637d #00637d #00637d #00637d;
+  border-radius: 4px;
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -19px;
+  left: 15px; }
+
+.timeline-horizontal:after {
+  border-top-width: 6px;
+  border-left-width: 13px;
+  border-color: transparent transparent transparent #00637d;
+  top: 15px;
+  right: 0;
+  bottom: auto;
+  left: auto; }
+
+.timeline-horizontal .timeline-milestone {
+  border-top: 2px solid #00637d;
+  display: inline;
+  float: left;
+  margin: 20px 0 0 0;
+  padding: 40px 0 0 0; }
+
+.timeline-horizontal .timeline-milestone:before {
+  top: -17px;
+  left: auto; }
+
+.timeline-horizontal .timeline-milestone.is-completed:after {
+  top: -17px;
+  left: 0; }
+
+.timeline-milestone {
+  border-left: 2px solid #00637d;
+  margin: 0 0 0 20px;
+  padding: 0 0 5px 25px;
+  position: relative;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.timeline-milestone:before {
+  border: 7px solid #00637d;
+  background: #00637d;
+  border-radius: 50%;
+  content: "";
+  display: block;
+  position: absolute;
+  left: -17px;
+  width: 32px;
+  height: 32px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.timeline-milestone.is-completed:before {
+  background-color: #00637d; }
+
+.timeline-milestone.is-completed:after {
+  color: #FFF;
+  content: "\f00c";
+  display: block;
+  font-family: "FontAwesome";
+  line-height: 32px;
+  position: absolute;
+  top: 0;
+  left: -17px;
+  text-align: center;
+  width: 32px;
+  height: 32px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.timeline-milestone.is-current:before {
+  background-color: #EEE; }
+
+.timeline-milestone.is-future:before {
+  background-color: #8DACB8;
+  border: 0; }
+
+.timeline-milestone.is-future .timeline-action .title {
+  color: #8DACB8; }
+
+.timeline-action {
+  background-color: #FFF;
+  border: 1px solid #8DACB8;
+  padding: 12px 10px 12px 20px;
+  position: relative;
+  top: -15px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px; }
+
+.timeline-action .title, .timeline-action .content {
+  word-wrap: break-word; }
+
+.timeline-action .title {
+  color: #00637d !important;
+  font-size: 20px !important;
+  margin: 0 !important;
+  padding: 8px 0px 0px !important; }
+
+.timeline-action .date {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 15px; }
+
+.timeline-action .content {
+  font-size: 14px; }
+
+/**************** MISC ***************/
+hr.aio-gdpr {
+  border: 0;
+  margin-top: 20px;
+  border-top: 1px solid #bbb;
+  border-bottom: 1px solid #fafafa; }
+
+.aiogdpr-admin-logo {
+  height: 30px;
+  transform: translateY(5px); }
+
+#request_overview_meta_box .inside {
+  padding: 0px !important; }
+
+body.post-type-aiogdpr_request #normal-sortables {
+  display: none !important; }
+
+body.post-type-aiogdpr_request #add_note {
+  width: 100%; }
+
+body.post-type-aiogdpr_request .page-title-action {
+  display: none; }

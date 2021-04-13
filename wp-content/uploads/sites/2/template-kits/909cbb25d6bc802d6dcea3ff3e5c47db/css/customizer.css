@@ -1,0 +1,38 @@
+.download-application-text {
+	color: #fff;
+	font-size: 24px;
+  font-weight: 600;
+	margin: 0;
+	margin-bottom:10px;
+  margin-right: 40px;
+	display:inline-block;
+	font-family: 'Poppins', sans-serif;
+}
+.download-application-btn {
+	color: #fff;
+	background: #26bdef;
+	padding: 15px 40px;
+	font-size:16px;
+	font-family: 'Poppins', sans-serif;
+	transition:.5s ease;
+	display:inline-block;
+}
+.download-application-btn:hover{
+	color: #26bdef;
+	background: #fff;
+}
+.display-inline {
+	display: inline-block;
+}
+
+@media (max-width: 1024px) {
+	.responsive-column {
+		width: 50% !important;
+	}
+}
+
+@media (max-width: 600px) {
+	.responsive-column {
+		width: 100% !important;
+	}
+}

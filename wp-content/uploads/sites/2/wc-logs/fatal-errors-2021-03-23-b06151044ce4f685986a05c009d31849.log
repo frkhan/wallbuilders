@@ -1,0 +1,24 @@
+2021-03-23T12:39:27+00:00 CRITICAL Uncaught Error: Call to undefined method EventFunctons::save_contact_teacher_conference_form_data() in /var/www/html/wp-content/plugins/samadhan-events-schedular/views/scheduler_forms.php:2143
+Stack trace:
+#0 /var/www/html/wp-includes/shortcodes.php(343): scheduleView\SMDNSchedularFormView::get_contact_form_teacher_registration('', '', 'smdn_teacher_fo...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/wp-includes/shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(smdn_t...', 'do_shortcode_ta...', '[smdn_teacher_f...')
+#3 /var/www/html/wp-includes/class-wp-hook.php(292): do_shortcode('[smdn_teacher_f...')
+#4 /var/www/html/wp-includes/plugin.php(212): WP_Hook->apply_filters('[smdn_teacher_f...', Array)
+#5 /var/www/html/wp-includes/post-template.php(253): apply_filters('the_content', '[smdn_teacher_f...')
+#6 /var/www/html/wp-content/plugins/elementor/modules/page-templates/module.php(190): the_content()
+#7 [internal function]: Elementor\Modules\PageTemplates\Module->print_callback()
+#8 /v in /var/www/html/wp-content/plugins/samadhan-events-schedular/views/scheduler_forms.php on line 2143
+
+2021-03-23T13:00:29+00:00 CRITICAL Uncaught Error: Call to undefined method WP_Error::exists() in /var/www/html/wp-includes/user.php:1570
+Stack trace:
+#0 /var/www/html/wp-includes/pluggable.php(2611): clean_user_cache(Object(WP_Error))
+#1 /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php(1408): wp_set_password(NULL, Object(WP_Error))
+#2 /var/www/html/wp-content/plugins/samadhan-events-schedular/views/scheduler_forms.php(1867): EventFunctons::save_contact_paster_form_data(Array, Array, 'Signup')
+#3 /var/www/html/wp-includes/shortcodes.php(343): scheduleView\SMDNSchedularFormView::get_contact_form_mailing_signup('', '', 'smdn_signup_for...')
+#4 [internal function]: do_shortcode_tag(Array)
+#5 /var/www/html/wp-includes/shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(smdn_s...', 'do_shortcode_ta...', '[smdn_signup_fo...')
+#6 /var/www/html/wp-includes/class-wp-hook.php(292): do_shortcode('[smdn_signup_fo...')
+#7 /var/www/html/wp-includes/plugin.php(212): WP_Hook->apply_filters('[smdn_signup_fo...', Array)
+#8 /v in /var/www/html/wp-includes/user.php on line 1570
+

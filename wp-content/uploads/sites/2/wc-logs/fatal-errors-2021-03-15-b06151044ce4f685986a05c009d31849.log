@@ -1,0 +1,46 @@
+2021-03-15T09:56:16+00:00 CRITICAL Cannot declare class WC_API_Client, because the name is already in use in /var/www/html/wp-content/plugins/Centre-Point-Operation-Dashboard/class-wc-api-client.php on line 14
+
+2021-03-15T09:56:27+00:00 CRITICAL Uncaught WC_API_Client_HTTP_Exception: Error: No route was found matching the URL and request method [woocommerce_api_no_route] in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/vendors/woocommerce/woocommerce-api/class-wc-api-client-http-request.php:210
+Stack trace:
+#0 /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/vendors/woocommerce/woocommerce-api/class-wc-api-client.php(290): WC_API_Client_HTTP_Request->dispatch()
+#1 /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/vendors/woocommerce/woocommerce-api/resources/abstract-wc-api-client-resource.php(121): WC_API_Client->make_api_call('GET', 'customers//orde...', Array)
+#2 /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/vendors/woocommerce/woocommerce-api/resources/class-wc-api-client-resource-customers.php(168): WC_API_Client_Resource->do_request()
+#3 /var/www/html/wp-content/plugins/samadhan-events-schedular/views/donor_forms.php(703): WC_API_Client_Resource_Customers->get_orde in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/vendors/woocommerce/woocommerce-api/class-wc-api-client-http-request.php on line 210
+
+2021-03-15T09:56:34+00:00 CRITICAL Uncaught Error: Call to undefined method WC_API_Client::get_orders() in /var/www/html/wp-content/plugins/samadhan-events-schedular/views/donor_forms.php:604
+Stack trace:
+#0 /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php(882): donorView\SMDNdonorFormView->get_donor_order_reports(Object(WC_API_Client))
+#1 /var/www/html/wp-includes/shortcodes.php(343): EventFunctons::getMajorDonorReports('', '', 'donor_order_lis...')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 /var/www/html/wp-includes/shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(donor_...', 'do_shortcode_ta...', '[donor_order_li...')
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): do_shortcode('[donor_order_li...')
+#5 /var/www/html/wp-includes/plugin.php(212): WP_Hook->apply_filters('[donor_order_li...', Array)
+#6 /var/www/html/wp-includes/post-template.php(253): apply_filters('the_content', '[donor_order_li...')
+#7 /var/www/html/wp-content/plugins/elementor/modules/page-templates/module.php(190): the_con in /var/www/html/wp-content/plugins/samadhan-events-schedular/views/donor_forms.php on line 604
+
+2021-03-15T09:56:49+00:00 CRITICAL Uncaught Error: Call to undefined method WC_API_Client::get_orders() in /var/www/html/wp-content/plugins/samadhan-events-schedular/views/donor_forms.php:604
+Stack trace:
+#0 /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php(882): donorView\SMDNdonorFormView->get_donor_order_reports(Object(WC_API_Client))
+#1 /var/www/html/wp-includes/shortcodes.php(343): EventFunctons::getMajorDonorReports('', '', 'donor_order_lis...')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 /var/www/html/wp-includes/shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(donor_...', 'do_shortcode_ta...', '[donor_order_li...')
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): do_shortcode('[donor_order_li...')
+#5 /var/www/html/wp-includes/plugin.php(212): WP_Hook->apply_filters('[donor_order_li...', Array)
+#6 /var/www/html/wp-includes/post-template.php(253): apply_filters('the_content', '[donor_order_li...')
+#7 /var/www/html/wp-content/plugins/elementor/modules/page-templates/module.php(190): the_con in /var/www/html/wp-content/plugins/samadhan-events-schedular/views/donor_forms.php on line 604
+
+2021-03-15T09:57:00+00:00 CRITICAL Uncaught WC_API_Client_HTTP_Exception: Error: No route was found matching the URL and request method [woocommerce_api_no_route] in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/vendors/woocommerce/woocommerce-api/class-wc-api-client-http-request.php:210
+Stack trace:
+#0 /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/vendors/woocommerce/woocommerce-api/class-wc-api-client.php(290): WC_API_Client_HTTP_Request->dispatch()
+#1 /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/vendors/woocommerce/woocommerce-api/resources/abstract-wc-api-client-resource.php(121): WC_API_Client->make_api_call('GET', 'customers//orde...', Array)
+#2 /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/vendors/woocommerce/woocommerce-api/resources/class-wc-api-client-resource-customers.php(168): WC_API_Client_Resource->do_request()
+#3 /var/www/html/wp-content/plugins/samadhan-events-schedular/views/donor_forms.php(703): WC_API_Client_Resource_Customers->get_orde in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/vendors/woocommerce/woocommerce-api/class-wc-api-client-http-request.php on line 210
+
+2021-03-15T11:39:17+00:00 CRITICAL Uncaught WC_API_Client_HTTP_Exception: Invalid JSON returned for http://localhost/cannxi/wc-api/v3/customers/2353?oauth_consumer_key=ck_edd831e8ca9a0a732d391e0fe2a8783d87b61ab5&oauth_timestamp=1615808357&oauth_nonce=14bf4fe92731529ca78d2273f62c2201efcfccdc&oauth_signature_method=HMAC-SHA256&oauth_signature=z6tH53WXtfF8IPNhhfkgO%2BD4jW7S3GWdpK41x0DJnLA%3D. in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/vendors/woocommerce/woocommerce-api/class-wc-api-client-http-request.php:182
+Stack trace:
+#0 /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/vendors/woocommerce/woocommerce-api/class-wc-api-client.php(290): WC_API_Client_HTTP_Request->dispatch()
+#1 /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/vendors/woocommerce/woocommerce-api/resources/abstract-wc-api-client-resource.php(121): WC_API_Client->make_api_call('GET', 'customers/2353', Array)
+#2 /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/vendors/woocommerce/woocommerce-api/re in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/vendors/woocommerce/woocommerce-api/class-wc-api-client-http-request.php on line 182
+
+2021-03-15T11:42:32+00:00 CRITICAL Cannot declare class WC_API_Client, because the name is already in use in /var/www/html/wp-content/plugins/Centre-Point-Operation-Dashboard/class-wc-api-client.php on line 14
+

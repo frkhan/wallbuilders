@@ -1,0 +1,705 @@
+# Copyright (C) 2020 SkyVerge
+# This file is distributed under the GNU General Public License v3.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce AvaTax 1.10.3\n"
+"Report-Msgid-Bugs-To: "
+"https://woocommerce.com/my-account/marketplace-ticket-form/\n"
+"POT-Creation-Date: 2020-08-27 01:39:00+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2020-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: class-wc-avatax.php:350
+#. translators: Placeholders: %1$s - <strong> tag, %2$s - </strong> tag, %3$s -
+#. <a> tag, %4$s - </a> tag
+msgid ""
+"%1$sWooCommerce AvaTax is almost ready!%2$s To get started, please "
+"​%3$sconnect to AvaTax%4$s."
+msgstr ""
+
+#: class-wc-avatax.php:366
+#. translators: Placeholders: %1$s - <strong> tag, %2$s - </strong> tag, %3$s -
+#. <a> tag, %4$s - </a> tag
+msgid ""
+"%1$sThanks for installing WooCommerce AvaTax!%2$s Need help? %3$sRead the "
+"documentation%4$s."
+msgstr ""
+
+#: class-wc-avatax.php:382
+#. translators: Placeholders: %1$s - <strong> tag, %2$s - </strong> tag, , %3$s
+#. - <a> tag, %4$s - </a> tag
+msgid ""
+"%1$sWooCommerce taxes are disabled.%2$s To see tax rates from AvaTax at "
+"checkout, please %3$senable taxes%4$s for your store."
+msgstr ""
+
+#: class-wc-avatax.php:395
+#. translators: Placeholders: %s - the plugin name
+msgid ""
+"%s: Landed Cost cannot be calculated for tax-inclusive prices. To calculate "
+"Landed Cost, you'll need to enter prices exclusive of tax."
+msgstr ""
+
+#: class-wc-avatax.php:410
+#. translators: Placeholders: %1$s - <strong> tag, %2$s - </strong> tag
+msgid ""
+"%1$sWooCommerce AvaTax%2$s calculation is disabled. Please configure your "
+"full Origin Address."
+msgstr ""
+
+#: class-wc-avatax.php:427
+msgid "The legacy version of the WooCommerce AvaTax exension was deactivated."
+msgstr ""
+
+#: class-wc-avatax.php:447
+msgid ""
+"Your Avalara account is not configured for %s. Please contact Avalara "
+"support to use this feature."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WooCommerce AvaTax"
+msgstr ""
+
+#: class-wc-avatax.php:795
+#: includes/admin/class-wc-avatax-landed-cost-admin.php:44
+#: includes/admin/class-wc-avatax-landed-cost-admin.php:78
+msgid "Landed Cost"
+msgstr ""
+
+#: includes/admin/class-wc-avatax-admin.php:131
+msgid ""
+"Heads up! Partial refunds will not be automatically recorded in your "
+"Avalara account. If this is a partial refund, we recommend creating a "
+"Return Invoice in Avalara first to determine the correct amount of tax to "
+"refund for each line item."
+msgstr ""
+
+#: includes/admin/class-wc-avatax-admin.php:235
+#: includes/admin/class-wc-avatax-product-admin.php:81
+#: includes/admin/views/html-field-product-tax-code-bulk-edit.php:33
+#: includes/admin/views/html-field-product-tax-code-bulk-edit.php:42
+#: includes/admin/views/html-field-product-tax-code-quick-edit.php:33
+#: includes/admin/views/html-field-product-variation-tax-code.php:36
+msgid "Tax Code"
+msgstr ""
+
+#: includes/admin/class-wc-avatax-admin.php:239
+#: includes/admin/views/html-field-product-hts-code-bulk-edit.php:33
+#: includes/admin/views/html-field-product-hts-code-bulk-edit.php:42
+#: includes/admin/views/html-field-product-hts-code-quick-edit.php:33
+#: includes/admin/views/html-field-product-variation-hts-code.php:36
+msgid "HTS Code"
+msgstr ""
+
+#: includes/admin/class-wc-avatax-admin.php:285
+#: includes/frontend/class-wc-avatax-frontend.php:272
+msgid "VAT ID"
+msgstr ""
+
+#: includes/admin/class-wc-avatax-admin.php:382
+msgid "Send to Avalara"
+msgstr ""
+
+#: includes/admin/class-wc-avatax-admin.php:406
+msgid "Federal government"
+msgstr ""
+
+#: includes/admin/class-wc-avatax-admin.php:407
+msgid "State government"
+msgstr ""
+
+#: includes/admin/class-wc-avatax-admin.php:408
+msgid "Tribe / Status Indian / Indian Band"
+msgstr ""
+
+#: includes/admin/class-wc-avatax-admin.php:409
+msgid "Foreign diplomat"
+msgstr ""
+
+#: includes/admin/class-wc-avatax-admin.php:410
+msgid "Charitable or benevolent organization"
+msgstr ""
+
+#: includes/admin/class-wc-avatax-admin.php:411
+msgid "Religious organization"
+msgstr ""
+
+#: includes/admin/class-wc-avatax-admin.php:412
+msgid "Resale"
+msgstr ""
+
+#: includes/admin/class-wc-avatax-admin.php:413
+msgid "Commercial agricultural production"
+msgstr ""
+
+#: includes/admin/class-wc-avatax-admin.php:414
+msgid "Industrial production / manufacturer"
+msgstr ""
+
+#: includes/admin/class-wc-avatax-admin.php:415
+msgid "Direct pay permit"
+msgstr ""
+
+#: includes/admin/class-wc-avatax-admin.php:416
+msgid "Direct mail"
+msgstr ""
+
+#: includes/admin/class-wc-avatax-admin.php:417
+msgid "Other"
+msgstr ""
+
+#: includes/admin/class-wc-avatax-admin.php:418
+msgid "Educational organization"
+msgstr ""
+
+#: includes/admin/class-wc-avatax-admin.php:419
+msgid "Local government"
+msgstr ""
+
+#: includes/admin/class-wc-avatax-admin.php:420
+msgid "Commercial aquaculture"
+msgstr ""
+
+#: includes/admin/class-wc-avatax-admin.php:421
+msgid "Commercial Fishery"
+msgstr ""
+
+#: includes/admin/class-wc-avatax-admin.php:422
+msgid "Non-resident"
+msgstr ""
+
+#: includes/admin/class-wc-avatax-admin.php:423
+msgid "US MDET with exempt sales tax"
+msgstr ""
+
+#: includes/admin/class-wc-avatax-admin.php:424
+msgid "US MDET with taxable sales tax"
+msgstr ""
+
+#: includes/admin/class-wc-avatax-landed-cost-admin.php:58
+#: includes/admin/class-wc-avatax-landed-cost-admin.php:230
+msgid "Landed Cost Options"
+msgstr ""
+
+#: includes/admin/class-wc-avatax-landed-cost-admin.php:59
+#: includes/admin/views/html-landed-cost-class-table.php:35
+msgid "Country Classifications"
+msgstr ""
+
+#: includes/admin/class-wc-avatax-landed-cost-admin.php:132
+#: includes/admin/class-wc-avatax-product-admin.php:109
+#: includes/admin/views/html-field-add-category-hts-code.php:32
+msgid "Harmonized Tariff Code"
+msgstr ""
+
+#: includes/admin/class-wc-avatax-landed-cost-admin.php:133
+msgid "Classification Codes"
+msgstr ""
+
+#: includes/admin/class-wc-avatax-landed-cost-admin.php:134
+#: includes/admin/class-wc-avatax-landed-cost-admin.php:155
+msgid "Destination Countries"
+msgstr ""
+
+#: includes/admin/class-wc-avatax-landed-cost-admin.php:154
+msgid "Classification Code"
+msgstr ""
+
+#: includes/admin/class-wc-avatax-landed-cost-admin.php:220
+#. translators: Placeholder: %1$s - <strong>, %2$s - </strong>
+msgid ""
+"The Landed Cost feature is %1$sfor preview only%2$s. Please contact your "
+"Avalara representative if you’d like to test this feature."
+msgstr ""
+
+#: includes/admin/class-wc-avatax-landed-cost-admin.php:224
+msgid "Calculate Landed Cost duties, fees, and taxes."
+msgstr ""
+
+#: includes/admin/class-wc-avatax-landed-cost-admin.php:236
+#: includes/admin/class-wc-avatax-settings.php:165
+#: includes/admin/class-wc-avatax-settings.php:319
+msgid "Enable/Disable"
+msgstr ""
+
+#: includes/admin/class-wc-avatax-landed-cost-admin.php:237
+msgid "Enable Landed Cost calculation"
+msgstr ""
+
+#: includes/admin/class-wc-avatax-landed-cost-admin.php:244
+msgid "Importer of Record"
+msgstr ""
+
+#: includes/admin/class-wc-avatax-landed-cost-admin.php:245
+msgid ""
+"Determines the party responsible for declaring the shipment to the customs "
+"authority in the destination country and paying all customs duty & import "
+"tax. If \"Seller\" is chosen, the customer will pay this as part of their "
+"order at checkout."
+msgstr ""
+
+#: includes/admin/class-wc-avatax-landed-cost-admin.php:247
+msgid "Seller"
+msgstr ""
+
+#: includes/admin/class-wc-avatax-landed-cost-admin.php:248
+msgid "Customer"
+msgstr ""
+
+#: includes/admin/class-wc-avatax-product-admin.php:110
+#: includes/admin/views/html-field-add-category-hts-code.php:34
+#: includes/admin/views/html-field-edit-category-hts-code.php:38
+msgid "Look up codes"
+msgstr ""
+
+#: includes/admin/class-wc-avatax-settings.php:70
+msgid "AvaTax"
+msgstr ""
+
+#: includes/admin/class-wc-avatax-settings.php:89
+msgid "Connection Settings"
+msgstr ""
+
+#: includes/admin/class-wc-avatax-settings.php:93
+#. translators: Placeholders: %1$s - <a> tag, %2$s - </a> tag
+msgid ""
+"Log in to your AvaTax %1$sAdmin Console%2$s to find your connection "
+"information."
+msgstr ""
+
+#: includes/admin/class-wc-avatax-settings.php:101
+msgid "Account Number"
+msgstr ""
+
+#: includes/admin/class-wc-avatax-settings.php:112
+msgid "License Key"
+msgstr ""
+
+#: includes/admin/class-wc-avatax-settings.php:123
+msgid "Environment"
+msgstr ""
+
+#: includes/admin/class-wc-avatax-settings.php:125
+msgid "Production"
+msgstr ""
+
+#: includes/admin/class-wc-avatax-settings.php:126
+msgid "Development"
+msgstr ""
+
+#: includes/admin/class-wc-avatax-settings.php:159
+msgid "Tax Calculation"
+msgstr ""
+
+#: includes/admin/class-wc-avatax-settings.php:166
+msgid "Enable AvaTax tax calculation"
+msgstr ""
+
+#: includes/admin/class-wc-avatax-settings.php:167
+msgid ""
+"This will override all configured WooCommerce tax rates and replace them "
+"with the rates fetched from AvaTax."
+msgstr ""
+
+#: includes/admin/class-wc-avatax-settings.php:174
+msgid "Record Calculations"
+msgstr ""
+
+#: includes/admin/class-wc-avatax-settings.php:175
+msgid "Send permanent calculations in Avalara when orders are placed"
+msgstr ""
+
+#: includes/admin/class-wc-avatax-settings.php:176
+msgid ""
+"If disabled, tax will still be calculated at checkout but will need to be "
+"recorded in your Avalara account manually or by other integrations."
+msgstr ""
+
+#: includes/admin/class-wc-avatax-settings.php:183
+msgid "Commit Transactions"
+msgstr ""
+
+#: includes/admin/class-wc-avatax-settings.php:184
+msgid "Set transactions as \"committed\" when sending to Avalara"
+msgstr ""
+
+#: includes/admin/class-wc-avatax-settings.php:191
+msgid "Supported Locations"
+msgstr ""
+
+#: includes/admin/class-wc-avatax-settings.php:193
+msgid ""
+"Limit tax calculation and only send documents to Avalara for specific "
+"countries and jurisdictions."
+msgstr ""
+
+#: includes/admin/class-wc-avatax-settings.php:198
+msgid "All locations"
+msgstr ""
+
+#: includes/admin/class-wc-avatax-settings.php:199
+msgid "Specific locations only"
+msgstr ""
+
+#: includes/admin/class-wc-avatax-settings.php:205
+msgid "Specific Locations"
+msgstr ""
+
+#: includes/admin/class-wc-avatax-settings.php:213
+msgid "Company Code"
+msgstr ""
+
+#: includes/admin/class-wc-avatax-settings.php:214
+msgid "The company code in your AvaTax account in which documents should be posted."
+msgstr ""
+
+#: includes/admin/class-wc-avatax-settings.php:220
+msgid "Origin Address"
+msgstr ""
+
+#: includes/admin/class-wc-avatax-settings.php:221
+msgid ""
+"Your warehouse or base of operations. This address will be used for tax "
+"calculation."
+msgstr ""
+
+#: includes/admin/class-wc-avatax-settings.php:235
+msgid "Default Product Tax Code"
+msgstr ""
+
+#: includes/admin/class-wc-avatax-settings.php:236
+msgid "You can set a specific tax code for each product or product category."
+msgstr ""
+
+#: includes/admin/class-wc-avatax-settings.php:239
+#. translators: Placeholders: %1$s - <a> tag, %2$s - </a> tag
+msgid "%1$sLearn more%2$s"
+msgstr ""
+
+#: includes/admin/class-wc-avatax-settings.php:249
+msgid "Default Shipping Tax Code"
+msgstr ""
+
+#: includes/admin/class-wc-avatax-settings.php:256
+msgid "Cart Calculation"
+msgstr ""
+
+#: includes/admin/class-wc-avatax-settings.php:257
+msgid "Handling of tax calculations on the cart page"
+msgstr ""
+
+#: includes/admin/class-wc-avatax-settings.php:262
+msgid "Do not show calculations on the cart page"
+msgstr ""
+
+#: includes/admin/class-wc-avatax-settings.php:263
+msgid "Show estimated tax rates"
+msgstr ""
+
+#: includes/admin/class-wc-avatax-settings.php:264
+msgid "Force full tax rate calculation"
+msgstr ""
+
+#: includes/admin/class-wc-avatax-settings.php:271
+msgid "Non-US customers"
+msgstr ""
+
+#: includes/admin/class-wc-avatax-settings.php:272
+msgid "Enable tax calculations on the cart page for international addresses"
+msgstr ""
+
+#: includes/admin/class-wc-avatax-settings.php:279
+msgid "Enable VAT"
+msgstr ""
+
+#: includes/admin/class-wc-avatax-settings.php:280
+msgid "Allow customers to input their VAT ID during checkout"
+msgstr ""
+
+#: includes/admin/class-wc-avatax-settings.php:313
+msgid "Address Validation"
+msgstr ""
+
+#: includes/admin/class-wc-avatax-settings.php:314
+msgid "Validate shipping addresses at checkout before calculating tax."
+msgstr ""
+
+#: includes/admin/class-wc-avatax-settings.php:320
+msgid "Enable AvaTax address validation"
+msgstr ""
+
+#: includes/admin/class-wc-avatax-settings.php:326
+msgid "Supported Countries"
+msgstr ""
+
+#: includes/admin/class-wc-avatax-settings.php:330
+msgid "United States (US)"
+msgstr ""
+
+#: includes/admin/class-wc-avatax-settings.php:331
+msgid "Canada"
+msgstr ""
+
+#: includes/admin/class-wc-avatax-settings.php:342
+msgid "Require for Tax Calculation"
+msgstr ""
+
+#: includes/admin/class-wc-avatax-settings.php:343
+msgid "Require address validation before orders can be placed with calculated tax"
+msgstr ""
+
+#: includes/admin/class-wc-avatax-settings.php:379
+msgid "Debug Mode"
+msgstr ""
+
+#: includes/admin/class-wc-avatax-settings.php:380
+msgid "Log API requests, responses, and errors for debugging"
+msgstr ""
+
+#: includes/admin/class-wc-avatax-settings.php:555
+msgid "Your Avalara connection settings are not valid."
+msgstr ""
+
+#: includes/admin/views/html-edit-user-tax-fields.php:34
+msgid "Customer Tax Settings"
+msgstr ""
+
+#: includes/admin/views/html-edit-user-tax-fields.php:38
+msgid "Tax Exemption"
+msgstr ""
+
+#: includes/admin/views/html-edit-user-tax-fields.php:41
+msgid "No exemption"
+msgstr ""
+
+#: includes/admin/views/html-field-add-category-tax-code.php:32
+#: includes/admin/views/html-field-edit-category-tax-code.php:34
+msgid "Tax code"
+msgstr ""
+
+#: includes/admin/views/html-field-edit-category-hts-code.php:34
+msgid "Harmonized Tariff code"
+msgstr ""
+
+#: includes/admin/views/html-field-product-hts-code-bulk-edit.php:36
+#: includes/admin/views/html-field-product-tax-code-bulk-edit.php:36
+msgid "— No Change —"
+msgstr ""
+
+#: includes/admin/views/html-field-product-hts-code-bulk-edit.php:37
+#: includes/admin/views/html-field-product-tax-code-bulk-edit.php:37
+msgid "Change to:"
+msgstr ""
+
+#: includes/admin/views/html-landed-cost-class-table.php:37
+msgid ""
+"To increase the accuracy of calculated import duties, fees, and taxes, you "
+"can assign country-specific classifications to each of your Harmonized "
+"Tariff codes. If configured below, the correct classification code will be "
+"chosen at checkout based on the customer's shipping address."
+msgstr ""
+
+#: includes/admin/views/html-landed-cost-class-table.php:69
+msgid "Configure &raquo;"
+msgstr ""
+
+#: includes/admin/views/html-landed-cost-edit.php:37
+msgid "Editing HTS Code \"%s\""
+msgstr ""
+
+#: includes/admin/views/html-landed-cost-edit.php:39
+msgid "Return to country classifications"
+msgstr ""
+
+#: includes/admin/views/html-landed-cost-edit.php:59
+msgid "Add Classification"
+msgstr ""
+
+#: includes/admin/views/html-landed-cost-edit.php:86
+#: includes/admin/views/html-landed-cost-edit.php:129
+msgid "Choose countries&hellip;"
+msgstr ""
+
+#: includes/admin/views/html-landed-cost-edit.php:95
+msgid "Remove"
+msgstr ""
+
+#: includes/admin/views/html-landed-cost-edit.php:158
+msgid "Products"
+msgstr ""
+
+#: includes/admin/views/html-landed-cost-edit.php:158
+msgid "Edit"
+msgstr ""
+
+#: includes/admin/views/html-landed-cost-edit.php:170
+msgid "No products associated with this HTS code."
+msgstr ""
+
+#: includes/admin/views/setting-address.php:47
+msgid "Street Address"
+msgstr ""
+
+#: includes/admin/views/setting-address.php:52
+msgid "City/Town"
+msgstr ""
+
+#: includes/admin/views/setting-address.php:57
+msgid "State/Region"
+msgstr ""
+
+#: includes/admin/views/setting-address.php:62
+msgid "Zip/Postcode"
+msgstr ""
+
+#: includes/admin/views/setting-address.php:67
+msgid "Country"
+msgstr ""
+
+#: includes/admin/views/setting-address.php:76
+#: includes/frontend/class-wc-avatax-frontend.php:135
+msgid "Validate Address"
+msgstr ""
+
+#: includes/api/class-wc-avatax-api-tax-rate.php:114
+msgid "Duty"
+msgstr ""
+
+#: includes/api/class-wc-avatax-api-tax-rate.php:121
+#. translators: Placeholder: %s - tax name
+msgid "Tax - %s"
+msgstr ""
+
+#: includes/api/class-wc-avatax-api-tax-rate.php:135
+#. translators: Placeholders: %1$s - tax name, %2$s - tax type (VAT or Tax)
+msgid "%1$s %2$s"
+msgstr ""
+
+#: includes/api/requests/class-wc-avatax-api-void-request.php:50
+#: includes/api/requests/class-wc-avatax-api-void-request.php:71
+msgid "Invalid order key."
+msgstr ""
+
+#: includes/api/responses/class-wc-avatax-api-response.php:90
+msgid "Error"
+msgstr ""
+
+#: includes/class-wc-avatax-checkout-handler.php:124
+msgid "Checkout Error: %s"
+msgstr ""
+
+#: includes/class-wc-avatax-checkout-handler.php:719
+msgid "Please validate your address to continue"
+msgstr ""
+
+#: includes/class-wc-avatax-landed-cost-handler.php:366
+msgid "Import Fees"
+msgstr ""
+
+#: includes/class-wc-avatax-legacy-handler.php:102
+#. translators: Placeholders: %1$s - <strong> tag, %2$s - </strong> tag
+msgid ""
+"%1$sWooCommerce AvaTax%2$s is inactive. Please deactivate %1$sAvaTax "
+"Integration for WooCommerce%2$s to continue."
+msgstr ""
+
+#: includes/class-wc-avatax-order-handler.php:50
+msgid "AvaTax Error"
+msgstr ""
+
+#: includes/class-wc-avatax-order-handler.php:301
+msgid "Order not sent to Avalara."
+msgstr ""
+
+#: includes/class-wc-avatax-order-handler.php:302
+msgid "AvaTax is configured to not record permanent calculations."
+msgstr ""
+
+#: includes/class-wc-avatax-order-handler.php:302
+msgid "Permanent calculations were disabled for this order."
+msgstr ""
+
+#: includes/class-wc-avatax-order-handler.php:303
+msgid "Please add the order manually from your Avalara Control Panel."
+msgstr ""
+
+#: includes/class-wc-avatax-order-handler.php:352
+#. translators: Placeholders: %1$s - error indicator, %2$s - error message
+msgid "%1$s Order could not be sent. %2$s"
+msgstr ""
+
+#: includes/class-wc-avatax-order-handler.php:375
+msgid "Order sent to Avalara."
+msgstr ""
+
+#: includes/class-wc-avatax-order-handler.php:866
+msgid "Refund #%s sent to Avalara."
+msgstr ""
+
+#: includes/class-wc-avatax-order-handler.php:886
+#. translators: Placeholders: %1$s - error indicator, %2$s - error message
+msgid ""
+"%1$s Refund could not be sent. %2$s Please add the refund manually from "
+"your Avalara Control Panel."
+msgstr ""
+
+#: includes/class-wc-avatax-order-handler.php:928
+msgid "Order voided in Avalara."
+msgstr ""
+
+#: includes/class-wc-avatax-order-handler.php:948
+#. translators: Placeholders: %1$s - error indicator, %2$s - error message
+msgid ""
+"%1$s Order could not be voided. %2$s Please void manually from your Avalara "
+"Control Panel."
+msgstr ""
+
+#: includes/class-wc-avatax-order-handler.php:1006
+msgid "Refund #%s voided in Avalara"
+msgstr ""
+
+#: includes/class-wc-avatax-order-handler.php:1026
+msgid ""
+"Refunds could not be voided. Please void manually from your Avalara Control "
+"Panel."
+msgstr ""
+
+#: includes/class-wc-avatax-order-handler.php:1033
+msgid ""
+"Some refunds could not be voided. Please void refund %s manually from your "
+"Avalara Control Panel."
+msgstr ""
+
+#: includes/frontend/class-wc-avatax-frontend.php:90
+#: includes/frontend/class-wc-avatax-frontend.php:179
+msgid "Address validated."
+msgstr ""
+
+#: includes/frontend/class-wc-avatax-frontend.php:200
+msgid "Taxes will be calculated after you validate your address"
+msgstr ""
+
+#: includes/frontend/class-wc-avatax-frontend.php:245
+msgid "Taxes will be calculated at checkout"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.woocommerce.com/products/woocommerce-avatax/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Seamless integration with Avalara's tax calculation and management services."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "SkyVerge"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.woocommerce.com/"
+msgstr ""

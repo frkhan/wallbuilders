@@ -1,0 +1,50 @@
+<?php
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}
+?>
+<section id="sma_content1" class="sma_tab_section">
+ 	<div class="sma_tab_inner_container">
+		<form method="post" class="sma_setting" id="sma_general_tab_form">
+			<table class="form-table">
+				<tr>
+					<th class="sma_tab_heading remove_right_border" ><?php _e( 'General Settings', 'woocommerce-shop-manager-admin-bar' ); ?></th>
+					<th>
+						<button name="save" class="sma-btn button-primary general-save-button" type="submit" value="Save changes"><?php _e( 'Save Changes', 'woocommerce-shop-manager-admin-bar' ); ?></button>
+						<div class="spinner" style="float:right;"></div>
+					</th>
+				</tr>
+				<?php echo $this->get_html( $this->sma_general_settings_tab() ); ?>
+				<tr valign="middle">
+					<td colspan=2>
+						<label for="new_admin_email" style="width: 225px; display: inline-block;">
+							<?php esc_html_e( 'Admin Footer Text' , 'woocommerce-shop-manager-admin-bar' ); ?>
+							<span class="woocommerce-help-tip tipTip" title="<?php esc_html_e( 'Add Custom admin footer text to WordPress admin.', 'woocommerce-shop-manager-admin-bar' ); ?>">
+							</span>
+						</label>
+						<input style="vertical-align:middle;" class="input-text regular-input ltr" type="text" name="settings_menu[dashboard_footer_text]" id="settings_menu[dashboard_footer_text]" value='<?php echo get_sma_general_settings( 'dashboard_footer_text' ,'Shop Manager Admin by <a href="https://www.zorem.com/?utm_source=wpadmin&utm_medium=SMA&utm_campaign=footer_txt">zorem</a>') ; ?>' placeholder="Shop Manager Admin by zorem">
+					</td>
+				</tr>	
+			</table>
+			<table class="form-table" style="margin-top:30px;">
+				<tr>
+					<td >
+						<b style="font-size: 16px;"><?php _e( 'Login Page Customize', 'woocommerce-shop-manager-admin-bar' ); ?></b>
+						<p style="margin: 0;"><?php _e( 'Use a customizer with a preview to customize the admin login page.', 'woocommerce-shop-manager-admin-bar' ); ?></p>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label style="width: 225px; display: inline-block;"><?php _e( 'Customize the Admin Login Page', 'woocommerce-shop-manager-admin-bar' ); ?></label>
+						<a style="float:right;" href="<?php echo sma_login_page_customizer::get_customizer_url('login_page_customize'); ?>" class="button-primary btn_sma btn_large launch_customizer_btn">Customizer</a>
+					</td>
+				</tr>
+			</table>
+			<div class="submit ">	
+                <?php wp_nonce_field( 'general_form_action', 'general_form_nonce_field' ); ?>
+                <input type="hidden" name="action" value="sma_general_settings_form_update">
+			</div>
+		</form>
+	</div>
+</section>
+	

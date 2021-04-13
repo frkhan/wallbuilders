@@ -1,0 +1,169 @@
+<?php
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}
+
+$menu_items = sma_adminbar_array();
+?>
+<section id="sma_content3" class="sma_tab_section">
+ 		<div class="sma_tab_inner_container">
+			<form method="post" action="options.php" id="sma_admin_menu_tab_form">
+				<table class="form-table" style="margin-bottom:15px;">
+					<thead>
+						<tr>
+							<th class="sma_tab_heading remove_right_border"><?php _e( 'Admin Bar Menu Items Visibility', 'woocommerce-shop-manager-admin-bar' ); ?></th>
+							<td>
+								<div class="spinner" style="float:right;"></div>
+							</td>
+						</tr>
+						<tr class="wsmab_main_wp_dashbord_menu">
+							<td colspan=2>	
+								<?php sma_toggle( "admin_menu[admin_bar_backend]", 'admin_bar_backend', get_sma_adminbar( 'admin_bar_backend' ), '' );?>
+								<label style="font-size: 14px;"><?php echo "Display Shop Manager quick links menu on WordPress Admin bar" ;?></label>
+							</td>
+						</tr>
+					</thead>
+				</table>
+				<input id="woocommerce-menu" type="radio" name="woocommerce-menu" class="sma_sub_tab_input" data-name="sma_content6" data-label="<?php _e('WooCommerce', 'woocommerce'); ?>" data-tab="woocommerce" checked>
+				<label for="woocommerce-menu" class="sma_sub_tab_label"><?php _e('WooCommerce', 'woocommerce'); ?></label>
+				
+				<input id="wordpress-menu" type="radio" name="woocommerce-menu" class="sma_sub_tab_input" data-name="sma_content7" data-label="<?php _e('Wordpress', 'defualt'); ?>" data-tab="wordpress" <?php if(isset($_GET['tab']) && ($_GET['tab'] == 'wordpress')){ echo 'checked'; } ?>>
+				<label for="wordpress-menu" class="sma_sub_tab_label"><?php _e('Wordpress', 'defualt'); ?></label>	
+				
+				<input id="page-builder-menu" type="radio" name="woocommerce-menu" class="sma_sub_tab_input" data-name="sma_content8" data-label="<?php _e('Page Builders', 'woocommerce-shop-manager-admin-bar'); ?>" data-tab="page-builder" <?php if(isset($_GET['tab']) && ($_GET['tab'] == 'page-builder')){ echo 'checked'; } ?>>
+				<label for="page-builder-menu" class="sma_sub_tab_label"><?php _e('Page Builders', 'woocommerce-shop-manager-admin-bar'); ?></label>
+				
+				<section id="sma_content6" class="sma_sub_tab_section">
+					<table class="form-table" id="woocommerce-menu">
+						<thead>
+							<tr>
+								<th>Menu</th>
+								<th class="sma_wp_dash_widget_heading">Administrator</th>
+								<th class="sma_wp_dash_widget_heading">Shop Manager</th>
+							</tr>
+						</thead>
+						<?php foreach($menu_items as $key=>$value ) { ?>
+						<?php if ( isset($value['id']) && $value['id'] == 'woocommerce' ) { ?>						
+							<tr>
+								<td><?php echo $value['title'] ?></td>	
+								<td class="toggle_td">
+                                	<?php sma_toggle( "admin_menu[{$key}]", $key, get_sma_adminbar( $key ), 'for_admin' );?>
+								</td>
+								<td class="toggle_td">
+                                	<?php sma_toggle( "admin_menu[{$key}_sm]", $key.'_sm', get_sma_adminbar( $key.'_sm' ), 'for_sma' );?>
+								</td>
+							</tr>
+							
+							<?php foreach($menu_items as $child_key=>$child_value ) { 
+							//echo $child_value['parent'].'<br>';
+							if ( $child_value['parent'] == 'ddw-woocommerce-'.$key ) { 
+							if ( $child_value['parent'] == 'ddw-woocommerce-orders' || $child_value['parent'] == 'ddw-woocommerce-marketing'|| $child_value['parent'] == 'ddw-woocommerce-woo_analytics' || isset($child_value['field']) == 'no-html'  || $child_value['parent'] == 'ddw-woocommerce-subscription' || $child_value['parent'] == 'ddw-woocommerce-reports' ) continue; ?>
+							
+							<tr class="sub_option">
+								<td><div class="hide_widgets wc-status-child" >
+									<?php esc_html_e( $child_value['title'], 'woocommerce-shop-manager-admin-bar' ); ?></div>
+								</td>
+								<td class="toggle_td sub_option_admin_checkbox">
+									<?php sma_toggle( "admin_menu[{$child_key}]", $child_key, get_sma_adminbar( $child_key ), $key );?>		
+								</td>							
+								<td class="toggle_td sub_option_shopmanager_checkbox">	
+									<?php sma_toggle( "admin_menu[{$child_key}_sm]", $child_key.'_sm', get_sma_adminbar( $child_key.'_sm' ), $key.'_sm' );?>
+								</td>
+							</tr>  
+							<?php }
+							}
+							?> 						
+						<?php } } ?>
+					</table>					
+				</section>
+				<section id="sma_content7" class="sma_sub_tab_section">
+					<table class="form-table" id="wordpress-menu">
+						<thead>
+							<tr>
+								<th>Menu</th>
+								<th class="sma_wp_dash_widget_heading">Administrator</th>
+								<th class="sma_wp_dash_widget_heading">Shop Manager</th>
+							</tr>
+						</thead>
+					<?php foreach($menu_items as $key=>$value ) { ?>
+						<?php if ( isset($value['id']) && $value['id'] == 'wordpress' ) { ?>
+							<tr>
+								<td><?php echo $value['title'] ?></td>	
+								<td class="toggle_td">
+                                	<?php sma_toggle( "admin_menu[{$key}]", $key, get_sma_adminbar( $key ), '' );?>
+								</td>
+								<td class="toggle_td">
+                                	<?php sma_toggle( "admin_menu[{$key}_sm]", $key.'_sm', get_sma_adminbar( $key.'_sm' ), '' );?>
+								</td>
+							</tr>
+							<?php 
+						} 
+					} ?>
+                </table>				
+				</section>
+				<section id="sma_content8" class="sma_sub_tab_section">
+				<?php $theme = wp_get_theme(); // gets the current theme
+				if ( 'Flatsome Child' == $theme->name || 'Flatsome' == $theme->parent_theme ) { ?>
+               	<table class="form-table" id="page-builder-menu">
+					<thead>
+						<tr>
+							<th>Menu</th>
+							<th class="sma_wp_dash_widget_heading">Administrator</th>
+							<th class="sma_wp_dash_widget_heading">Shop Manager</th>
+						</tr>
+					</thead>
+					<?php foreach($menu_items as $key=>$value ) { 
+						if ( isset($value['id']) && $value['id'] == 'page-builder' ) { ?>
+							<tr>	
+								<td><?php echo $value['title'] ?></td>	
+								<td class="toggle_td">
+									<?php sma_toggle( "admin_menu[{$key}]", $key, get_sma_adminbar( $key ), '' );?>
+								</td>
+								<td class="toggle_td">
+									<?php sma_toggle( "admin_menu[{$key}_sm]", $key.'_sm', get_sma_adminbar( $key.'_sm' ), '' );?>
+								</td>
+							</tr>
+						<?php } 
+					} ?>
+                </table>
+				
+                <?php } ?>				
+				</section>
+                <?php wp_nonce_field( 'admin_menu_form_action', 'admin_menu_form_nonce_field' ); ?>
+                <input type="hidden" name="action" value="sma_update_adminbar_menu">
+       		</form>
+		</div>
+</section>
+
+<?php foreach ($menu_items as $key=>$value) { 
+  if( $value['parent'] == 'wsmab_main' || isset($value['field']) == 'no-html'  ) {
+?>
+<script>
+/* checkbox event  */
+jQuery(document).on("click", ".toggle_td input.<?php echo $key;?>.for_admin", function(){
+    if (jQuery(this).is(':checked') ) {
+    } else {
+		jQuery('.sub_option .sub_option_admin_checkbox input.<?php echo $key;?>').prop('checked', false);
+    }
+});
+jQuery(document).on("click", ".sub_option .sub_option_admin_checkbox input.<?php echo $key;?>", function(){
+	"use strict";
+    if (jQuery(this).is(':checked') ) {
+	    jQuery('.toggle_td input.<?php echo $key;?>.for_admin').prop('checked', true);
+    }
+}); 
+
+jQuery(document).on("click", ".toggle_td input.<?php echo $key.'_sm';?>.for_sma", function(){
+    if (jQuery(this).is(':checked') ) {
+    } else {
+		jQuery(".sub_option .sub_option_shopmanager_checkbox input.<?php echo $key.'_sm';?>").prop('checked', false);
+    }
+});
+jQuery(document).on("click", ".sub_option .sub_option_shopmanager_checkbox input.<?php echo $key.'_sm';?>", function(){
+	"use strict";
+    if (jQuery(this).is(':checked') ) {
+	    jQuery(".toggle_td input.<?php echo $key.'_sm';?>.for_sma").prop('checked', true);
+    }
+});
+</script>
+<?php } } ?>

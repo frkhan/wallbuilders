@@ -1,0 +1,1 @@
+04-04-2021 @ 11:32:01 - Error getting merchant account details. Code: E00003, Message: The 'AnetApi/xml/v1/schema/AnetApiSchema.xsd:transactionKey' element is invalid - The value XXXXXXXXXXXXXXXXXXXXXXXXXX is invalid according to its datatype 'String' - The actual length is greater than the MaxLength value.

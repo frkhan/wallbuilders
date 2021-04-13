@@ -1,0 +1,186 @@
+2021-04-05T00:36:58+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 327680 bytes) in /var/www/html/wp-includes/class-wp-object-cache.php on line 446
+
+2021-04-05T00:38:58+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /var/www/html/wp-includes/wp-db.php on line 2022
+
+2021-04-05T03:53:35+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in /var/www/html/wp-content/plugins/samadhan-events-schedular/views/donor_forms.php:976
+Stack trace:
+#0 /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/WooCommerceFunctions.php(99): Samadhan\SMDNdonorFormView->get_donation_woo_notes()
+#1 /var/www/html/wp-includes/shortcodes.php(343): WooCommerceFunctions::get_edit_maintain_major_donor_form()
+#2 [internal function]: do_shortcode_tag()
+#3 /var/www/html/wp-includes/shortcodes.php(218): preg_replace_callback()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): do_shortcode()
+#5 /var/www/html/wp-includes/plugin.php(212): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/post-template.php(253): apply_filters()
+#7 /var/www/html/wp-content/themes/astra/template-parts/content-page.php(54): the_content()
+#8 /var/www/html/wp-includes/template.php(732): require('/var/www/html/w...')
+#9 /var/www/html/wp-includes/template.php(676): load_template()
+#10 /var/www/html/wp-includes/general-tem in /var/www/html/wp-content/plugins/samadhan-events-schedular/views/donor_forms.php on line 976
+
+2021-04-05T08:15:54+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in /var/www/html/wp-content/plugins/samadhan-events-schedular/views/donor_forms.php:976
+Stack trace:
+#0 /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/WooCommerceFunctions.php(99): Samadhan\SMDNdonorFormView->get_donation_woo_notes()
+#1 /var/www/html/wp-includes/shortcodes.php(343): WooCommerceFunctions::get_edit_maintain_major_donor_form()
+#2 [internal function]: do_shortcode_tag()
+#3 /var/www/html/wp-includes/shortcodes.php(218): preg_replace_callback()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): do_shortcode()
+#5 /var/www/html/wp-includes/plugin.php(212): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/post-template.php(253): apply_filters()
+#7 /var/www/html/wp-content/themes/astra/template-parts/content-page.php(54): the_content()
+#8 /var/www/html/wp-includes/template.php(732): require('/var/www/html/w...')
+#9 /var/www/html/wp-includes/template.php(676): load_template()
+#10 /var/www/html/wp-includes/general-tem in /var/www/html/wp-content/plugins/samadhan-events-schedular/views/donor_forms.php on line 976
+
+2021-04-05T08:16:53+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in /var/www/html/wp-content/plugins/samadhan-events-schedular/views/donor_forms.php:976
+Stack trace:
+#0 /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/WooCommerceFunctions.php(99): Samadhan\SMDNdonorFormView->get_donation_woo_notes()
+#1 /var/www/html/wp-includes/shortcodes.php(343): WooCommerceFunctions::get_edit_maintain_major_donor_form()
+#2 [internal function]: do_shortcode_tag()
+#3 /var/www/html/wp-includes/shortcodes.php(218): preg_replace_callback()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): do_shortcode()
+#5 /var/www/html/wp-includes/plugin.php(212): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/post-template.php(253): apply_filters()
+#7 /var/www/html/wp-content/themes/astra/template-parts/content-page.php(54): the_content()
+#8 /var/www/html/wp-includes/template.php(732): require('/var/www/html/w...')
+#9 /var/www/html/wp-includes/template.php(676): load_template()
+#10 /var/www/html/wp-includes/general-tem in /var/www/html/wp-content/plugins/samadhan-events-schedular/views/donor_forms.php on line 976
+
+2021-04-05T09:33:44+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in /var/www/html/wp-content/plugins/samadhan-events-schedular/views/donor_forms.php:976
+Stack trace:
+#0 /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/WooCommerceFunctions.php(99): Samadhan\SMDNdonorFormView->get_donation_woo_notes()
+#1 /var/www/html/wp-includes/shortcodes.php(343): WooCommerceFunctions::get_edit_maintain_major_donor_form()
+#2 [internal function]: do_shortcode_tag()
+#3 /var/www/html/wp-includes/shortcodes.php(218): preg_replace_callback()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): do_shortcode()
+#5 /var/www/html/wp-includes/plugin.php(212): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/post-template.php(253): apply_filters()
+#7 /var/www/html/wp-content/themes/astra/template-parts/content-page.php(54): the_content()
+#8 /var/www/html/wp-includes/template.php(732): require('/var/www/html/w...')
+#9 /var/www/html/wp-includes/template.php(676): load_template()
+#10 /var/www/html/wp-includes/general-tem in /var/www/html/wp-content/plugins/samadhan-events-schedular/views/donor_forms.php on line 976
+
+2021-04-05T09:38:13+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in /var/www/html/wp-content/plugins/samadhan-events-schedular/views/donor_forms.php:976
+Stack trace:
+#0 /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/WooCommerceFunctions.php(99): Samadhan\SMDNdonorFormView->get_donation_woo_notes()
+#1 /var/www/html/wp-includes/shortcodes.php(343): WooCommerceFunctions::get_edit_maintain_major_donor_form()
+#2 [internal function]: do_shortcode_tag()
+#3 /var/www/html/wp-includes/shortcodes.php(218): preg_replace_callback()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): do_shortcode()
+#5 /var/www/html/wp-includes/plugin.php(212): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/post-template.php(253): apply_filters()
+#7 /var/www/html/wp-content/themes/astra/template-parts/content-page.php(54): the_content()
+#8 /var/www/html/wp-includes/template.php(732): require('/var/www/html/w...')
+#9 /var/www/html/wp-includes/template.php(676): load_template()
+#10 /var/www/html/wp-includes/general-tem in /var/www/html/wp-content/plugins/samadhan-events-schedular/views/donor_forms.php on line 976
+
+2021-04-05T09:38:21+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in /var/www/html/wp-content/plugins/samadhan-events-schedular/views/donor_forms.php:976
+Stack trace:
+#0 /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/WooCommerceFunctions.php(99): Samadhan\SMDNdonorFormView->get_donation_woo_notes()
+#1 /var/www/html/wp-includes/shortcodes.php(343): WooCommerceFunctions::get_edit_maintain_major_donor_form()
+#2 [internal function]: do_shortcode_tag()
+#3 /var/www/html/wp-includes/shortcodes.php(218): preg_replace_callback()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): do_shortcode()
+#5 /var/www/html/wp-includes/plugin.php(212): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/post-template.php(253): apply_filters()
+#7 /var/www/html/wp-content/themes/astra/template-parts/content-page.php(54): the_content()
+#8 /var/www/html/wp-includes/template.php(732): require('/var/www/html/w...')
+#9 /var/www/html/wp-includes/template.php(676): load_template()
+#10 /var/www/html/wp-includes/general-tem in /var/www/html/wp-content/plugins/samadhan-events-schedular/views/donor_forms.php on line 976
+
+2021-04-05T09:39:40+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in /var/www/html/wp-content/plugins/samadhan-events-schedular/views/donor_forms.php:976
+Stack trace:
+#0 /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/WooCommerceFunctions.php(99): Samadhan\SMDNdonorFormView->get_donation_woo_notes()
+#1 /var/www/html/wp-includes/shortcodes.php(343): WooCommerceFunctions::get_edit_maintain_major_donor_form()
+#2 [internal function]: do_shortcode_tag()
+#3 /var/www/html/wp-includes/shortcodes.php(218): preg_replace_callback()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): do_shortcode()
+#5 /var/www/html/wp-includes/plugin.php(212): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/post-template.php(253): apply_filters()
+#7 /var/www/html/wp-content/themes/astra/template-parts/content-page.php(54): the_content()
+#8 /var/www/html/wp-includes/template.php(732): require('/var/www/html/w...')
+#9 /var/www/html/wp-includes/template.php(676): load_template()
+#10 /var/www/html/wp-includes/general-tem in /var/www/html/wp-content/plugins/samadhan-events-schedular/views/donor_forms.php on line 976
+
+2021-04-05T09:40:56+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in /var/www/html/wp-content/plugins/samadhan-events-schedular/views/donor_forms.php:976
+Stack trace:
+#0 /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/WooCommerceFunctions.php(99): Samadhan\SMDNdonorFormView->get_donation_woo_notes()
+#1 /var/www/html/wp-includes/shortcodes.php(343): WooCommerceFunctions::get_edit_maintain_major_donor_form()
+#2 [internal function]: do_shortcode_tag()
+#3 /var/www/html/wp-includes/shortcodes.php(218): preg_replace_callback()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): do_shortcode()
+#5 /var/www/html/wp-includes/plugin.php(212): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/post-template.php(253): apply_filters()
+#7 /var/www/html/wp-content/themes/astra/template-parts/content-page.php(54): the_content()
+#8 /var/www/html/wp-includes/template.php(732): require('/var/www/html/w...')
+#9 /var/www/html/wp-includes/template.php(676): load_template()
+#10 /var/www/html/wp-includes/general-tem in /var/www/html/wp-content/plugins/samadhan-events-schedular/views/donor_forms.php on line 976
+
+2021-04-05T10:33:12+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in /var/www/html/wp-content/plugins/samadhan-events-schedular/views/donor_forms.php:977
+Stack trace:
+#0 /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/WooCommerceFunctions.php(99): Samadhan\SMDNdonorFormView->get_donation_woo_notes()
+#1 /var/www/html/wp-includes/shortcodes.php(343): WooCommerceFunctions::get_edit_maintain_major_donor_form()
+#2 [internal function]: do_shortcode_tag()
+#3 /var/www/html/wp-includes/shortcodes.php(218): preg_replace_callback()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): do_shortcode()
+#5 /var/www/html/wp-includes/plugin.php(212): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/post-template.php(253): apply_filters()
+#7 /var/www/html/wp-content/themes/astra/template-parts/content-page.php(54): the_content()
+#8 /var/www/html/wp-includes/template.php(732): require('/var/www/html/w...')
+#9 /var/www/html/wp-includes/template.php(676): load_template()
+#10 /var/www/html/wp-includes/general-tem in /var/www/html/wp-content/plugins/samadhan-events-schedular/views/donor_forms.php on line 977
+
+2021-04-05T10:34:09+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in /var/www/html/wp-content/plugins/samadhan-events-schedular/views/donor_forms.php:977
+Stack trace:
+#0 /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/WooCommerceFunctions.php(99): Samadhan\SMDNdonorFormView->get_donation_woo_notes()
+#1 /var/www/html/wp-includes/shortcodes.php(343): WooCommerceFunctions::get_edit_maintain_major_donor_form()
+#2 [internal function]: do_shortcode_tag()
+#3 /var/www/html/wp-includes/shortcodes.php(218): preg_replace_callback()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): do_shortcode()
+#5 /var/www/html/wp-includes/plugin.php(212): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/post-template.php(253): apply_filters()
+#7 /var/www/html/wp-content/themes/astra/template-parts/content-page.php(54): the_content()
+#8 /var/www/html/wp-includes/template.php(732): require('/var/www/html/w...')
+#9 /var/www/html/wp-includes/template.php(676): load_template()
+#10 /var/www/html/wp-includes/general-tem in /var/www/html/wp-content/plugins/samadhan-events-schedular/views/donor_forms.php on line 977
+
+2021-04-05T10:39:35+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in /var/www/html/wp-content/plugins/samadhan-events-schedular/views/donor_forms.php:977
+Stack trace:
+#0 /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/WooCommerceFunctions.php(99): Samadhan\SMDNdonorFormView->get_donation_woo_notes()
+#1 /var/www/html/wp-includes/shortcodes.php(343): WooCommerceFunctions::get_edit_maintain_major_donor_form()
+#2 [internal function]: do_shortcode_tag()
+#3 /var/www/html/wp-includes/shortcodes.php(218): preg_replace_callback()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): do_shortcode()
+#5 /var/www/html/wp-includes/plugin.php(212): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/post-template.php(253): apply_filters()
+#7 /var/www/html/wp-content/themes/astra/template-parts/content-page.php(54): the_content()
+#8 /var/www/html/wp-includes/template.php(732): require('/var/www/html/w...')
+#9 /var/www/html/wp-includes/template.php(676): load_template()
+#10 /var/www/html/wp-includes/general-tem in /var/www/html/wp-content/plugins/samadhan-events-schedular/views/donor_forms.php on line 977
+
+2021-04-05T12:19:56+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in /var/www/html/wp-content/plugins/samadhan-events-schedular/views/donor_forms.php:977
+Stack trace:
+#0 /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/WooCommerceFunctions.php(99): Samadhan\SMDNdonorFormView->get_donation_woo_notes()
+#1 /var/www/html/wp-includes/shortcodes.php(343): WooCommerceFunctions::get_edit_maintain_major_donor_form()
+#2 [internal function]: do_shortcode_tag()
+#3 /var/www/html/wp-includes/shortcodes.php(218): preg_replace_callback()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): do_shortcode()
+#5 /var/www/html/wp-includes/plugin.php(212): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/post-template.php(253): apply_filters()
+#7 /var/www/html/wp-content/themes/astra/template-parts/content-page.php(54): the_content()
+#8 /var/www/html/wp-includes/template.php(732): require('/var/www/html/w...')
+#9 /var/www/html/wp-includes/template.php(676): load_template()
+#10 /var/www/html/wp-includes/general-tem in /var/www/html/wp-content/plugins/samadhan-events-schedular/views/donor_forms.php on line 977
+
+2021-04-05T17:27:35+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:674
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 674
+

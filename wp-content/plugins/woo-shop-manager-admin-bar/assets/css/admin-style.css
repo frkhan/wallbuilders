@@ -1,0 +1,711 @@
+.sma-shop-manager-admin-setting #wpcontent {
+    padding: 0;
+    background: #fafafa;
+}
+.woocommerce.sma_admin_layout {
+    background: #fafafa;
+}
+.sma-shop-manager-admin-setting .zorem-layout__header {
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    box-sizing: border-box;
+    border-bottom: 1px solid #fff;
+    padding: 0;
+    height: 67px;
+    width: 100%;
+    top: 32px;
+    z-index: 1001;
+}
+.sma-shop-manager-admin-setting .zorem-layout__header .zorem-layout__header-breadcrumbs {
+    font-size: 13px;
+    font-weight: 400;
+    padding: 0 0 0 30px;
+    margin: 0;
+    flex: 1 auto;
+    height: 67px;
+    line-height: 67px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.sma-shop-manager-admin-setting .zorem-layout__logo-panel {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    right: 0;
+    height: 67px;
+    padding: 0 30px 0 0;
+}
+.sma-shop-manager-admin-setting .zorem-layout__logo-panel .header-plugin-logo {
+    width: 260px;
+    display: flex;
+    justify-content: flex-end;
+}
+.sma-shop-manager-admin-setting .zorem-layout__header .zorem-layout__header-breadcrumbs span+span:before {
+    content: " / ";
+    color: #555d66;
+    margin: 0 2px;
+}
+.sma-shop-manager-admin-setting .main-title,
+.rtl .sma-shop-manager-admin-setting .main-title {
+    background: #fff;
+}
+.sma-shop-manager-admin-setting #tiptip_content {
+	background: #9b5c8f !important;	
+}
+.sma-shop-manager-admin-setting #tiptip_holder.tip_top #tiptip_arrow_inner {
+	border-top-color: #9b5c8f !important;
+}
+.sma-shop-manager-admin-setting #tiptip_holder.tip_bottom  #tiptip_arrow_inner {
+	border-bottom-color: #9b5c8f !important;
+}
+.sma-plugin-logo {
+    max-width: 400px;
+    padding: 15px 0px 15px 30px;
+}
+.rtl .sma-plugin-logo {
+    max-width: 400px;
+    padding: 15px 30px 15px 0px;
+}
+input.sma_tab_input:checked + label ,input.sma_sub_tab_input:checked + label {
+    color: #072050;
+    border-bottom-color: #072050;
+    margin-bottom: -1px;
+}
+label.sma_tab_label.first_label {
+    /*margin-left: 30px;*/
+}
+.rtl label.sma_tab_label.first_label {
+    margin-right: 30px;
+    margin-left: 0;
+}
+label.sma_tab_label {
+    text-decoration: none;
+    border-bottom: 2px solid #fff;
+    color: #393f4c;
+    margin-left: 30px;
+    vertical-align: top;
+    text-decoration: none;
+    padding: 11px 0;
+    font-size: 14px;
+    display: inline-block;
+    line-height: 1;
+    outline: none;
+    box-shadow: none;
+}
+label.sma_sub_tab_label {
+    text-decoration: none;
+    border-bottom: 2px solid #fff;
+    color: #393f4c;
+    margin-right: 25px;
+    vertical-align: top;
+    text-decoration: none;
+    padding: 11px 0;
+    font-size: 14px;
+    display: inline-block;
+    line-height: 1;
+    outline: none;
+    box-shadow: none;
+}
+.sma_tab_inner_container{
+	margin-top:15px;
+}
+.form-table td p {
+    margin-left: 10px;
+}
+input.sma_tab_input ,input.sma_sub_tab_input {
+    display: none;
+}
+.sma_tab_inner_container {
+	width: 100%;
+    padding: 0;
+    display: table-cell;
+    vertical-align: top;
+}
+.sma_admin_setting_layout {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    margin: 0;
+    background: #f9f9f9;
+}
+.sma_admin_content {
+    width: 100%;
+    vertical-align: top;
+    border-top: 1px solid #e0e0e0;
+}
+.sma_admin_bar_item_content{
+	padding-bottom: 10px;
+}
+.sma_admin_sidebar {
+    width: 280px;
+    display: table-cell;
+    vertical-align: top;
+    padding: 25px 0px 25px 30px;
+}
+.rtl .sma_admin_sidebar {
+    padding: 25px 30px 25px 0px;
+}
+.sma_tab_inner_container .form-table .regular-input, .sma_tab_inner_container .form-table .select2 {
+    width: 100% !important;
+    max-width: 350px !important;
+}
+#sma_dashboard_tab_form label.panel-checkbox {
+    /* margin-left: 20px !important;*/
+}
+.sma_setting label.panel-checkbox {
+    padding-left: 50px;
+}
+.form-table .sub_option .hide_widgets.wc-status-child {
+   margin-left: 20px;
+}
+
+.sma_tab_inner_container .form-table td.toggle_td{
+	text-align:center;
+}
+.rtl #sma_admin_menu_tab_form label.orders-checkbox,
+.rtl #sma_admin_menu_tab_form label.products-checkbox,
+.rtl #sma_admin_menu_tab_form label.coupons-checkbox,
+.rtl #sma_admin_menu_tab_form label.reports-checkbox,
+.rtl #sma_admin_menu_tab_form label.shop-settings-checkbox,
+.rtl #sma_admin_menu_tab_form label.pages-checkbox,
+.rtl #sma_admin_menu_tab_form label.posts-checkbox,
+.rtl #sma_admin_menu_tab_form label.contact-checkbox,
+.rtl #sma_dashboard_tab_form label.panel-checkbox
+ {
+    margin-right: 20px !important;
+}
+.sma_tab_inner_container .woocommerce-help-tip {
+    color: #030f4f !important;
+}
+.sma-sidebar__section {
+    padding: 0;
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    margin-bottom: 20px;
+	border-radius: 3px;
+}
+.sma-sidebar__section li {
+    list-style: none;
+}
+.sma-sidebar__section ul {
+    position: relative;
+    margin: 10px 10px 10px 15px;
+}
+.sma_admin_sidebar .sma_launch p, .sma_admin_sidebar .sma_launch a {
+    margin: 10px 10px 10px 15px;
+}
+.sma_sidebar__section.plugin_sidebar .plugin_banner {
+    border: 1px solid #e0e0e0;
+    margin-bottom: 20px;
+    border-radius: 3px;
+	width: 280px;
+}
+.sma_nav_doc_section {
+    float: right;
+    padding: 10px 0;
+    margin-right: 30px;
+}
+.rtl .sma_nav_doc_section {
+    float: left;
+    margin-left: 30px;
+}
+@media screen and (max-width: 782px){
+.sma_nav_doc_section{
+	float: none;
+    padding: 15px 0 15px;
+    margin-left: 30px;	
+}
+}
+@media screen and (max-width: 768px){
+.sma_tab_inner_container .form-table td {
+    display: table-cell;
+}}
+@media screen and (max-width: 768px){
+.sma_tab_inner_container .form-table th {
+    display: table-cell;
+}}
+.sma-sidebar__section li img.plugin_thumbnail {
+    width: 60px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.sma-sidebar__section li a.plugin_url {
+    width: 70%;
+    vertical-align: middle;
+    display: inline-block;
+    margin-left: 10px;
+    line-height: 20px;
+}
+.rtl .sma-sidebar__section li a.plugin_url {
+    margin-right: 10px;
+    margin-left: 0;
+}
+.woocommerce.sma_admin_layout table.form-table {
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    margin-top: 0;
+    margin-bottom: 0px;
+    box-shadow: none;
+}
+.sma_tab_inner_container .form-table td {
+    padding: 15px 24px 15px 25px;
+	border-right:1px solid #e0e0e0
+}
+.woocommerce. tr.form-table.heading-table {
+    margin: 25px 0 0;
+    border-bottom: 0;
+}
+.sma_tab_inner_container table.form-table tr {
+    border-top: 1px solid #e0e0e0;
+}
+.woocommerce.sma_admin_layout tr.form-table.heading-table h3 {
+    margin: 10px;
+    color: #072050;
+    line-height: 1.3;
+}
+.sma_tab_inner_container .form-table th {
+    padding: 15px 24px 15px 15px;
+    width: 40%;
+	border-right: 1px solid #e0e0e0;
+}
+#sma_general_tab_form .form-table th {
+    width: 25%;
+	vertical-align: middle;
+}
+#sma_dashboard_tab_form .form-table th{
+    width: 40%;
+	vertical-align: middle;
+}
+#sma_admin_menu_tab_form .form-table th {
+    vertical-align: middle;
+}
+.form-table td {
+    padding: 0px 37px;
+}
+.sma-btn {
+    margin-top: 0;
+    margin-bottom: 0px;
+    padding: 15px 15px 10px 0;
+    border-top: 0;
+	float:right;
+}
+.sma-btn.button-primary {
+    background: #030f4f;
+    text-shadow: none;
+    border-color: #030f4f;
+    box-shadow: none;
+    font-size: 14px;
+    line-height: 32px;
+    height: 35px;
+    padding: 0 10px;
+}
+a.button-primary.btn_sma.btn_large.launch_customizer_btn {
+    background: transparent;
+    text-shadow: none;
+    border-color: #030f4f;
+    box-shadow: none;
+    font-size: 14px;
+	font-weight: bold;
+    line-height: 32px;
+    height: 35px;
+    padding: 0 10px;
+	color:#030f4f;
+}
+.btn_sma.launch_customizer_btn span {
+    vertical-align: middle;
+    margin-left: 5px;
+}
+.sma-btn.button-primary:hover, .sma-btn.button-primary:focus {
+    background: #030f4f !important;
+    border-color: #030f4f !important;
+    color: #fff !important;
+    text-shadow: none !important;
+    box-shadow: inset 0 0 0 100px rgba(0,0,0,0.2) !important;
+}
+.sma_admin_layout .sma_admin_sidebar h3 {
+    margin: 0 0 1em 0;
+    background: #fff;
+    color: #072050;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 15px 15px;
+}
+
+#woocommerce-menu:checked ~ #sma_content6,
+#wordpress-menu:checked ~ #sma_content7,
+#page-builder-menu:checked ~ #sma_content8,
+#tab6:checked ~ #sma_content_addons{
+	display: block;
+}
+section.sma_tab_section {
+    display: none;
+    padding: 30px;
+}
+.zorem_sma_tab_name{
+	border-bottom: 1px solid #e0e0e0;
+}
+.zorem_sma_tab_wraper{
+	max-width:1000px;
+	margin:0 auto;
+}
+section.sma_sub_tab_section{
+	display: none;
+	border-top: 1px solid #e0e0e0;
+    padding-top: 30px;
+}
+.sma_tab_inner_container form .form-table tr .sma_wp_dash_widget_heading {
+    width: 65px !important;
+}
+.sma-thumbnail-image img {
+    position: relative;
+    max-width: 70px;
+    max-height: 70px;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    vertical-align: bottom;
+}
+.sma-thumbnail-image #remove {
+    vertical-align: bottom;
+    margin-bottom: 5px;
+    padding: 0px 5px;
+    height: 22px;
+    line-height: 20px;
+}
+.wp-core-ui .btn_green {
+    background: #071d57;
+    text-shadow: none;
+    border-color: #071d57;
+    box-shadow: none;
+    font-size: 14px;
+    line-height: 30px;
+    height: 32px;
+}
+.wp-core-ui .btn_green:hover, .wp-core-ui .btn_green:focus {
+    background: rgb(35, 54, 152);
+    border-color: rgba(0,0,0,0.05);
+    color: #fff;
+    text-shadow: none;
+    box-shadow: inset 0 0 0 100px rgba(0,0,0,0.2);
+}
+.spinner.active {
+    visibility: visible;
+}
+#login_footer_note .footer-text {
+    text-align: center;
+	margin: 30px auto;
+}
+.sma-shop-manager-admin-setting .form-table td span.select2,
+.sma-shop-manager-admin-setting .form-table .regular-text {
+    width: 100% !important;
+    max-width: 350px !important;
+}
+.sma_tab_inner_container .form-table .textfield-media {
+    width: 100%;
+    max-width: 300px;
+}
+#upload_image_button {
+    height: 32px;
+    background: #072050;
+    border: #072050;
+    color: #fff;
+    width: 70px;
+}
+#upload_image_button:hover, #upload_image_button:focus {
+    background: #072050 !important;
+    border-color: rgba(0,0,0,0.05) !important;
+    color: #fff !important;
+    text-shadow: none !important;
+    box-shadow: inset 0 0 0 100px rgba(0,0,0,0.2) !important;
+}
+.sma-thumbnail-image {
+    margin-top: 5px;
+}
+.login-form-header {
+    padding-top: 15px !important;
+}
+.sma_admin_content .woocommerce-help-tip.tipTip {
+    margin: 2px !important;
+    position: relative !important;
+}
+.sma_tab_inner_container .woocommerce-help-tip::after {
+    font-size: 20px;
+    top: -4px;
+}
+.sma_tab_inner_container .form-table fieldset {
+    line-height: 2;
+}
+@media screen and (max-width: 900px){
+.sma-shop-manager-admin-setting .form-table td span.select2,
+.sma-shop-manager-admin-setting .form-table .regular-text,
+input#image_path {
+		width: 100% !important;
+	    min-width: auto !important;
+}
+}
+@media screen and (max-width: 768px){
+.sma_admin_content, .sma_admin_sidebar {
+    width: auto;
+    display: block;
+}
+}
+@media screen and (max-width: 768px){
+.sma_admin_sidebar {
+    padding: 25px 0px 25px 0px;;
+}
+}
+@media screen and (max-width: 768px){
+.sma_sidebar__section.plugin_sidebar .plugin_banner {
+    width: 100%;
+}
+}
+@media screen and (max-width: 768px){
+.form-table.checkbox-only #dashboard_footer_text {
+    margin: 10px 0 0 0 !important;
+}
+}
+@media screen and (max-width: 480px){
+.launch_customizer_btn{
+    margin: 10px 0 0 0 !important;
+}
+}
+#sma_woocommerce_tab_form .form-table td {
+    display: flex;
+}
+#sma_admin_menu_tab_form .form-table td {
+    display: table-cell;
+}
+sma_admin_setting_layout{
+	display:block !important;	
+}
+.sma-shop-manager-admin-setting.rtl .form-table th {
+    float: right;
+}
+#sma_woocommerce_tab_form table.form-table td {
+	float:left;
+}
+}
+.sma-shop-manager-admin-setting .form-table .logo-size {
+	width: 5em !important;
+}
+.wp-color-result-text {
+    border-right: 1px solid #ccc;
+}
+input.wp-color-picker {
+    width: auto !important;
+}
+#sma_woocommerce_tab_form table.form-table tr.forminp {
+    padding-left: 25px;
+    width: 3.5%;
+}
+.woocommerce.sma_admin_layout tr.form-table.heading-table td {
+    padding: 5px 5px 5px 5px !important;
+}
+h3.sma_heading {
+    border-bottom: 1px solid #e0e0e0;
+	padding-bottom: 10px;
+    margin-bottom: 15px;
+	margin-top: 15px;
+}
+.form-table.checkbox-only td label {
+    vertical-align: -webkit-baseline-middle  !important;
+}
+.form-table.checkbox-only #dashboard_footer_text {
+    margin-left: 15px;
+}
+th.sma_wp_dash_widget_heading {
+    text-align: center;
+}
+input[type=checkbox] {
+    margin-right: 10px;
+}
+/** Snackbar CSS **/
+
+/* Animations to fade the snackbar in and out */
+@-webkit-keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+}
+
+/* The snackbar - position it at the bottom and in the middle of the screen */
+.zorem_snackbar {
+    visibility: hidden; /* Hidden by default. Visible on click */
+    min-width: 250px; /* Set a default minimum width */
+    margin-left: -125px; /* Divide value of min-width by 2 */
+    background-color: #8c52a1; /* Black background color */
+    color: #fff; /* White text color */
+    text-align: center; /* Centered text */
+    border-radius: 2px; /* Rounded borders */
+    padding: 16px; /* Padding */
+    position: fixed; /* Sit on top of the screen */
+    z-index: 1; /* Add a z-index if needed */
+    left: 50%; /* Center the snackbar */
+    bottom: 30px; /* 30px from the bottom */
+}
+
+/* Show the snackbar when clicking on a button (class added with JavaScript) */
+.show_snackbar {
+    visibility: visible !important; /* Show the snackbar */
+	-webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+/** Toggle CSS **/
+input[type=checkbox].tgl {
+	display: none;
+}
+.tgl, .tgl:after, .tgl:before, .tgl *, .tgl *:after, .tgl *:before, .tgl + .tgl-btn {
+  box-sizing: border-box;
+}
+.tgl::-moz-selection, .tgl:after::-moz-selection, .tgl:before::-moz-selection, .tgl *::-moz-selection, .tgl *:after::-moz-selection, .tgl *:before::-moz-selection, .tgl + .tgl-btn::-moz-selection {
+  background: none;
+}
+.tgl::selection, .tgl:after::selection, .tgl:before::selection, .tgl *::selection, .tgl *:after::selection, .tgl *:before::selection, .tgl + .tgl-btn::selection {
+  background: none;
+}
+.tgl + .tgl-btn {
+  outline: 0;
+  display: inline-block;
+  width: 36px;
+  height: 18px;
+  position: relative;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;		 
+}
+.tgl + .tgl-btn:after, .tgl + .tgl-btn:before {
+  position: relative;
+  display: block;
+  content: "";
+  width: 40%;
+  height: 100%;
+}
+.tgl + .tgl-btn:after {
+  left: 0;
+}
+.tgl + .tgl-btn:before {
+  display: none;
+}
+.tgl:checked + .tgl-btn:after {
+  left: 50%;
+}
+.tgl-flat + .tgl-btn {
+  padding: 2px;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  background: #f2f2f2;
+  border: 1px solid #bdbdbd;
+  border-radius: 2em;
+}
+.tgl-flat + .tgl-btn:after {
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+  background: #bdbdbd;
+  content: "";
+  border-radius: 1em;
+}
+.tgl-flat:checked + .tgl-btn {
+	border: 1px solid #ccc;
+    background: #b9e3d0;
+}
+.tgl-flat:checked + .tgl-btn:after {
+  left: 55%;
+  background: #4caf50;
+}
+.wsmab_main_wp_dashbord_menu {
+    padding-bottom: 15px;
+}
+.wsmab_main_wp_dashbord_menu .tgl-btn {
+    margin-right: 10px;
+}
+/* Toggle css over*/
+/* Add-ons */
+
+.d_table {
+    display: table;
+    width: 100%;
+}
+h3.sma_heading_addons_tab{
+    border-bottom: 1px solid #e0e0e0;
+	padding-bottom: 10px;
+    margin-bottom: -5px;
+	margin-top: 0;
+}
+.plugins_section.free_plugin_section {
+    display: flex;
+    flex-wrap: wrap;
+}
+.plugins_section.free_plugin_section .single_plugin {
+    width: 50%;
+    max-width: 50%;
+}
+.plugins_section.free_plugin_section .single_plugin .free_plugin_inner {
+    border: 1px solid #e0e0e0;
+    border-radius: 3px;
+    background: #fff;
+    padding: 15px;
+}
+.plugins_section.free_plugin_section .plugin_image {
+    max-width: 128px;
+    display: inline-block;
+    margin: 0 4% 0 0;
+    vertical-align: top;
+}
+.plugins_section.free_plugin_section .plugin_image img {
+    width: 100%;
+}
+.plugins_section.free_plugin_section .plugin_description {
+    width: -webkit-calc(95% - 130px);
+    width: calc(95% - 130px);
+    margin: auto;
+    vertical-align: top;
+    display: -webkit-inline-box;
+    -webkit-box-orient: vertical;
+}
+.plugins_section.free_plugin_section .plugin_description h3 {
+    margin: 0;
+    line-height: 22px;
+}
+.plugins_section.free_plugin_section .plugin_description p {
+    display: -webkit-inline-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.single_plugin {
+    display: inline-flex;
+    flex-grow: 1;
+    width: 33%;
+    max-width: 33%;
+    padding: 20px 20px 0 0;
+    box-sizing: border-box;
+}
+.single_plugin:nth-child(2n) {
+    padding-right: 0;
+}
+/**add-ons-over**/
+
+th.sma_tab_heading.remove_right_border{
+	border-right:0;
+	font-size: 16px;
+}

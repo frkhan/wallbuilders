@@ -1,0 +1,888 @@
+03-28-2021 @ 14:34:29 - Request
+method: POST
+uri: https://apitest.authorize.net/xml/v1/request.api
+user-agent: WooCommerce-Authorize.Net-Gateway/3.0.5 (WooCommerce/4.9.2; WordPress/5.7)
+headers: Array
+(
+    [content-type] => application/xml
+    [accept] => application/xml
+)
+body: <?xml version="1.0" encoding="UTF-8"?>
+<getMerchantDetailsRequest xmlns="AnetApi/xml/v1/schema/AnetApiSchema.xsd">
+  <merchantAuthentication>
+    <name>***********</name>
+    <transactionKey>****************</transactionKey>
+  </merchantAuthentication>
+</getMerchantDetailsRequest>
+duration: 0.28839s
+
+03-28-2021 @ 14:34:29 - Response
+code: 200
+message: OK
+headers: Array
+(
+    [cache-control] => no-store
+    [pragma] => no-cache
+    [content-type] => application/xml; charset=utf-8
+    [x-opnet-transaction-trace] => a2_58f87a90-c499-4593-9444-0a8829c2e07b-10584-788798
+    [access-control-allow-credentials] => true
+    [access-control-allow-headers] => x-requested-with,cache-control,content-type,origin,method,SOAPAction
+    [access-control-allow-methods] => PUT,OPTIONS,POST,GET
+    [access-control-allow-origin] => *
+    [strict-transport-security] => max-age=31536000
+    [x-cnection] => close
+    [date] => Sun, 28 Mar 2021 14:34:29 GMT
+    [content-length] => 1659
+)
+body: <?xml version="1.0" encoding="utf-8"?>
+<getMerchantDetailsResponse>
+  <messages>
+    <resultCode>Ok</resultCode>
+    <message>
+      <code>I00001</code>
+      <text>Successful.</text>
+    </message>
+  </messages>
+  <isTestMode>false</isTestMode>
+  <processors>
+    <processor>
+      <name>First Data Nashville</name>
+      <id>2</id>
+      <cardTypes>
+        <cardType>A</cardType>
+        <cardType>D</cardType>
+        <cardType>J</cardType>
+        <cardType>M</cardType>
+        <cardType>V</cardType>
+      </cardTypes>
+    </processor>
+  </processors>
+  <merchantName>Fazlur  Khan</merchantName>
+  <gatewayId>777163</gatewayId>
+  <marketTypes>
+    <marketType>eCommerce</marketType>
+  </marketTypes>
+  <productCodes>
+    <productCode>CNP</productCode>
+  </productCodes>
+  <paymentMethods>
+    <paymentMethod>AmericanExpress</paymentMethod>
+    <paymentMethod>Discover</paymentMethod>
+    <paymentMethod>Echeck</paymentMethod>
+    <paymentMethod>JCB</paymentMethod>
+    <paymentMethod>MasterCard</paymentMethod>
+    <paymentMethod>Visa</paymentMethod>
+  </paymentMethods>
+  <currencies>
+    <currency>USD</currency>
+  </currencies>
+  <publicClientKey>8uL784vefeGgNMP65mJm4aCxnUz428LZK9zk99VDan7m9NHFxvJxz7sgMzN9hFN9</publicClientKey>
+  <businessInformation>
+    <company>Fazlur  Khan</company>
+    <address>1 Main Street</address>
+    <city>Bellevue</city>
+    <state>WA</state>
+    <zip>98004</zip>
+    <country>US</country>
+    <phoneNumber>425-555-1212</phoneNumber>
+  </businessInformation>
+  <merchantTimeZone>America/Los_Angeles</merchantTimeZone>
+  <contactDetails>
+    <contactDetail>
+      <email>Fazlur.Khan34@gmail.com</email>
+      <firstName>TestFirstName</firstName>
+      <lastName>TestLastName</lastName>
+    </contactDetail>
+  </contactDetails>
+</getMerchantDetailsResponse>
+
+03-28-2021 @ 14:34:29 - Request
+method: POST
+uri: https://apitest.authorize.net/xml/v1/request.api
+user-agent: WooCommerce-Authorize.Net-Gateway/3.0.5 (WooCommerce/4.9.2; WordPress/5.7)
+headers: Array
+(
+    [content-type] => application/xml
+    [accept] => application/xml
+)
+body: <?xml version="1.0" encoding="UTF-8"?>
+<getMerchantDetailsRequest xmlns="AnetApi/xml/v1/schema/AnetApiSchema.xsd">
+  <merchantAuthentication>
+    <name>***********</name>
+    <transactionKey>****************</transactionKey>
+  </merchantAuthentication>
+</getMerchantDetailsRequest>
+duration: 0.22555s
+
+03-28-2021 @ 14:34:29 - Response
+code: 200
+message: OK
+headers: Array
+(
+    [cache-control] => no-store
+    [pragma] => no-cache
+    [content-type] => application/xml; charset=utf-8
+    [x-opnet-transaction-trace] => a2_39c6c6bf-a002-4086-8218-8cdedb82ab84-10220-787635
+    [access-control-allow-credentials] => true
+    [access-control-allow-headers] => x-requested-with,cache-control,content-type,origin,method,SOAPAction
+    [access-control-allow-methods] => PUT,OPTIONS,POST,GET
+    [access-control-allow-origin] => *
+    [strict-transport-security] => max-age=31536000
+    [x-cnection] => close
+    [date] => Sun, 28 Mar 2021 14:34:28 GMT
+    [content-length] => 1659
+)
+body: <?xml version="1.0" encoding="utf-8"?>
+<getMerchantDetailsResponse>
+  <messages>
+    <resultCode>Ok</resultCode>
+    <message>
+      <code>I00001</code>
+      <text>Successful.</text>
+    </message>
+  </messages>
+  <isTestMode>false</isTestMode>
+  <processors>
+    <processor>
+      <name>First Data Nashville</name>
+      <id>2</id>
+      <cardTypes>
+        <cardType>A</cardType>
+        <cardType>D</cardType>
+        <cardType>J</cardType>
+        <cardType>M</cardType>
+        <cardType>V</cardType>
+      </cardTypes>
+    </processor>
+  </processors>
+  <merchantName>Fazlur  Khan</merchantName>
+  <gatewayId>777163</gatewayId>
+  <marketTypes>
+    <marketType>eCommerce</marketType>
+  </marketTypes>
+  <productCodes>
+    <productCode>CNP</productCode>
+  </productCodes>
+  <paymentMethods>
+    <paymentMethod>AmericanExpress</paymentMethod>
+    <paymentMethod>Discover</paymentMethod>
+    <paymentMethod>Echeck</paymentMethod>
+    <paymentMethod>JCB</paymentMethod>
+    <paymentMethod>MasterCard</paymentMethod>
+    <paymentMethod>Visa</paymentMethod>
+  </paymentMethods>
+  <currencies>
+    <currency>USD</currency>
+  </currencies>
+  <publicClientKey>8uL784vefeGgNMP65mJm4aCxnUz428LZK9zk99VDan7m9NHFxvJxz7sgMzN9hFN9</publicClientKey>
+  <businessInformation>
+    <company>Fazlur  Khan</company>
+    <address>1 Main Street</address>
+    <city>Bellevue</city>
+    <state>WA</state>
+    <zip>98004</zip>
+    <country>US</country>
+    <phoneNumber>425-555-1212</phoneNumber>
+  </businessInformation>
+  <merchantTimeZone>America/Los_Angeles</merchantTimeZone>
+  <contactDetails>
+    <contactDetail>
+      <email>Fazlur.Khan34@gmail.com</email>
+      <firstName>TestFirstName</firstName>
+      <lastName>TestLastName</lastName>
+    </contactDetail>
+  </contactDetails>
+</getMerchantDetailsResponse>
+
+03-28-2021 @ 14:35:52 - Request
+method: POST
+uri: https://apitest.authorize.net/xml/v1/request.api
+user-agent: WooCommerce-Authorize.Net-Gateway/3.0.5 (WooCommerce/4.9.2; WordPress/5.7)
+headers: Array
+(
+    [content-type] => application/xml
+    [accept] => application/xml
+)
+body: <?xml version="1.0" encoding="UTF-8"?>
+<getMerchantDetailsRequest xmlns="AnetApi/xml/v1/schema/AnetApiSchema.xsd">
+  <merchantAuthentication>
+    <name>***********</name>
+    <transactionKey>****************</transactionKey>
+  </merchantAuthentication>
+</getMerchantDetailsRequest>
+duration: 0.246s
+
+03-28-2021 @ 14:35:52 - Response
+code: 200
+message: OK
+headers: Array
+(
+    [cache-control] => no-store
+    [pragma] => no-cache
+    [content-type] => application/xml; charset=utf-8
+    [x-opnet-transaction-trace] => a2_58f87a90-c499-4593-9444-0a8829c2e07b-10584-791602
+    [access-control-allow-credentials] => true
+    [access-control-allow-headers] => x-requested-with,cache-control,content-type,origin,method,SOAPAction
+    [access-control-allow-methods] => PUT,OPTIONS,POST,GET
+    [access-control-allow-origin] => *
+    [strict-transport-security] => max-age=31536000
+    [x-cnection] => close
+    [date] => Sun, 28 Mar 2021 14:35:52 GMT
+    [content-length] => 1659
+)
+body: <?xml version="1.0" encoding="utf-8"?>
+<getMerchantDetailsResponse>
+  <messages>
+    <resultCode>Ok</resultCode>
+    <message>
+      <code>I00001</code>
+      <text>Successful.</text>
+    </message>
+  </messages>
+  <isTestMode>false</isTestMode>
+  <processors>
+    <processor>
+      <name>First Data Nashville</name>
+      <id>2</id>
+      <cardTypes>
+        <cardType>A</cardType>
+        <cardType>D</cardType>
+        <cardType>J</cardType>
+        <cardType>M</cardType>
+        <cardType>V</cardType>
+      </cardTypes>
+    </processor>
+  </processors>
+  <merchantName>Fazlur  Khan</merchantName>
+  <gatewayId>777163</gatewayId>
+  <marketTypes>
+    <marketType>eCommerce</marketType>
+  </marketTypes>
+  <productCodes>
+    <productCode>CNP</productCode>
+  </productCodes>
+  <paymentMethods>
+    <paymentMethod>AmericanExpress</paymentMethod>
+    <paymentMethod>Discover</paymentMethod>
+    <paymentMethod>Echeck</paymentMethod>
+    <paymentMethod>JCB</paymentMethod>
+    <paymentMethod>MasterCard</paymentMethod>
+    <paymentMethod>Visa</paymentMethod>
+  </paymentMethods>
+  <currencies>
+    <currency>USD</currency>
+  </currencies>
+  <publicClientKey>8uL784vefeGgNMP65mJm4aCxnUz428LZK9zk99VDan7m9NHFxvJxz7sgMzN9hFN9</publicClientKey>
+  <businessInformation>
+    <company>Fazlur  Khan</company>
+    <address>1 Main Street</address>
+    <city>Bellevue</city>
+    <state>WA</state>
+    <zip>98004</zip>
+    <country>US</country>
+    <phoneNumber>425-555-1212</phoneNumber>
+  </businessInformation>
+  <merchantTimeZone>America/Los_Angeles</merchantTimeZone>
+  <contactDetails>
+    <contactDetail>
+      <email>Fazlur.Khan34@gmail.com</email>
+      <firstName>TestFirstName</firstName>
+      <lastName>TestLastName</lastName>
+    </contactDetail>
+  </contactDetails>
+</getMerchantDetailsResponse>
+
+03-28-2021 @ 14:36:37 - Request
+method: POST
+uri: https://apitest.authorize.net/xml/v1/request.api
+user-agent: WooCommerce-Authorize.Net-Gateway/3.0.5 (WooCommerce/4.9.2; WordPress/5.7)
+headers: Array
+(
+    [content-type] => application/xml
+    [accept] => application/xml
+)
+body: <?xml version="1.0" encoding="UTF-8"?>
+<getMerchantDetailsRequest xmlns="AnetApi/xml/v1/schema/AnetApiSchema.xsd">
+  <merchantAuthentication>
+    <name>***********</name>
+    <transactionKey>****************</transactionKey>
+  </merchantAuthentication>
+</getMerchantDetailsRequest>
+duration: 0.25419s
+
+03-28-2021 @ 14:36:37 - Response
+code: 200
+message: OK
+headers: Array
+(
+    [cache-control] => no-store
+    [pragma] => no-cache
+    [content-type] => application/xml; charset=utf-8
+    [x-opnet-transaction-trace] => a2_58f87a90-c499-4593-9444-0a8829c2e07b-10584-792727
+    [access-control-allow-credentials] => true
+    [access-control-allow-headers] => x-requested-with,cache-control,content-type,origin,method,SOAPAction
+    [access-control-allow-methods] => PUT,OPTIONS,POST,GET
+    [access-control-allow-origin] => *
+    [strict-transport-security] => max-age=31536000
+    [x-cnection] => close
+    [date] => Sun, 28 Mar 2021 14:36:37 GMT
+    [content-length] => 1659
+)
+body: <?xml version="1.0" encoding="utf-8"?>
+<getMerchantDetailsResponse>
+  <messages>
+    <resultCode>Ok</resultCode>
+    <message>
+      <code>I00001</code>
+      <text>Successful.</text>
+    </message>
+  </messages>
+  <isTestMode>false</isTestMode>
+  <processors>
+    <processor>
+      <name>First Data Nashville</name>
+      <id>2</id>
+      <cardTypes>
+        <cardType>A</cardType>
+        <cardType>D</cardType>
+        <cardType>J</cardType>
+        <cardType>M</cardType>
+        <cardType>V</cardType>
+      </cardTypes>
+    </processor>
+  </processors>
+  <merchantName>Fazlur  Khan</merchantName>
+  <gatewayId>777163</gatewayId>
+  <marketTypes>
+    <marketType>eCommerce</marketType>
+  </marketTypes>
+  <productCodes>
+    <productCode>CNP</productCode>
+  </productCodes>
+  <paymentMethods>
+    <paymentMethod>AmericanExpress</paymentMethod>
+    <paymentMethod>Discover</paymentMethod>
+    <paymentMethod>Echeck</paymentMethod>
+    <paymentMethod>JCB</paymentMethod>
+    <paymentMethod>MasterCard</paymentMethod>
+    <paymentMethod>Visa</paymentMethod>
+  </paymentMethods>
+  <currencies>
+    <currency>USD</currency>
+  </currencies>
+  <publicClientKey>8uL784vefeGgNMP65mJm4aCxnUz428LZK9zk99VDan7m9NHFxvJxz7sgMzN9hFN9</publicClientKey>
+  <businessInformation>
+    <company>Fazlur  Khan</company>
+    <address>1 Main Street</address>
+    <city>Bellevue</city>
+    <state>WA</state>
+    <zip>98004</zip>
+    <country>US</country>
+    <phoneNumber>425-555-1212</phoneNumber>
+  </businessInformation>
+  <merchantTimeZone>America/Los_Angeles</merchantTimeZone>
+  <contactDetails>
+    <contactDetail>
+      <email>Fazlur.Khan34@gmail.com</email>
+      <firstName>TestFirstName</firstName>
+      <lastName>TestLastName</lastName>
+    </contactDetail>
+  </contactDetails>
+</getMerchantDetailsResponse>
+
+03-28-2021 @ 14:36:38 - Request
+method: POST
+uri: https://apitest.authorize.net/xml/v1/request.api
+user-agent: WooCommerce-Authorize.Net-Gateway/3.0.5 (WooCommerce/4.9.2; WordPress/5.7)
+headers: Array
+(
+    [content-type] => application/xml
+    [accept] => application/xml
+)
+body: <?xml version="1.0" encoding="UTF-8"?>
+<getMerchantDetailsRequest xmlns="AnetApi/xml/v1/schema/AnetApiSchema.xsd">
+  <merchantAuthentication>
+    <name>***********</name>
+    <transactionKey>****************</transactionKey>
+  </merchantAuthentication>
+</getMerchantDetailsRequest>
+duration: 0.24755s
+
+03-28-2021 @ 14:36:38 - Response
+code: 200
+message: OK
+headers: Array
+(
+    [cache-control] => no-store
+    [pragma] => no-cache
+    [content-type] => application/xml; charset=utf-8
+    [x-opnet-transaction-trace] => a2_58f87a90-c499-4593-9444-0a8829c2e07b-10584-792732
+    [access-control-allow-credentials] => true
+    [access-control-allow-headers] => x-requested-with,cache-control,content-type,origin,method,SOAPAction
+    [access-control-allow-methods] => PUT,OPTIONS,POST,GET
+    [access-control-allow-origin] => *
+    [strict-transport-security] => max-age=31536000
+    [x-cnection] => close
+    [date] => Sun, 28 Mar 2021 14:36:38 GMT
+    [content-length] => 1659
+)
+body: <?xml version="1.0" encoding="utf-8"?>
+<getMerchantDetailsResponse>
+  <messages>
+    <resultCode>Ok</resultCode>
+    <message>
+      <code>I00001</code>
+      <text>Successful.</text>
+    </message>
+  </messages>
+  <isTestMode>false</isTestMode>
+  <processors>
+    <processor>
+      <name>First Data Nashville</name>
+      <id>2</id>
+      <cardTypes>
+        <cardType>A</cardType>
+        <cardType>D</cardType>
+        <cardType>J</cardType>
+        <cardType>M</cardType>
+        <cardType>V</cardType>
+      </cardTypes>
+    </processor>
+  </processors>
+  <merchantName>Fazlur  Khan</merchantName>
+  <gatewayId>777163</gatewayId>
+  <marketTypes>
+    <marketType>eCommerce</marketType>
+  </marketTypes>
+  <productCodes>
+    <productCode>CNP</productCode>
+  </productCodes>
+  <paymentMethods>
+    <paymentMethod>AmericanExpress</paymentMethod>
+    <paymentMethod>Discover</paymentMethod>
+    <paymentMethod>Echeck</paymentMethod>
+    <paymentMethod>JCB</paymentMethod>
+    <paymentMethod>MasterCard</paymentMethod>
+    <paymentMethod>Visa</paymentMethod>
+  </paymentMethods>
+  <currencies>
+    <currency>USD</currency>
+  </currencies>
+  <publicClientKey>8uL784vefeGgNMP65mJm4aCxnUz428LZK9zk99VDan7m9NHFxvJxz7sgMzN9hFN9</publicClientKey>
+  <businessInformation>
+    <company>Fazlur  Khan</company>
+    <address>1 Main Street</address>
+    <city>Bellevue</city>
+    <state>WA</state>
+    <zip>98004</zip>
+    <country>US</country>
+    <phoneNumber>425-555-1212</phoneNumber>
+  </businessInformation>
+  <merchantTimeZone>America/Los_Angeles</merchantTimeZone>
+  <contactDetails>
+    <contactDetail>
+      <email>Fazlur.Khan34@gmail.com</email>
+      <firstName>TestFirstName</firstName>
+      <lastName>TestLastName</lastName>
+    </contactDetail>
+  </contactDetails>
+</getMerchantDetailsResponse>
+
+03-28-2021 @ 14:40:12 - Accept.js Request:
+ Array
+(
+    [authData] => Array
+        (
+            [clientKey] => ****
+            [apiLoginID] => ****
+        )
+
+    [cardData] => Array
+        (
+            [cardNumber] => ************4242
+            [month] => 1
+            [year] => 2023
+        )
+
+)
+
+03-28-2021 @ 14:40:14 - Accept.js Response:
+ Array
+(
+    [opaqueData] => Array
+        (
+            [dataDescriptor] => COMMON.ACCEPT.INAPP.PAYMENT
+            [dataValue] => eyJ0b2tlbiI6Ijk2MTY5NDI0MTQwNDcxODIwMDQ2MDEiLCJ2IjoiMS4xIn0=
+        )
+
+    [messages] => Array
+        (
+            [resultCode] => Ok
+            [message] => Array
+                (
+                    [0] => Array
+                        (
+                            [code] => I_WC_01
+                            [text] => Successful.
+                        )
+
+                )
+
+        )
+
+)
+
+03-28-2021 @ 14:40:16 - Request
+method: POST
+uri: https://apitest.authorize.net/xml/v1/request.api
+user-agent: WooCommerce-Authorize.Net-Gateway/3.0.5 (WooCommerce/4.9.2; WordPress/5.7)
+headers: Array
+(
+    [content-type] => application/xml
+    [accept] => application/xml
+)
+body: <?xml version="1.0" encoding="UTF-8"?>
+<createCustomerProfileRequest xmlns="AnetApi/xml/v1/schema/AnetApiSchema.xsd">
+  <merchantAuthentication>
+    <name>***********</name>
+    <transactionKey>****************</transactionKey>
+  </merchantAuthentication>
+  <refId>3489</refId>
+  <profile>
+    <merchantCustomerId>2519</merchantCustomerId>
+    <email>Kalam29002@test.com</email>
+    <paymentProfiles>
+      <billTo>
+        <firstName>Kalam29002</firstName>
+        <lastName>TEST</lastName>
+        <address>33 TEST</address>
+        <city>MASCOT</city>
+        <state>NSW</state>
+        <zip>2020</zip>
+        <country>AUS</country>
+        <phoneNumber>34343343434</phoneNumber>
+      </billTo>
+      <payment>
+        <opaqueData>
+          <dataDescriptor>COMMON.ACCEPT.INAPP.PAYMENT</dataDescriptor>
+          <dataValue>eyJ0b2tlbiI6Ijk2MTY5NDI0MTQwNDcxODIwMDQ2MDEiLCJ2IjoiMS4xIn0=</dataValue>
+        </opaqueData>
+      </payment>
+    </paymentProfiles>
+  </profile>
+  <validationMode>none</validationMode>
+</createCustomerProfileRequest>
+duration: 0.39192s
+
+03-28-2021 @ 14:40:16 - Response
+code: 200
+message: OK
+headers: Array
+(
+    [cache-control] => no-store
+    [pragma] => no-cache
+    [content-type] => application/xml; charset=utf-8
+    [x-opnet-transaction-trace] => a2_ce039876-09c9-4f10-b5f9-5f3c28cc9d62-5640-14361054
+    [access-control-allow-credentials] => true
+    [access-control-allow-headers] => x-requested-with,cache-control,content-type,origin,method,SOAPAction
+    [access-control-allow-methods] => PUT,OPTIONS,POST,GET
+    [access-control-allow-origin] => *
+    [strict-transport-security] => max-age=31536000
+    [x-cnection] => close
+    [date] => Sun, 28 Mar 2021 14:40:16 GMT
+    [content-length] => 596
+)
+body: <?xml version="1.0" encoding="utf-8"?>
+<createCustomerProfileResponse>
+  <refId>3489</refId>
+  <messages>
+    <resultCode>Ok</resultCode>
+    <message>
+      <code>I00001</code>
+      <text>Successful.</text>
+    </message>
+  </messages>
+  <customerProfileId>1930688020</customerProfileId>
+  <customerPaymentProfileIdList>
+    <numericString>1842798693</numericString>
+  </customerPaymentProfileIdList>
+  <customerShippingAddressIdList/>
+  <validationDirectResponseList/>
+</createCustomerProfileResponse>
+
+03-28-2021 @ 14:40:16 - Request
+method: POST
+uri: https://apitest.authorize.net/xml/v1/request.api
+user-agent: WooCommerce-Authorize.Net-Gateway/3.0.5 (WooCommerce/4.9.2; WordPress/5.7)
+headers: Array
+(
+    [content-type] => application/xml
+    [accept] => application/xml
+)
+body: <?xml version="1.0" encoding="UTF-8"?>
+<getCustomerPaymentProfileRequest xmlns="AnetApi/xml/v1/schema/AnetApiSchema.xsd">
+  <merchantAuthentication>
+    <name>***********</name>
+    <transactionKey>****************</transactionKey>
+  </merchantAuthentication>
+  <customerProfileId>1930688020</customerProfileId>
+  <customerPaymentProfileId>1842798693</customerPaymentProfileId>
+</getCustomerPaymentProfileRequest>
+duration: 0.17809s
+
+03-28-2021 @ 14:40:16 - Response
+code: 200
+message: OK
+headers: Array
+(
+    [cache-control] => no-store
+    [pragma] => no-cache
+    [content-type] => application/xml; charset=utf-8
+    [x-opnet-transaction-trace] => a2_b88cb8e6-3b8e-4465-b79d-419b87df111f-4928-9956802
+    [access-control-allow-credentials] => true
+    [access-control-allow-headers] => x-requested-with,cache-control,content-type,origin,method,SOAPAction
+    [access-control-allow-methods] => PUT,OPTIONS,POST,GET
+    [access-control-allow-origin] => *
+    [strict-transport-security] => max-age=31536000
+    [x-cnection] => close
+    [date] => Sun, 28 Mar 2021 14:40:16 GMT
+    [content-length] => 866
+)
+body: <?xml version="1.0" encoding="utf-8"?>
+<getCustomerPaymentProfileResponse>
+  <messages>
+    <resultCode>Ok</resultCode>
+    <message>
+      <code>I00001</code>
+      <text>Successful.</text>
+    </message>
+  </messages>
+  <paymentProfile>
+    <billTo>
+      <firstName>Kalam29002</firstName>
+      <lastName>TEST</lastName>
+      <address>33 TEST</address>
+      <city>MASCOT</city>
+      <state>NSW</state>
+      <zip>2020</zip>
+      <country>AUS</country>
+      <phoneNumber>34343343434</phoneNumber>
+    </billTo>
+    <customerProfileId>1930688020</customerProfileId>
+    <customerPaymentProfileId>1842798693</customerPaymentProfileId>
+    <payment>
+      <creditCard>
+        <cardNumber>XXXX4242</cardNumber>
+        <expirationDate>XXXX</expirationDate>
+        <cardType>Visa</cardType>
+      </creditCard>
+    </payment>
+  </paymentProfile>
+</getCustomerPaymentProfileResponse>
+
+03-28-2021 @ 14:40:17 - Request
+method: POST
+uri: https://apitest.authorize.net/xml/v1/request.api
+user-agent: WooCommerce-Authorize.Net-Gateway/3.0.5 (WooCommerce/4.9.2; WordPress/5.7)
+headers: Array
+(
+    [content-type] => application/xml
+    [accept] => application/xml
+)
+body: <?xml version="1.0" encoding="UTF-8"?>
+<updateCustomerPaymentProfileRequest xmlns="AnetApi/xml/v1/schema/AnetApiSchema.xsd">
+  <merchantAuthentication>
+    <name>***********</name>
+    <transactionKey>****************</transactionKey>
+  </merchantAuthentication>
+  <refId>3489</refId>
+  <customerProfileId>1930688020</customerProfileId>
+  <paymentProfile>
+    <billTo>
+      <firstName>Kalam29002</firstName>
+      <lastName>TEST</lastName>
+      <address>33 TEST</address>
+      <city>MASCOT</city>
+      <state>NSW</state>
+      <zip>2020</zip>
+      <country>AUS</country>
+      <phoneNumber>34343343434</phoneNumber>
+    </billTo>
+    <payment>
+      <creditCard>
+        <cardNumber>XXXX4242</cardNumber>
+        <expirationDate>XXXX</expirationDate>
+      </creditCard>
+    </payment>
+    <customerPaymentProfileId>1842798693</customerPaymentProfileId>
+  </paymentProfile>
+  <validationMode>none</validationMode>
+</updateCustomerPaymentProfileRequest>
+duration: 0.30325s
+
+03-28-2021 @ 14:40:17 - Response
+code: 200
+message: OK
+headers: Array
+(
+    [cache-control] => no-store
+    [pragma] => no-cache
+    [content-type] => application/xml; charset=utf-8
+    [x-opnet-transaction-trace] => a2_ce039876-09c9-4f10-b5f9-5f3c28cc9d62-5640-14361063
+    [access-control-allow-credentials] => true
+    [access-control-allow-headers] => x-requested-with,cache-control,content-type,origin,method,SOAPAction
+    [access-control-allow-methods] => PUT,OPTIONS,POST,GET
+    [access-control-allow-origin] => *
+    [strict-transport-security] => max-age=31536000
+    [x-cnection] => close
+    [date] => Sun, 28 Mar 2021 14:40:16 GMT
+    [content-length] => 394
+)
+body: <?xml version="1.0" encoding="utf-8"?>
+<updateCustomerPaymentProfileResponse>
+  <refId>3489</refId>
+  <messages>
+    <resultCode>Ok</resultCode>
+    <message>
+      <code>I00001</code>
+      <text>Successful.</text>
+    </message>
+  </messages>
+</updateCustomerPaymentProfileResponse>
+
+03-28-2021 @ 14:40:17 - Request
+method: POST
+uri: https://apitest.authorize.net/xml/v1/request.api
+user-agent: WooCommerce-Authorize.Net-Gateway/3.0.5 (WooCommerce/4.9.2; WordPress/5.7)
+headers: Array
+(
+    [content-type] => application/xml
+    [accept] => application/xml
+)
+body: <?xml version="1.0" encoding="UTF-8"?>
+<createCustomerShippingAddressRequest xmlns="AnetApi/xml/v1/schema/AnetApiSchema.xsd">
+  <merchantAuthentication>
+    <name>***********</name>
+    <transactionKey>****************</transactionKey>
+  </merchantAuthentication>
+  <refId>3489</refId>
+  <customerProfileId>1930688020</customerProfileId>
+  <address>
+    <firstName>Kalam29002</firstName>
+    <lastName>TEST</lastName>
+    <address>33 TEST</address>
+    <city>MASCOT</city>
+    <state>NSW</state>
+    <zip>2020</zip>
+    <country>AUS</country>
+  </address>
+</createCustomerShippingAddressRequest>
+duration: 0.1668s
+
+03-28-2021 @ 14:40:17 - Response
+code: 200
+message: OK
+headers: Array
+(
+    [cache-control] => no-store
+    [pragma] => no-cache
+    [content-type] => application/xml; charset=utf-8
+    [x-opnet-transaction-trace] => a2_ce039876-09c9-4f10-b5f9-5f3c28cc9d62-5640-14361067
+    [access-control-allow-credentials] => true
+    [access-control-allow-headers] => x-requested-with,cache-control,content-type,origin,method,SOAPAction
+    [access-control-allow-methods] => PUT,OPTIONS,POST,GET
+    [access-control-allow-origin] => *
+    [strict-transport-security] => max-age=31536000
+    [x-cnection] => close
+    [date] => Sun, 28 Mar 2021 14:40:16 GMT
+    [content-length] => 493
+)
+body: <?xml version="1.0" encoding="utf-8"?>
+<createCustomerShippingAddressResponse>
+  <refId>3489</refId>
+  <messages>
+    <resultCode>Ok</resultCode>
+    <message>
+      <code>I00001</code>
+      <text>Successful.</text>
+    </message>
+  </messages>
+  <customerProfileId>1930688020</customerProfileId>
+  <customerAddressId>901743587</customerAddressId>
+</createCustomerShippingAddressResponse>
+
+03-28-2021 @ 14:40:18 - Request
+method: POST
+uri: https://apitest.authorize.net/xml/v1/request.api
+user-agent: WooCommerce-Authorize.Net-Gateway/3.0.5 (WooCommerce/4.9.2; WordPress/5.7)
+headers: Array
+(
+    [content-type] => application/xml
+    [accept] => application/xml
+)
+body: <?xml version="1.0" encoding="UTF-8"?>
+<createCustomerProfileTransactionRequest xmlns="AnetApi/xml/v1/schema/AnetApiSchema.xsd">
+  <merchantAuthentication>
+    <name>***********</name>
+    <transactionKey>****************</transactionKey>
+  </merchantAuthentication>
+  <refId>3489</refId>
+  <transaction>
+    <profileTransAuthCapture>
+      <amount>24.99</amount>
+      <shipping>
+        <amount>10.00</amount>
+        <name>Order Shipping</name>
+        <description>Flat rate</description>
+      </shipping>
+      <lineItems>
+        <itemId>118</itemId>
+        <name>The Role of Pastors &amp;amp; Ch...</name>
+        <description>SKU: DVD05</description>
+        <quantity>1</quantity>
+        <unitPrice>14.99</unitPrice>
+      </lineItems>
+      <customerProfileId>1930688020</customerProfileId>
+      <customerPaymentProfileId>1842798693</customerPaymentProfileId>
+      <customerShippingAddressId>901743587</customerShippingAddressId>
+      <order>
+        <invoiceNumber>3489</invoiceNumber>
+        <description>WallBuilders Store - Order 3489</description>
+      </order>
+    </profileTransAuthCapture>
+  </transaction>
+  <extraOptions>x_solution_id=A1000065&amp;x_customer_ip=49.3.90.232&amp;x_currency_code=USD&amp;x_duplicate_window=0&amp;x_delim_char=%7C&amp;x_encap_char=%3A</extraOptions>
+</createCustomerProfileTransactionRequest>
+duration: 0.88539s
+
+03-28-2021 @ 14:40:18 - Response
+code: 200
+message: OK
+headers: Array
+(
+    [cache-control] => no-store
+    [pragma] => no-cache
+    [content-type] => application/xml; charset=utf-8
+    [x-opnet-transaction-trace] => a2_b88cb8e6-3b8e-4465-b79d-419b87df111f-4928-9956814
+    [access-control-allow-credentials] => true
+    [access-control-allow-headers] => x-requested-with,cache-control,content-type,origin,method,SOAPAction
+    [access-control-allow-methods] => PUT,OPTIONS,POST,GET
+    [access-control-allow-origin] => *
+    [strict-transport-security] => max-age=31536000
+    [x-cnection] => close
+    [date] => Sun, 28 Mar 2021 14:40:17 GMT
+    [content-length] => 913
+)
+body: <?xml version="1.0" encoding="utf-8"?>
+<createCustomerProfileTransactionResponse>
+  <refId>3489</refId>
+  <messages>
+    <resultCode>Ok</resultCode>
+    <message>
+      <code>I00001</code>
+      <text>Successful.</text>
+    </message>
+  </messages>
+  <directResponse>:1:|:1:|:1:|:This transaction has been approved.:|:RZFPF2:|:Y:|:60164981784:|:3489:|:WallBuilders Store - Order 3489:|:24.99:|:CC:|:auth_capture:|:2519:|:Kalam29002:|:TEST:|::|:33 TEST:|:MASCOT:|:NSW:|:2020:|:AUS:|:34343343434:|::|:Kalam29002@test.com:|:Kalam29002:|:TEST:|::|:33 TEST:|:MASCOT:|:NSW:|:2020:|:AUS:|::|::|:10.00:|::|::|::|:P:|:2:|::|::|::|::|::|::|::|::|::|::|:XXXX4242:|:Visa:|::|::|::|::|::|::|:O9F2ZTWZ3D9OUIMAWIHERH4:|::|::|::|::|::|::|::|::|::|:901743587:|::</directResponse>
+</createCustomerProfileTransactionResponse>
+

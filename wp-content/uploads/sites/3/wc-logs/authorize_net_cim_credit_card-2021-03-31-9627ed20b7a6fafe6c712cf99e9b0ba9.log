@@ -1,0 +1,592 @@
+03-31-2021 @ 08:49:23 - Request
+method: POST
+uri: https://apitest.authorize.net/xml/v1/request.api
+user-agent: WooCommerce-Authorize.Net-Gateway/3.0.5 (WooCommerce/4.9.2; WordPress/5.7)
+headers: Array
+(
+    [content-type] => application/xml
+    [accept] => application/xml
+)
+body: <?xml version="1.0" encoding="UTF-8"?>
+<getMerchantDetailsRequest xmlns="AnetApi/xml/v1/schema/AnetApiSchema.xsd">
+  <merchantAuthentication>
+    <name>***********</name>
+    <transactionKey>****************</transactionKey>
+  </merchantAuthentication>
+</getMerchantDetailsRequest>
+duration: 0.37076s
+
+03-31-2021 @ 08:49:23 - Response
+code: 200
+message: OK
+headers: Array
+(
+    [cache-control] => no-store
+    [pragma] => no-cache
+    [content-type] => application/xml; charset=utf-8
+    [x-opnet-transaction-trace] => a2_39c6c6bf-a002-4086-8218-8cdedb82ab84-10220-8367878
+    [access-control-allow-credentials] => true
+    [access-control-allow-headers] => x-requested-with,cache-control,content-type,origin,method,SOAPAction
+    [access-control-allow-methods] => PUT,OPTIONS,POST,GET
+    [access-control-allow-origin] => *
+    [strict-transport-security] => max-age=31536000
+    [x-cnection] => close
+    [date] => Wed, 31 Mar 2021 08:49:23 GMT
+    [content-length] => 1659
+)
+body: <?xml version="1.0" encoding="utf-8"?>
+<getMerchantDetailsResponse>
+  <messages>
+    <resultCode>Ok</resultCode>
+    <message>
+      <code>I00001</code>
+      <text>Successful.</text>
+    </message>
+  </messages>
+  <isTestMode>false</isTestMode>
+  <processors>
+    <processor>
+      <name>First Data Nashville</name>
+      <id>2</id>
+      <cardTypes>
+        <cardType>A</cardType>
+        <cardType>D</cardType>
+        <cardType>J</cardType>
+        <cardType>M</cardType>
+        <cardType>V</cardType>
+      </cardTypes>
+    </processor>
+  </processors>
+  <merchantName>Fazlur  Khan</merchantName>
+  <gatewayId>777163</gatewayId>
+  <marketTypes>
+    <marketType>eCommerce</marketType>
+  </marketTypes>
+  <productCodes>
+    <productCode>CNP</productCode>
+  </productCodes>
+  <paymentMethods>
+    <paymentMethod>AmericanExpress</paymentMethod>
+    <paymentMethod>Discover</paymentMethod>
+    <paymentMethod>Echeck</paymentMethod>
+    <paymentMethod>JCB</paymentMethod>
+    <paymentMethod>MasterCard</paymentMethod>
+    <paymentMethod>Visa</paymentMethod>
+  </paymentMethods>
+  <currencies>
+    <currency>USD</currency>
+  </currencies>
+  <publicClientKey>8uL784vefeGgNMP65mJm4aCxnUz428LZK9zk99VDan7m9NHFxvJxz7sgMzN9hFN9</publicClientKey>
+  <businessInformation>
+    <company>Fazlur  Khan</company>
+    <address>1 Main Street</address>
+    <city>Bellevue</city>
+    <state>WA</state>
+    <zip>98004</zip>
+    <country>US</country>
+    <phoneNumber>425-555-1212</phoneNumber>
+  </businessInformation>
+  <merchantTimeZone>America/Los_Angeles</merchantTimeZone>
+  <contactDetails>
+    <contactDetail>
+      <email>Fazlur.Khan34@gmail.com</email>
+      <firstName>TestFirstName</firstName>
+      <lastName>TestLastName</lastName>
+    </contactDetail>
+  </contactDetails>
+</getMerchantDetailsResponse>
+
+03-31-2021 @ 08:50:32 - Accept.js Request:
+ Array
+(
+    [authData] => Array
+        (
+            [clientKey] => ****
+            [apiLoginID] => ****
+        )
+
+    [cardData] => Array
+        (
+            [cardNumber] => *********0027
+            [month] => 1
+            [year] => 2022
+        )
+
+)
+
+03-31-2021 @ 08:50:33 - Accept.js Response:
+ Array
+(
+    [opaqueData] => Array
+        (
+            [dataDescriptor] => COMMON.ACCEPT.INAPP.PAYMENT
+            [dataValue] => eyJ0b2tlbiI6Ijk2MTcxODA2MzI1ODI5NTMzMDM2MDEiLCJ2IjoiMS4xIn0=
+        )
+
+    [messages] => Array
+        (
+            [resultCode] => Ok
+            [message] => Array
+                (
+                    [0] => Array
+                        (
+                            [code] => I_WC_01
+                            [text] => Successful.
+                        )
+
+                )
+
+        )
+
+)
+
+03-31-2021 @ 08:51:14 - Accept.js Request:
+ Array
+(
+    [authData] => Array
+        (
+            [clientKey] => ****
+            [apiLoginID] => ****
+        )
+
+    [cardData] => Array
+        (
+            [cardNumber] => *********0027
+            [month] => 1
+            [year] => 2022
+        )
+
+)
+
+03-31-2021 @ 08:51:15 - Accept.js Response:
+ Array
+(
+    [opaqueData] => Array
+        (
+            [dataDescriptor] => COMMON.ACCEPT.INAPP.PAYMENT
+            [dataValue] => eyJ0b2tlbiI6Ijk2MTcxODA2NzQwNzg5NTM0MDM2MDEiLCJ2IjoiMS4xIn0=
+        )
+
+    [messages] => Array
+        (
+            [resultCode] => Ok
+            [message] => Array
+                (
+                    [0] => Array
+                        (
+                            [code] => I_WC_01
+                            [text] => Successful.
+                        )
+
+                )
+
+        )
+
+)
+
+03-31-2021 @ 08:51:16 - Request
+method: POST
+uri: https://apitest.authorize.net/xml/v1/request.api
+user-agent: WooCommerce-Authorize.Net-Gateway/3.0.5 (WooCommerce/4.9.2; WordPress/5.7)
+headers: Array
+(
+    [content-type] => application/xml
+    [accept] => application/xml
+)
+body: <?xml version="1.0" encoding="UTF-8"?>
+<createTransactionRequest xmlns="AnetApi/xml/v1/schema/AnetApiSchema.xsd">
+  <merchantAuthentication>
+    <name>***********</name>
+    <transactionKey>****************</transactionKey>
+  </merchantAuthentication>
+  <refId>3511</refId>
+  <transactionRequest>
+    <transactionType>authCaptureTransaction</transactionType>
+    <amount>22.00</amount>
+    <currencyCode>USD</currencyCode>
+    <payment>
+      <opaqueData>
+        <dataDescriptor>COMMON.ACCEPT.INAPP.PAYMENT</dataDescriptor>
+        <dataValue>eyJ0b2tlbiI6Ijk2MTcxODA2NzQwNzg5NTM0MDM2MDEiLCJ2IjoiMS4xIn0=</dataValue>
+      </opaqueData>
+    </payment>
+    <solution>
+      <id>A1000065</id>
+    </solution>
+    <order>
+      <invoiceNumber>3511</invoiceNumber>
+      <description>WallBuilders Store - Order 3511</description>
+    </order>
+    <lineItems>
+      <lineItem>
+        <itemId>120</itemId>
+        <name>Samadhan Test Product</name>
+        <quantity>1</quantity>
+        <unitPrice>20.00</unitPrice>
+      </lineItem>
+    </lineItems>
+    <tax>
+      <amount>2.00</amount>
+      <name>Order Taxes</name>
+      <description>VAT (BD-VAT-1) - 2</description>
+    </tax>
+    <customer>
+      <id>2525</id>
+      <email>test_00111@test.com</email>
+    </customer>
+    <billTo>
+      <firstName>test_00111</firstName>
+      <lastName>test</lastName>
+      <address>asidhiadf</address>
+      <city>fasdzfdaf</city>
+      <state>BD-13</state>
+      <zip>1213</zip>
+      <country>BGD</country>
+      <phoneNumber>131242356546</phoneNumber>
+    </billTo>
+    <shipTo>
+      <firstName>test_00111</firstName>
+      <lastName>test</lastName>
+      <address>asidhiadf</address>
+      <city>fasdzfdaf</city>
+      <state>BD-13</state>
+      <zip>1213</zip>
+      <country>BGD</country>
+    </shipTo>
+    <customerIP>27.147.219.90</customerIP>
+    <transactionSettings>
+      <setting>
+        <settingName>duplicateWindow</settingName>
+        <settingValue>0</settingValue>
+      </setting>
+    </transactionSettings>
+  </transactionRequest>
+</createTransactionRequest>
+duration: 0.54647s
+
+03-31-2021 @ 08:51:16 - Response
+code: 200
+message: OK
+headers: Array
+(
+    [cache-control] => no-store
+    [pragma] => no-cache
+    [content-type] => application/xml; charset=utf-8
+    [x-opnet-transaction-trace] => a2_58f87a90-c499-4593-9444-0a8829c2e07b-10584-8369859
+    [access-control-allow-credentials] => true
+    [access-control-allow-headers] => x-requested-with,cache-control,content-type,origin,method,SOAPAction
+    [access-control-allow-methods] => PUT,OPTIONS,POST,GET
+    [access-control-allow-origin] => *
+    [strict-transport-security] => max-age=31536000
+    [x-cnection] => close
+    [date] => Wed, 31 Mar 2021 08:51:16 GMT
+    [content-length] => 914
+)
+body: <?xml version="1.0" encoding="utf-8"?>
+<createTransactionResponse>
+  <refId>3511</refId>
+  <messages>
+    <resultCode>Ok</resultCode>
+    <message>
+      <code>I00001</code>
+      <text>Successful.</text>
+    </message>
+  </messages>
+  <transactionResponse>
+    <responseCode>1</responseCode>
+    <authCode>GDDHUE</authCode>
+    <avsResultCode>Y</avsResultCode>
+    <cvvResultCode>P</cvvResultCode>
+    <cavvResultCode>2</cavvResultCode>
+    <transId>40061850240</transId>
+    <refTransID/>
+    <transHash/>
+    <testRequest>0</testRequest>
+    <accountNumber>XXXX0027</accountNumber>
+    <accountType>Visa</accountType>
+    <messages>
+      <message>
+        <code>1</code>
+        <description>This transaction has been approved.</description>
+      </message>
+    </messages>
+    <transHashSha2/>
+    <networkTransId>B2BI4TB18EEIBP9U5IQFIF4</networkTransId>
+  </transactionResponse>
+</createTransactionResponse>
+
+03-31-2021 @ 10:32:07 - Request
+method: POST
+uri: https://apitest.authorize.net/xml/v1/request.api
+user-agent: WooCommerce-Authorize.Net-Gateway/3.0.5 (WooCommerce/4.9.2; WordPress/5.7)
+headers: Array
+(
+    [content-type] => application/xml
+    [accept] => application/xml
+)
+body: <?xml version="1.0" encoding="UTF-8"?>
+<getMerchantDetailsRequest xmlns="AnetApi/xml/v1/schema/AnetApiSchema.xsd">
+  <merchantAuthentication>
+    <name>***********</name>
+    <transactionKey>****************</transactionKey>
+  </merchantAuthentication>
+</getMerchantDetailsRequest>
+duration: 0.27104s
+
+03-31-2021 @ 10:32:07 - Response
+code: 200
+message: OK
+headers: Array
+(
+    [cache-control] => no-store
+    [pragma] => no-cache
+    [content-type] => application/xml; charset=utf-8
+    [x-opnet-transaction-trace] => a2_58f87a90-c499-4593-9444-0a8829c2e07b-10584-8610137
+    [access-control-allow-credentials] => true
+    [access-control-allow-headers] => x-requested-with,cache-control,content-type,origin,method,SOAPAction
+    [access-control-allow-methods] => PUT,OPTIONS,POST,GET
+    [access-control-allow-origin] => *
+    [strict-transport-security] => max-age=31536000
+    [x-cnection] => close
+    [date] => Wed, 31 Mar 2021 10:32:07 GMT
+    [content-length] => 1659
+)
+body: <?xml version="1.0" encoding="utf-8"?>
+<getMerchantDetailsResponse>
+  <messages>
+    <resultCode>Ok</resultCode>
+    <message>
+      <code>I00001</code>
+      <text>Successful.</text>
+    </message>
+  </messages>
+  <isTestMode>false</isTestMode>
+  <processors>
+    <processor>
+      <name>First Data Nashville</name>
+      <id>2</id>
+      <cardTypes>
+        <cardType>A</cardType>
+        <cardType>D</cardType>
+        <cardType>J</cardType>
+        <cardType>M</cardType>
+        <cardType>V</cardType>
+      </cardTypes>
+    </processor>
+  </processors>
+  <merchantName>Fazlur  Khan</merchantName>
+  <gatewayId>777163</gatewayId>
+  <marketTypes>
+    <marketType>eCommerce</marketType>
+  </marketTypes>
+  <productCodes>
+    <productCode>CNP</productCode>
+  </productCodes>
+  <paymentMethods>
+    <paymentMethod>AmericanExpress</paymentMethod>
+    <paymentMethod>Discover</paymentMethod>
+    <paymentMethod>Echeck</paymentMethod>
+    <paymentMethod>JCB</paymentMethod>
+    <paymentMethod>MasterCard</paymentMethod>
+    <paymentMethod>Visa</paymentMethod>
+  </paymentMethods>
+  <currencies>
+    <currency>USD</currency>
+  </currencies>
+  <publicClientKey>8uL784vefeGgNMP65mJm4aCxnUz428LZK9zk99VDan7m9NHFxvJxz7sgMzN9hFN9</publicClientKey>
+  <businessInformation>
+    <company>Fazlur  Khan</company>
+    <address>1 Main Street</address>
+    <city>Bellevue</city>
+    <state>WA</state>
+    <zip>98004</zip>
+    <country>US</country>
+    <phoneNumber>425-555-1212</phoneNumber>
+  </businessInformation>
+  <merchantTimeZone>America/Los_Angeles</merchantTimeZone>
+  <contactDetails>
+    <contactDetail>
+      <email>Fazlur.Khan34@gmail.com</email>
+      <firstName>TestFirstName</firstName>
+      <lastName>TestLastName</lastName>
+    </contactDetail>
+  </contactDetails>
+</getMerchantDetailsResponse>
+
+03-31-2021 @ 10:33:28 - Accept.js Request:
+ Array
+(
+    [authData] => Array
+        (
+            [clientKey] => ****
+            [apiLoginID] => ****
+        )
+
+    [cardData] => Array
+        (
+            [cardNumber] => ************4242
+            [month] => 1
+            [year] => 2022
+        )
+
+)
+
+03-31-2021 @ 10:33:31 - Accept.js Response:
+ Array
+(
+    [opaqueData] => Array
+        (
+            [dataDescriptor] => COMMON.ACCEPT.INAPP.PAYMENT
+            [dataValue] => eyJ0b2tlbiI6Ijk2MTcxODY4MDk5OTA1NjE4MDQ2MDEiLCJ2IjoiMS4xIn0=
+        )
+
+    [messages] => Array
+        (
+            [resultCode] => Ok
+            [message] => Array
+                (
+                    [0] => Array
+                        (
+                            [code] => I_WC_01
+                            [text] => Successful.
+                        )
+
+                )
+
+        )
+
+)
+
+03-31-2021 @ 10:33:32 - Request
+method: POST
+uri: https://apitest.authorize.net/xml/v1/request.api
+user-agent: WooCommerce-Authorize.Net-Gateway/3.0.5 (WooCommerce/4.9.2; WordPress/5.7)
+headers: Array
+(
+    [content-type] => application/xml
+    [accept] => application/xml
+)
+body: <?xml version="1.0" encoding="UTF-8"?>
+<createTransactionRequest xmlns="AnetApi/xml/v1/schema/AnetApiSchema.xsd">
+  <merchantAuthentication>
+    <name>***********</name>
+    <transactionKey>****************</transactionKey>
+  </merchantAuthentication>
+  <refId>3517</refId>
+  <transactionRequest>
+    <transactionType>authCaptureTransaction</transactionType>
+    <amount>132.00</amount>
+    <currencyCode>USD</currencyCode>
+    <payment>
+      <opaqueData>
+        <dataDescriptor>COMMON.ACCEPT.INAPP.PAYMENT</dataDescriptor>
+        <dataValue>eyJ0b2tlbiI6Ijk2MTcxODY4MDk5OTA1NjE4MDQ2MDEiLCJ2IjoiMS4xIn0=</dataValue>
+      </opaqueData>
+    </payment>
+    <solution>
+      <id>A1000065</id>
+    </solution>
+    <order>
+      <invoiceNumber>3517</invoiceNumber>
+      <description>WallBuilders Store - Order 3517</description>
+    </order>
+    <lineItems>
+      <lineItem>
+        <itemId>123</itemId>
+        <name>Samadhan Test Product</name>
+        <quantity>6</quantity>
+        <unitPrice>20.00</unitPrice>
+      </lineItem>
+    </lineItems>
+    <tax>
+      <amount>12.00</amount>
+      <name>Order Taxes</name>
+      <description>VAT (BD-VAT-1) - 12</description>
+    </tax>
+    <customer>
+      <id>3003</id>
+      <email>Sufal6985@test.com</email>
+    </customer>
+    <billTo>
+      <firstName>Sufal6985</firstName>
+      <lastName>Test</lastName>
+      <company>Samadhan Solution Pty Limited</company>
+      <address>Dhaka</address>
+      <city>Dhaka</city>
+      <state>BD-13</state>
+      <zip>1205</zip>
+      <country>BGD</country>
+      <phoneNumber>6545654656</phoneNumber>
+    </billTo>
+    <shipTo>
+      <firstName>Sufal6985</firstName>
+      <lastName>Test</lastName>
+      <company>Samadhan Solution Pty Limited</company>
+      <address>Dhaka</address>
+      <city>Dhaka</city>
+      <state>BD-13</state>
+      <zip>1205</zip>
+      <country>BGD</country>
+    </shipTo>
+    <customerIP>27.147.219.90</customerIP>
+    <transactionSettings>
+      <setting>
+        <settingName>duplicateWindow</settingName>
+        <settingValue>0</settingValue>
+      </setting>
+    </transactionSettings>
+  </transactionRequest>
+</createTransactionRequest>
+duration: 0.85981s
+
+03-31-2021 @ 10:33:32 - Response
+code: 200
+message: OK
+headers: Array
+(
+    [cache-control] => no-store
+    [pragma] => no-cache
+    [content-type] => application/xml; charset=utf-8
+    [x-opnet-transaction-trace] => a2_a3e4cc1f-2093-473d-b131-bc84613ae42b-7592-77666
+    [access-control-allow-credentials] => true
+    [access-control-allow-headers] => x-requested-with,cache-control,content-type,origin,method,SOAPAction
+    [access-control-allow-methods] => PUT,OPTIONS,POST,GET
+    [access-control-allow-origin] => *
+    [strict-transport-security] => max-age=31536000
+    [x-cnection] => close
+    [date] => Wed, 31 Mar 2021 10:33:32 GMT
+    [content-length] => 914
+)
+body: <?xml version="1.0" encoding="utf-8"?>
+<createTransactionResponse>
+  <refId>3517</refId>
+  <messages>
+    <resultCode>Ok</resultCode>
+    <message>
+      <code>I00001</code>
+      <text>Successful.</text>
+    </message>
+  </messages>
+  <transactionResponse>
+    <responseCode>1</responseCode>
+    <authCode>K9X0HJ</authCode>
+    <avsResultCode>Y</avsResultCode>
+    <cvvResultCode>P</cvvResultCode>
+    <cavvResultCode>2</cavvResultCode>
+    <transId>60165111469</transId>
+    <refTransID/>
+    <transHash/>
+    <testRequest>0</testRequest>
+    <accountNumber>XXXX4242</accountNumber>
+    <accountType>Visa</accountType>
+    <messages>
+      <message>
+        <code>1</code>
+        <description>This transaction has been approved.</description>
+      </message>
+    </messages>
+    <transHashSha2/>
+    <networkTransId>PVG91FDSMDF28GGRM5CEL82</networkTransId>
+  </transactionResponse>
+</createTransactionResponse>
+

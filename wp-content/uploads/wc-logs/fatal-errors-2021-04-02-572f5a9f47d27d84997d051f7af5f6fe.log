@@ -1,0 +1,2 @@
+2021-04-02T01:12:53+00:00 CRITICAL Cannot redeclare org\lecklider\charles\wordpress\wp_fail2ban\openlog() (previously declared in /var/www/html/wp-content/mu-plugins/wp-fail2ban.php:68) in /var/www/html/wp-content/plugins/wp-fail2ban/functions.php on line 51
+

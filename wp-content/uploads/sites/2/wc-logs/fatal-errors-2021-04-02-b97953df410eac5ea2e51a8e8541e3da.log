@@ -1,0 +1,36 @@
+2021-04-02T06:47:35+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wallbuilders/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wallbuilders/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wallbuilders/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wallbuilders/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wallbuilders/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wallbuilders/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wallbuilders/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wallbuilders/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wallbuilders/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wallbuilders/wp-includes/class-wp.p in /var/www/html/wallbuilders/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-02T06:48:34+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wallbuilders/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wallbuilders/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wallbuilders/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wallbuilders/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wallbuilders/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wallbuilders/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wallbuilders/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wallbuilders/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wallbuilders/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wallbuilders/wp-includes/class-wp.p in /var/www/html/wallbuilders/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-02T10:57:20+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wallbuilders/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wallbuilders/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wallbuilders/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wallbuilders/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wallbuilders/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wallbuilders/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wallbuilders/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wallbuilders/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wallbuilders/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wallbuilders/wp-includes/class-wp.p in /var/www/html/wallbuilders/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+

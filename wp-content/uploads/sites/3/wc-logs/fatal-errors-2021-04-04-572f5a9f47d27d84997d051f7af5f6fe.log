@@ -1,0 +1,9 @@
+2021-04-04T12:41:56+00:00 CRITICAL Uncaught Error: Class 'Astra_Control_Responsive_Color' not found in /var/www/html/wp-includes/class-wp-customize-manager.php:4121
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(292): WP_Customize_Manager->render_control_templates()
+#1 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#2 /var/www/html/wp-includes/plugin.php(484): WP_Hook->do_action()
+#3 /var/www/html/wp-admin/customize.php(281): do_action()
+#4 {main}
+  thrown in /var/www/html/wp-includes/class-wp-customize-manager.php on line 4121
+

@@ -1,0 +1,40 @@
+.wdgk_donation_content {
+    margin: 10px 2px;
+}
+.wdgk_donation_content input.wdgk_donation {
+    width: 120px;
+	height: 40px;
+	padding: .618em 1em;
+	margin-bottom: 3px;
+	display: table;
+}
+
+.wdgk_donation_content a.button.wdgk_add_donation {
+    width: auto;
+    height: auto;
+    border: 0;
+    font-weight: 700;
+    border-radius: 3px;
+    cursor: pointer;
+    line-height: 1;
+    padding: .600em 1em;
+    margin: 4px 4px 4px 0px;
+   
+}
+.wdgk_error_front {
+    color: red;
+}
+
+.wdgk_loader_img
+{
+	display: none !important; 
+}
+.wdgk_loader{
+    margin: 5px;
+    width: auto !important;
+}
+.donation_note
+{
+	  max-width: 300px;
+    display: table;
+}

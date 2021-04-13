@@ -1,0 +1,132 @@
+/* Extensions CSS */
+.rfbwp-ext-wrap {
+	padding: 20px 0;
+}
+.rfbwp-ext-wrap a,
+.rfbwp-ext-wrap a:focus {
+	display: inline-block;
+	outline: 0;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.rfbwp-ext-wrap .rfbwp-ext-item {
+	max-width: 590px;
+	min-width: 400px;
+	padding: 10px;
+	margin: 0 30px 30px 0;
+	background: #f7f7f7;
+	display: inline-block;
+	position: relative;
+}
+.rfbwp-ext-wrap .rfbwp-ext-item:hover {
+	background: #e7e7e7;
+	cursor: pointer;
+}
+.rfbwp-ext-item.rfbwp-item-coming {
+	opacity: .3;
+}
+.rfbwp-ext-item img {
+	width: 100%;
+	height: auto;
+	vertical-align: middle;
+}
+.rfbwp-ext-item .rfbwp-item-details {
+	padding-top: 10px;
+}
+
+.rfbwp-item-details .rfbwp-item-title {
+	font-size: 22px;
+	font-weight: 300;
+	font-family: 'Open Sans';
+	line-height: 40px;
+	margin-left: 10px;
+}
+
+.rfbwp-item-title em {
+	font-size: .5em;
+	display: inline-block;
+	background: #2997c3;
+	color: #ffffff;
+	padding: 0 8px;
+	line-height: 24px;
+	position: relative;
+	top: -3px;
+	left: 5px;
+}
+
+.rfbwp-item-details .rfbwp-item-actions {
+	float: right;
+}
+
+.rfbwp-item-actions .rfbwp-item-button {
+	display: inline-block;
+	text-decoration: none;
+	background: #666666;
+	color: #ffffff;
+	padding: 0 15px;
+	margin: 0 0 0 10px;
+}
+.rfbwp-item-actions .rfbwp-item-button i {
+	margin-right: 4px;
+}
+.rfbwp-item-actions .rfbwp-item-button,
+.rfbwp-item-actions .rfbwp-item-button i {
+	font-size: 16px;
+	line-height: 40px;	
+}
+.rfbwp-item-button.rfbwp-item-purchase {
+	background: #00b16a;
+}
+.rfbwp-item-actions .rfbwp-item-button:hover {
+	background: #2997c3;
+}
+.rfbwp-item-button.rfbwp-item-purchase:hover {
+	background: #666666;
+}
+
+.rfbwp-ext-item .rfbwp-item-badge {
+	position: absolute;
+	display: inline-block;
+	top: 25px;
+	right: 0;
+	padding: 0 10px;
+	text-transform: uppercase;
+	color: #ffffff;
+	background: #2997c3;
+	font-size: 12px;
+	height: 26px;
+	line-height: 26px;
+}
+.rfbwp-ext-item .rfbwp-item-badge:before {
+	position: absolute;
+	left: -13px;
+	top: 0;
+	display: block;
+	content: " ";
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 13px 13px 13px 0;
+	border-color: transparent #2997c3 transparent transparent;
+}
+.rfbwp-item-badge.rfbwp-badge-new {
+	background: #00b16a;
+}
+.rfbwp-item-badge.rfbwp-badge-new:before {
+	border-right-color: #00b16a;
+}
+
+.rfbwp-ext-item:hover .rfbwp-item-badge {
+	padding-right: 20px;
+}
+
+.rfbwp-ext-wrap .rfbwp-ext-item,
+.rfbwp-item-actions .rfbwp-item-button,
+.rfbwp-ext-item .rfbwp-item-badge {
+	-webkit-transition: all .25s ease-in-out;
+	-moz-transition: all .25s ease-in-out;
+	-ms-transition: all .25s ease-in-out;
+	-o-transition: all .25s ease-in-out;
+	transition: all .25s ease-in-out;
+}

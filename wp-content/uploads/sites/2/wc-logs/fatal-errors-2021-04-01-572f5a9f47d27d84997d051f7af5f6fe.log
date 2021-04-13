@@ -1,0 +1,2002 @@
+2021-04-01T11:29:13+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T11:29:18+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T11:29:29+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T11:29:31+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T11:29:37+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T11:30:53+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T11:31:09+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T11:31:21+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T11:31:42+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T11:31:48+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T11:31:56+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T11:32:13+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T11:33:00+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T11:33:12+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T11:33:16+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T11:33:43+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T11:33:51+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T11:34:04+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T11:34:08+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T11:34:20+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T11:35:34+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T11:36:25+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T11:36:34+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T11:36:44+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T11:36:59+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T11:40:50+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T11:40:59+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T11:41:08+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T11:41:31+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T11:41:40+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T11:41:48+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T11:42:45+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T11:43:04+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T11:43:08+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T11:43:23+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T11:43:36+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T11:43:40+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T11:43:45+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T11:43:47+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T11:44:10+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T11:44:55+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T11:45:19+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T11:46:25+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T11:46:45+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T11:50:36+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T11:50:43+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T11:50:59+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T11:51:18+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T11:51:19+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T11:51:26+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T11:51:28+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T11:51:36+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T11:51:39+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T11:51:42+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T11:52:00+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T11:52:34+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T11:53:11+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T11:53:16+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T11:53:34+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T11:53:41+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T11:53:46+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T11:53:52+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T11:54:04+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T11:54:15+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T11:54:22+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T11:54:43+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T11:55:30+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T11:55:54+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T11:56:12+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T11:57:33+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T11:59:05+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T11:59:19+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T12:00:12+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T12:00:20+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T12:02:49+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T12:02:55+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T12:03:14+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T12:03:19+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T12:05:30+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T12:06:07+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T12:06:15+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T12:06:35+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T12:06:38+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T12:07:25+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T12:07:28+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T12:08:12+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T12:08:25+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T12:08:32+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T12:08:43+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T12:08:57+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T12:10:14+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T12:10:19+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T12:10:29+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T12:10:41+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T12:11:47+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T12:14:14+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T12:14:25+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T12:14:47+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T12:15:17+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T12:15:26+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T12:17:42+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T12:17:51+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T12:17:57+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T12:18:34+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T12:19:04+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T12:19:21+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T12:20:30+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T12:21:08+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T12:21:16+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T12:21:19+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T12:21:26+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T12:21:26+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T12:21:31+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T12:21:34+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T12:21:41+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T12:21:41+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T12:21:47+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T12:33:51+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T12:34:14+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T12:34:40+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T12:35:34+00:00 CRITICAL Uncaught Error: Call to undefined method EventFunctons::update_contact_paster_form_data() in /var/www/html/wp-content/plugins/samadhan-events-schedular/views/scheduler_forms.php:1887
+Stack trace:
+#0 /var/www/html/wp-includes/shortcodes.php(343): scheduleView\SMDNSchedularFormView::get_contact_form_pastor()
+#1 [internal function]: do_shortcode_tag()
+#2 /var/www/html/wp-includes/shortcodes.php(218): preg_replace_callback()
+#3 /var/www/html/wp-includes/class-wp-hook.php(292): do_shortcode()
+#4 /var/www/html/wp-includes/plugin.php(212): WP_Hook->apply_filters()
+#5 /var/www/html/wp-includes/post-template.php(253): apply_filters()
+#6 /var/www/html/wp-content/themes/astra/template-parts/content-page.php(54): the_content()
+#7 /var/www/html/wp-includes/template.php(732): require('/var/www/html/w...')
+#8 /var/www/html/wp-includes/template.php(676): load_template()
+#9 /var/www/html/wp-includes/general-template.php(204): locate_template()
+#10 /var/www/html/wp-content/themes/astra/inc/class-astra-loop.php(109): get_templa in /var/www/html/wp-content/plugins/samadhan-events-schedular/views/scheduler_forms.php on line 1887
+
+2021-04-01T12:36:04+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T12:36:10+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T12:36:32+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T12:36:41+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T12:37:00+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T21:03:42+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T21:04:04+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T21:04:14+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T21:04:46+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T21:04:52+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T21:05:01+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T21:05:06+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T21:05:39+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T21:05:46+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T21:12:10+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T21:12:16+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T21:19:21+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T21:19:43+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T21:19:55+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T21:20:07+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T21:20:20+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+
+2021-04-01T21:20:34+00:00 CRITICAL Uncaught Error: Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php:673
+Stack trace:
+#0 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1139): EventFunctons::getEventDataById()
+#1 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request()
+#2 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch()
+#3 /var/www/html/wp-includes/rest-api.php(354): WP_REST_Server->serve_request()
+#4 /var/www/html/wp-includes/class-wp-hook.php(292): rest_api_loaded()
+#5 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#6 /var/www/html/wp-includes/plugin.php(551): WP_Hook->do_action()
+#7 /var/www/html/wp-includes/class-wp.php(388): do_action_ref_array()
+#8 /var/www/html/wp-includes/class-wp.php(750): WP->parse_request()
+#9 /var/www/html/wp-includes/functions.php(1291): WP->main()
+#10 /var/www/html/wp-blog-header.php(16) in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 673
+

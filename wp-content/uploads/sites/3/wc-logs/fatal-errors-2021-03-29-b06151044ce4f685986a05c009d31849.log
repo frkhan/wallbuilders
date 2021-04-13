@@ -1,0 +1,2 @@
+2021-03-29T13:15:27+00:00 CRITICAL Object of class WP_REST_Request could not be converted to string in /var/www/html/wp-content/plugins/samadhan-events-schedular/includes/functions.php on line 621
+

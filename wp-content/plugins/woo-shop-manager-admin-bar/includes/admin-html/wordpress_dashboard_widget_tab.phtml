@@ -1,0 +1,65 @@
+<?php
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}
+?>
+<section id="sma_content2" class="sma_tab_section">
+ 	<div class="sma_tab_inner_container">
+		<form method="post" action="options.php" id="sma_dashboard_tab_form">
+       		<?php
+			global $wp_roles;
+     		$roles = $wp_roles->get_names();														
+			?>    
+			<table class="form-table" style="border-bottom: 0;">	
+				<thead>
+					<tr>
+						<th class="sma_tab_heading remove_right_border"><?php _e( 'WordPress Dashboard Widgets', 'woocommerce-shop-manager-admin-bar' ); ?></th>
+						<td>
+							<div class="spinner" style="float:right;"></div>
+						</td>
+					</tr>
+				</thead>
+			</table>
+       		<table class="form-table">		
+				<thead>
+					<tr>
+						<th>Widget</th>
+						<th class="sma_wp_dash_widget_heading">Administrator</th>
+						<th class="sma_wp_dash_widget_heading">Shop Manager</th>
+					</tr>
+				</thead>					
+				<?php echo $this->get_html2( $this->get_dashboard_tab_data() ); ?>								
+			</table>
+            <?php wp_nonce_field( 'dashboard_form_action', 'dashboard_form_nonce_field' ); ?>
+            <input type="hidden" name="action" value="sma_update_dashboard_widget">
+       	</form>
+	</div>
+</section>
+<script>
+/* checkbox event */
+jQuery(document).on("click", ".toggle_td input.remove_woocommerce_dashboard_status", function(){
+    if (jQuery(this).is(':checked') ) {
+    } else {
+		jQuery('.sub_option .sub_option_admin_checkbox input.tgl.tgl-flat').prop('checked', false);
+    }
+});
+jQuery(document).on("click", ".sub_option .sub_option_admin_checkbox input.tgl.tgl-flat", function(){
+	"use strict";
+    if (jQuery(this).is(':checked') ) {
+	    jQuery('.toggle_td input.remove_woocommerce_dashboard_status').prop('checked', true);
+    }
+}); 
+
+jQuery(document).on("click", ".toggle_td input.remove_woocommerce_dashboard_status_sm", function(){
+    if (jQuery(this).is(':checked') ) {
+    } else {
+		jQuery('.sub_option .sub_option_shopmanager_checkbox input.tgl.tgl-flat').prop('checked', false);
+    }
+});
+jQuery(document).on("click", ".sub_option .sub_option_shopmanager_checkbox input.tgl.tgl-flat", function(){
+	"use strict";
+    if (jQuery(this).is(':checked') ) {
+	    jQuery('.toggle_td input.remove_woocommerce_dashboard_status_sm').prop('checked', true);
+    }
+});
+</script>

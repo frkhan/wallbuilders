@@ -1,0 +1,196 @@
+04-01-2021 @ 21:45:28 - Request
+method: POST
+uri: https://apitest.authorize.net/xml/v1/request.api
+user-agent: WooCommerce-Authorize.Net-Gateway/3.0.5 (WooCommerce/4.9.2; WordPress/5.7)
+headers: Array
+(
+    [content-type] => application/xml
+    [accept] => application/xml
+)
+body: <?xml version="1.0" encoding="UTF-8"?>
+<getMerchantDetailsRequest xmlns="AnetApi/xml/v1/schema/AnetApiSchema.xsd">
+  <merchantAuthentication>
+    <name>***********</name>
+    <transactionKey>****************</transactionKey>
+  </merchantAuthentication>
+</getMerchantDetailsRequest>
+duration: 0.28487s
+
+04-01-2021 @ 21:45:28 - Response
+code: 200
+message: OK
+headers: Array
+(
+    [cache-control] => no-store
+    [pragma] => no-cache
+    [content-type] => application/xml; charset=utf-8
+    [x-opnet-transaction-trace] => a2_58f87a90-c499-4593-9444-0a8829c2e07b-10584-12523303
+    [access-control-allow-credentials] => true
+    [access-control-allow-headers] => x-requested-with,cache-control,content-type,origin,method,SOAPAction
+    [access-control-allow-methods] => PUT,OPTIONS,POST,GET
+    [access-control-allow-origin] => *
+    [strict-transport-security] => max-age=31536000
+    [x-cnection] => close
+    [date] => Thu, 01 Apr 2021 21:45:28 GMT
+    [content-length] => 1659
+)
+body: <?xml version="1.0" encoding="utf-8"?>
+<getMerchantDetailsResponse>
+  <messages>
+    <resultCode>Ok</resultCode>
+    <message>
+      <code>I00001</code>
+      <text>Successful.</text>
+    </message>
+  </messages>
+  <isTestMode>false</isTestMode>
+  <processors>
+    <processor>
+      <name>First Data Nashville</name>
+      <id>2</id>
+      <cardTypes>
+        <cardType>A</cardType>
+        <cardType>D</cardType>
+        <cardType>J</cardType>
+        <cardType>M</cardType>
+        <cardType>V</cardType>
+      </cardTypes>
+    </processor>
+  </processors>
+  <merchantName>Fazlur  Khan</merchantName>
+  <gatewayId>777163</gatewayId>
+  <marketTypes>
+    <marketType>eCommerce</marketType>
+  </marketTypes>
+  <productCodes>
+    <productCode>CNP</productCode>
+  </productCodes>
+  <paymentMethods>
+    <paymentMethod>AmericanExpress</paymentMethod>
+    <paymentMethod>Discover</paymentMethod>
+    <paymentMethod>Echeck</paymentMethod>
+    <paymentMethod>JCB</paymentMethod>
+    <paymentMethod>MasterCard</paymentMethod>
+    <paymentMethod>Visa</paymentMethod>
+  </paymentMethods>
+  <currencies>
+    <currency>USD</currency>
+  </currencies>
+  <publicClientKey>8uL784vefeGgNMP65mJm4aCxnUz428LZK9zk99VDan7m9NHFxvJxz7sgMzN9hFN9</publicClientKey>
+  <businessInformation>
+    <company>Fazlur  Khan</company>
+    <address>1 Main Street</address>
+    <city>Bellevue</city>
+    <state>WA</state>
+    <zip>98004</zip>
+    <country>US</country>
+    <phoneNumber>425-555-1212</phoneNumber>
+  </businessInformation>
+  <merchantTimeZone>America/Los_Angeles</merchantTimeZone>
+  <contactDetails>
+    <contactDetail>
+      <email>Fazlur.Khan34@gmail.com</email>
+      <firstName>TestFirstName</firstName>
+      <lastName>TestLastName</lastName>
+    </contactDetail>
+  </contactDetails>
+</getMerchantDetailsResponse>
+
+04-01-2021 @ 21:47:00 - Request
+method: POST
+uri: https://apitest.authorize.net/xml/v1/request.api
+user-agent: WooCommerce-Authorize.Net-Gateway/3.0.5 (WooCommerce/4.9.2; WordPress/5.7)
+headers: Array
+(
+    [content-type] => application/xml
+    [accept] => application/xml
+)
+body: <?xml version="1.0" encoding="UTF-8"?>
+<getMerchantDetailsRequest xmlns="AnetApi/xml/v1/schema/AnetApiSchema.xsd">
+  <merchantAuthentication>
+    <name>***********</name>
+    <transactionKey>****************</transactionKey>
+  </merchantAuthentication>
+</getMerchantDetailsRequest>
+duration: 0.24743s
+
+04-01-2021 @ 21:47:00 - Response
+code: 200
+message: OK
+headers: Array
+(
+    [cache-control] => no-store
+    [pragma] => no-cache
+    [content-type] => application/xml; charset=utf-8
+    [x-opnet-transaction-trace] => a2_39c6c6bf-a002-4086-8218-8cdedb82ab84-10220-12530758
+    [access-control-allow-credentials] => true
+    [access-control-allow-headers] => x-requested-with,cache-control,content-type,origin,method,SOAPAction
+    [access-control-allow-methods] => PUT,OPTIONS,POST,GET
+    [access-control-allow-origin] => *
+    [strict-transport-security] => max-age=31536000
+    [x-cnection] => close
+    [date] => Thu, 01 Apr 2021 21:47:00 GMT
+    [content-length] => 1659
+)
+body: <?xml version="1.0" encoding="utf-8"?>
+<getMerchantDetailsResponse>
+  <messages>
+    <resultCode>Ok</resultCode>
+    <message>
+      <code>I00001</code>
+      <text>Successful.</text>
+    </message>
+  </messages>
+  <isTestMode>false</isTestMode>
+  <processors>
+    <processor>
+      <name>First Data Nashville</name>
+      <id>2</id>
+      <cardTypes>
+        <cardType>A</cardType>
+        <cardType>D</cardType>
+        <cardType>J</cardType>
+        <cardType>M</cardType>
+        <cardType>V</cardType>
+      </cardTypes>
+    </processor>
+  </processors>
+  <merchantName>Fazlur  Khan</merchantName>
+  <gatewayId>777163</gatewayId>
+  <marketTypes>
+    <marketType>eCommerce</marketType>
+  </marketTypes>
+  <productCodes>
+    <productCode>CNP</productCode>
+  </productCodes>
+  <paymentMethods>
+    <paymentMethod>AmericanExpress</paymentMethod>
+    <paymentMethod>Discover</paymentMethod>
+    <paymentMethod>Echeck</paymentMethod>
+    <paymentMethod>JCB</paymentMethod>
+    <paymentMethod>MasterCard</paymentMethod>
+    <paymentMethod>Visa</paymentMethod>
+  </paymentMethods>
+  <currencies>
+    <currency>USD</currency>
+  </currencies>
+  <publicClientKey>8uL784vefeGgNMP65mJm4aCxnUz428LZK9zk99VDan7m9NHFxvJxz7sgMzN9hFN9</publicClientKey>
+  <businessInformation>
+    <company>Fazlur  Khan</company>
+    <address>1 Main Street</address>
+    <city>Bellevue</city>
+    <state>WA</state>
+    <zip>98004</zip>
+    <country>US</country>
+    <phoneNumber>425-555-1212</phoneNumber>
+  </businessInformation>
+  <merchantTimeZone>America/Los_Angeles</merchantTimeZone>
+  <contactDetails>
+    <contactDetail>
+      <email>Fazlur.Khan34@gmail.com</email>
+      <firstName>TestFirstName</firstName>
+      <lastName>TestLastName</lastName>
+    </contactDetail>
+  </contactDetails>
+</getMerchantDetailsResponse>
+

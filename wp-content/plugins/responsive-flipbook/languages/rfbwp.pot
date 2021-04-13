@@ -1,0 +1,2272 @@
+# Loco Gettext template
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Responsive FlipBook WordPress Plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: Mon May 11 2015 13:26:54 GMT+0100 (Środkowoeuropejski "
+"czas stand.)\n"
+"POT-Revision-Date: Mon May 11 2015 13:27:05 GMT+0100 (Środkowoeuropejski "
+"czas stand.)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: ../index.php:180
+msgid "Oops! You need to specify flip book id inside the shortcode."
+msgstr ""
+
+#: ../index.php:187
+msgid "ERROR: You should create the Flipbook first."
+msgstr ""
+
+#: ../index.php:199 ../index.php:648
+msgid "ERROR: There is no book with ID"
+msgstr ""
+
+#: ../index.php:263
+msgid "toc"
+msgstr ""
+
+#: ../index.php:264
+msgid "zoom"
+msgstr ""
+
+#: ../index.php:265 ../index.php:269 ../index.php:271
+msgid "exit"
+msgstr ""
+
+#: ../index.php:266
+msgid "play"
+msgstr ""
+
+#: ../index.php:267
+msgid "stop"
+msgstr ""
+
+#: ../index.php:268
+msgid "all"
+msgstr ""
+
+#: ../index.php:270
+msgid "full"
+msgstr ""
+
+#: ../index.php:272
+msgid "save"
+msgstr ""
+
+#: ../index.php:498
+msgid "ERROR: The shelf is empty"
+msgstr ""
+
+#: ../index.php:622
+msgid "ERROR: The popup is empty"
+msgstr ""
+
+#: ../includes/vc-shortcodes.php:22
+msgid "Flipbook"
+msgstr ""
+
+#: ../includes/vc-shortcodes.php:26 ../includes/vc-shortcodes.php:44 ..
+#: /includes/vc-shortcodes.php:70
+msgid "MPC"
+msgstr ""
+
+#: ../includes/vc-shortcodes.php:30 ../includes/vc-shortcodes.php:48 ..
+#: /tinymce/setup.php:24
+msgid "Select Flip Book"
+msgstr ""
+
+#: ../includes/vc-shortcodes.php:34 ../includes/vc-shortcodes.php:52
+msgid "Select which FlipBook you would like to display."
+msgstr ""
+
+#: ../includes/vc-shortcodes.php:40
+msgid "Flipbook Popup"
+msgstr ""
+
+#: ../includes/vc-shortcodes.php:56
+msgid "Popup content"
+msgstr ""
+
+#: ../includes/vc-shortcodes.php:60
+msgid "Specify text to trigger popup Flipbook."
+msgstr ""
+
+#: ../includes/vc-shortcodes.php:66
+msgid "Flipbook Shelf"
+msgstr ""
+
+#: ../includes/vc-shortcodes.php:74 ../tinymce/setup.php:37
+msgid "Select flip books"
+msgstr ""
+
+#: ../includes/vc-shortcodes.php:76
+msgid "Select which FlipBooks you would like to display."
+msgstr ""
+
+#: ../includes/vc-shortcodes.php:85 ../tinymce/setup.php:43
+msgid "Select style"
+msgstr ""
+
+#: ../includes/vc-shortcodes.php:88 ../tinymce/setup.php:46
+msgid "Classic"
+msgstr ""
+
+#: ../includes/vc-shortcodes.php:89 ../tinymce/setup.php:47
+msgid "Light Wood"
+msgstr ""
+
+#: ../includes/vc-shortcodes.php:90 ../tinymce/setup.php:48
+msgid "Dark Wood"
+msgstr ""
+
+#: ../includes/vc-shortcodes.php:91 ../tinymce/setup.php:49
+msgid "Custom Color"
+msgstr ""
+
+#: ../includes/vc-shortcodes.php:92 ../tinymce/setup.php:50
+msgid "Custom Image"
+msgstr ""
+
+#: ../includes/vc-shortcodes.php:95
+msgid "Select which shelf style you would like to display."
+msgstr ""
+
+#: ../includes/vc-shortcodes.php:100 ../tinymce/setup.php:55
+msgid "Shelf color"
+msgstr ""
+
+#: ../includes/vc-shortcodes.php:101 ../tinymce/setup.php:56
+msgid "Select shelf custom color"
+msgstr ""
+
+#: ../includes/vc-shortcodes.php:112 ../tinymce/setup.php:61
+msgid "Shelf image"
+msgstr ""
+
+#: ../includes/vc-shortcodes.php:113 ../tinymce/setup.php:62
+msgid "Select shelf custom image"
+msgstr ""
+
+#: ../massive-panel/extensions.php:28
+msgid "Did you know?"
+msgstr ""
+
+#: ../massive-panel/extensions.php:29
+msgid ""
+"Responsive Flipbook plugin has support for extensions like <strong>PDF "
+"Wizard</strong> or <strong>Print</strong>. Click <a href=\"admin.php?page=mp-"
+"settings-ext\">here</a> for more information!"
+msgstr ""
+
+#: ../massive-panel/extensions.php:40
+msgid "Responsive Flipbook Extensions"
+msgstr ""
+
+#: ../massive-panel/extensions.php:40
+msgid "Extensions"
+msgstr ""
+
+#: ../massive-panel/mpc-uploader.php:27
+msgid "Massive Panel Internal Container"
+msgstr ""
+
+#: ../massive-panel/mpc-uploader.php:167
+msgid "Upload Image"
+msgstr ""
+
+#: ../massive-panel/mpc-uploader.php:208
+msgid "Upload File"
+msgstr ""
+
+#: ../massive-panel/mpc-uploader.php:253
+msgid "Upload Asset"
+msgstr ""
+
+#: ../massive-panel/mpc-uploader.php:416
+msgid "Gallery"
+msgstr ""
+
+#: ../massive-panel/mpc-uploader.php:416
+msgid "Previously Uploaded"
+msgstr ""
+
+#: ../massive-panel/theme-interface.php:535
+msgid "default"
+msgstr ""
+
+#: ../massive-panel/theme-interface.php:684 ../massive-panel/theme-interface.php:
+#: 691
+msgid "Books Shelf"
+msgstr ""
+
+#: ../massive-panel/theme-interface.php:685 ../massive-panel/theme-interface.php:
+#: 692
+msgid "Books Settings"
+msgstr ""
+
+#: ../massive-panel/theme-interface.php:686 ../massive-panel/theme-interface.php:
+#: 693
+msgid "Add Pages"
+msgstr ""
+
+#: ../massive-panel/theme-interface.php:687 ../massive-panel/theme-interface.php:
+#: 694 ../massive-panel/theme-settings.php:246 ../massive-panel/theme-settings.
+#: php:248
+msgid "Save Settings"
+msgstr ""
+
+#: ../massive-panel/theme-interface.php:834 ../massive-panel/theme-interface.php:
+#: 889
+msgid "Create New Book"
+msgstr ""
+
+#: ../massive-panel/theme-interface.php:860 ../massive-panel/theme-options.php:100
+msgid "Name"
+msgstr ""
+
+#: ../massive-panel/theme-interface.php:862
+msgid "<span>ERROR:</span> Give your book a unique name!"
+msgstr ""
+
+#: ../massive-panel/theme-interface.php:865
+msgid "Shortcode"
+msgstr ""
+
+#: ../massive-panel/theme-interface.php:871
+msgid ""
+"<span>NOTE:</span> Shortcode cannot be generated because Flip Book does not "
+"have a name."
+msgstr ""
+
+#: ../massive-panel/theme-interface.php:876
+msgid "Edit Settings"
+msgstr ""
+
+#: ../massive-panel/theme-interface.php:877
+msgid "Edit Pages"
+msgstr ""
+
+#: ../massive-panel/theme-interface.php:878
+msgid "Delete Book"
+msgstr ""
+
+#: ../massive-panel/theme-interface.php:924 ../massive-panel/theme-settings.php:80
+msgid "Add New Page"
+msgstr ""
+
+#: ../massive-panel/theme-interface.php:925 ../massive-panel/theme-settings.php:81
+msgid "Edit Page"
+msgstr ""
+
+#: ../massive-panel/theme-interface.php:926 ../massive-panel/theme-options.php:
+#: 1762 ../massive-panel/theme-options.php:1766
+msgid "Page Preview"
+msgstr ""
+
+#: ../massive-panel/theme-interface.php:927 ../massive-panel/theme-settings.php:83
+msgid "Delete Page"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:15 ../massive-panel/theme-options.php:1947
+msgid "Support"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:16
+msgid "Facebook"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:17
+msgid "Twitter"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:38
+msgid "One"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:38
+msgid "Two"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:38
+msgid "Three"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:38
+msgid "Four"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:38
+msgid "Five"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:39
+msgid "Lightbox"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:39
+msgid "Link to Post"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:60
+msgid "Blog"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:60 ../massive-panel/theme-options.php:196
+msgid "Portfolio"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:75 ../massive-panel/theme-settings.php:139
+msgid "Flip Books"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:76
+msgid "All settings"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:83 ../massive-panel/theme-options.php:88
+msgid "Books"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:101
+msgid "Book Name: "
+msgstr ""
+
+#: ../massive-panel/theme-options.php:104
+msgid ""
+"Flip book name is used to generate a unique shortcode for the book (NOTE: "
+"Please use only laters, numbers and spaces), width and height are used to "
+"specify books dimantions."
+msgstr ""
+
+#: ../massive-panel/theme-options.php:111
+msgid "Main"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:115 ../massive-panel/theme-options.php:116
+msgid "Page Width:"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:123 ../massive-panel/theme-options.php:136 .
+#: ./massive-panel/theme-options.php:218 ../massive-panel/theme-options.php:244 ..
+#: /massive-panel/theme-options.php:407 ../massive-panel/theme-options.php:418 ..
+#: /massive-panel/theme-options.php:453 ../massive-panel/theme-options.php:475 ..
+#: /massive-panel/theme-options.php:486 ../massive-panel/theme-options.php:542 ..
+#: /massive-panel/theme-options.php:553 ../massive-panel/theme-options.php:609 ..
+#: /massive-panel/theme-options.php:620 ../massive-panel/theme-options.php:660 ..
+#: /massive-panel/theme-options.php:687 ../massive-panel/theme-options.php:745 ..
+#: /massive-panel/theme-options.php:771 ../massive-panel/theme-options.php:786 ..
+#: /massive-panel/theme-options.php:799 ../massive-panel/theme-options.php:824 ..
+#: /massive-panel/theme-options.php:1237 ../massive-panel/theme-options.php:1248 .
+#: ./massive-panel/theme-options.php:1259 ../massive-panel/theme-options.php:1270 
+#: ../massive-panel/theme-options.php:1281 ../massive-panel/theme-options.php:
+#: 1392 ../massive-panel/theme-options.php:1427 ../massive-panel/theme-options.
+#: php:1522 ../massive-panel/theme-options.php:1533 ../massive-panel/theme-
+#: options.php:1576 ../massive-panel/theme-options.php:1591 ../massive-
+#: panel/theme-options.php:1603 ../massive-panel/theme-options.php:1618
+msgid "px"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:128
+msgid "Book Height:"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:129
+msgid "Page Height:"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:141
+msgid "Always open"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:142
+msgid "Always open:"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:148
+msgid "Select this option to prevent the book from closing."
+msgstr ""
+
+#: ../massive-panel/theme-options.php:153
+msgid "Enable Page Turn Sound"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:154
+msgid "Enable Page Turn Sound:"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:160
+msgid "Select this option to enable page turn sound effect."
+msgstr ""
+
+#: ../massive-panel/theme-options.php:178
+msgid "Predefined Book Style"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:179
+msgid "Predefined Book Style:"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:185
+msgid "None"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:186
+msgid "Alice"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:187
+msgid "Brochure"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:188
+msgid "Catalogue"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:189
+msgid "Comic Book"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:190
+msgid "Company Brochure"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:191
+msgid "Flyer"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:192
+msgid "Lookbook"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:193
+msgid "Magazine"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:194
+msgid "Main Preview"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:195 ../_THEME/landing_fb/header.php:57
+msgid "Menu"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:199
+msgid ""
+"Select predefined style for your Book. You can modify each of the settings "
+"after."
+msgstr ""
+
+#: ../massive-panel/theme-options.php:211
+msgid "Border size"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:212 ../massive-panel/theme-options.php:793
+msgid "Border size:"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:220
+msgid "Set up books border, it's color and radius."
+msgstr ""
+
+#: ../massive-panel/theme-options.php:224
+msgid "Decorations"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:228 ../massive-panel/theme-options.php:671 .
+#: ./massive-panel/theme-options.php:754 ../massive-panel/theme-options.php:808
+msgid "Border color:"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:229
+msgid "Border color: "
+msgstr ""
+
+#: ../massive-panel/theme-options.php:238
+msgid "Book Border Radius"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:239
+msgid "Border radius: "
+msgstr ""
+
+#: ../massive-panel/theme-options.php:250
+msgid "Book Outline"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:251
+msgid "Book outline: "
+msgstr ""
+
+#: ../massive-panel/theme-options.php:257
+msgid "Set up books outline - line displayed outside the border."
+msgstr ""
+
+#: ../massive-panel/theme-options.php:263 ../massive-panel/theme-options.php:299
+msgid "Outline Color"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:264 ../massive-panel/theme-options.php:300 .
+#: ./massive-panel/theme-options.php:843
+msgid "Outline color:"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:274
+msgid "Inner Page Shadows"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:275
+msgid "Inner page shadow"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:280
+msgid "Enable/Disable book inner shadow"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:286
+msgid "Edge Page Outline"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:287
+msgid "Edge page outline"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:292
+msgid ""
+"Enable/Disable page edge outline - it is used to create 3D like feeling. If "
+"you don't have border around your book we suggest disabling this feature."
+msgstr ""
+
+#: ../massive-panel/theme-options.php:310 ../massive-panel/theme-options.php:1121
+msgid "Fullscreen"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:311
+msgid "Fullscreen Overlay"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:316
+msgid ""
+"Specify the fullscreen overlay opacity, color and color of the 'X' (close) "
+"icon."
+msgstr ""
+
+#: ../massive-panel/theme-options.php:325
+msgid "Opacity"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:326
+msgid "Opacity:"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:335 ../massive-panel/theme-options.php:336
+msgid "Reverse 'X' Color"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:346 ../massive-panel/theme-options.php:347
+msgid "New Table of Content style"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:352
+msgid "Enable this option to use new Table of Content style."
+msgstr ""
+
+#: ../massive-panel/theme-options.php:365
+msgid "Heading Font"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:366
+msgid "Heading Font:"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:372
+msgid "Specify the font size, font family for headings."
+msgstr ""
+
+#: ../massive-panel/theme-options.php:376
+msgid "Fonts Settings"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:380 ../massive-panel/theme-options.php:447 .
+#: ./massive-panel/theme-options.php:515 ../massive-panel/theme-options.php:582
+msgid "Family"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:381 ../massive-panel/theme-options.php:448 .
+#: ./massive-panel/theme-options.php:516 ../massive-panel/theme-options.php:583
+msgid "Family:"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:390 ../massive-panel/theme-options.php:458 .
+#: ./massive-panel/theme-options.php:525 ../massive-panel/theme-options.php:592 ..
+#: /massive-panel/theme-options.php:1468
+msgid "Style"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:391 ../massive-panel/theme-options.php:459 .
+#: ./massive-panel/theme-options.php:526 ../massive-panel/theme-options.php:593 ..
+#: /massive-panel/theme-options.php:1469
+msgid "Style:"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:397 ../massive-panel/theme-options.php:465 .
+#: ./massive-panel/theme-options.php:532 ../massive-panel/theme-options.php:599
+msgid "Regular"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:397 ../massive-panel/theme-options.php:465 .
+#: ./massive-panel/theme-options.php:532 ../massive-panel/theme-options.php:599
+msgid "Bold"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:397 ../massive-panel/theme-options.php:465 .
+#: ./massive-panel/theme-options.php:532 ../massive-panel/theme-options.php:599
+msgid "Italic"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:397 ../massive-panel/theme-options.php:465 .
+#: ./massive-panel/theme-options.php:532 ../massive-panel/theme-options.php:599
+msgid "Bold Italic"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:401 ../massive-panel/theme-options.php:469 .
+#: ./massive-panel/theme-options.php:536 ../massive-panel/theme-options.php:603 ..
+#: /massive-panel/theme-options.php:1516
+msgid "Size"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:402 ../massive-panel/theme-options.php:470 .
+#: ./massive-panel/theme-options.php:537 ../massive-panel/theme-options.php:604 ..
+#: /massive-panel/theme-options.php:1517
+msgid "Size:"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:412 ../massive-panel/theme-options.php:413 .
+#: ./massive-panel/theme-options.php:480 ../massive-panel/theme-options.php:481 ..
+#: /massive-panel/theme-options.php:547 ../massive-panel/theme-options.php:548 ..
+#: /massive-panel/theme-options.php:614 ../massive-panel/theme-options.php:615
+msgid "Line Height:"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:423 ../massive-panel/theme-options.php:491 .
+#: ./massive-panel/theme-options.php:558 ../massive-panel/theme-options.php:625 ..
+#: /massive-panel/theme-options.php:1309 ../massive-panel/theme-options.php:1343 .
+#: ./massive-panel/theme-options.php:1377 ../massive-panel/theme-options.php:1411 
+#: ../massive-panel/theme-options.php:1506
+msgid "Color"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:424 ../massive-panel/theme-options.php:492 .
+#: ./massive-panel/theme-options.php:559 ../massive-panel/theme-options.php:626 ..
+#: /massive-panel/theme-options.php:1310 ../massive-panel/theme-options.php:1344 .
+#: ./massive-panel/theme-options.php:1378 ../massive-panel/theme-options.php:1412 
+#: ../massive-panel/theme-options.php:1507
+msgid "Color:"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:434
+msgid "Content Font"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:435
+msgid "Content Font:"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:441
+msgid "Specify the font size, font family for content."
+msgstr ""
+
+#: ../massive-panel/theme-options.php:502
+msgid "Pagination Font"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:503
+msgid "Pagination Font:"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:509
+msgid "Specify the font size, font family for pagination."
+msgstr ""
+
+#: ../massive-panel/theme-options.php:569
+msgid "Table of Contents Font"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:570
+msgid "Table of Contents Font:"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:576
+msgid "Specify the font size, font family for Table of Contents."
+msgstr ""
+
+#: ../massive-panel/theme-options.php:635
+msgid "Hover"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:636
+msgid "Hover:"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:653
+msgid "Zoom Border Size"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:654
+msgid "Border size: "
+msgstr ""
+
+#: ../massive-panel/theme-options.php:662
+msgid "Specify parameters for the border that is displayed around the zoomed page."
+msgstr ""
+
+#: ../massive-panel/theme-options.php:666
+msgid "Zoom Settings"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:670
+msgid "Zoom Border Color"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:680
+msgid "Zoom Border Radius"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:681 ../massive-panel/theme-options.php:818
+msgid "Border radius:"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:692
+msgid "Zoom Outline"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:693
+msgid "Outline: "
+msgstr ""
+
+#: ../massive-panel/theme-options.php:699
+msgid "Enable/Disable zoom panel outline, specify it's color."
+msgstr ""
+
+#: ../massive-panel/theme-options.php:705
+msgid "Zoom Outline Color"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:706
+msgid "Outline color: "
+msgstr ""
+
+#: ../massive-panel/theme-options.php:723
+msgid "Thumbnail Columns"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:724
+msgid "Thumbnail Columns:"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:731
+msgid ""
+"Show all pages panel contains thumbnails of each page, here you can specify "
+"number of columns of those thumbnails."
+msgstr ""
+
+#: ../massive-panel/theme-options.php:734
+msgid "Show all pages settings"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:738
+msgid "Thumbnail Border Size"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:739
+msgid "Thumbnail border size:"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:747
+msgid "Border Size - displayed around all thumbnails."
+msgstr ""
+
+#: ../massive-panel/theme-options.php:753
+msgid "Thumbnail Border Color"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:764 ../massive-panel/theme-options.php:1231 
+#: ../massive-panel/theme-options.php:1569
+msgid "Vertical Padding"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:765 ../massive-panel/theme-options.php:1570
+msgid "Vertical padding: "
+msgstr ""
+
+#: ../massive-panel/theme-options.php:773
+msgid "Specify thumbnails vertical and horizontal padding."
+msgstr ""
+
+#: ../massive-panel/theme-options.php:779 ../massive-panel/theme-options.php:1242 
+#: ../massive-panel/theme-options.php:1584
+msgid "Horizontal Padding"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:780 ../massive-panel/theme-options.php:1585
+msgid "Horizontal padding:"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:792
+msgid "Panel Border Size"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:801
+msgid ""
+"Specify parameters for the show all pages panel border. This border is "
+"displayed around all of the thumbnails."
+msgstr ""
+
+#: ../massive-panel/theme-options.php:807
+msgid "Panel Border Color"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:817
+msgid "Panel Border Radius"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:829
+msgid "Panel Outline"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:830
+msgid "Panel outline: "
+msgstr ""
+
+#: ../massive-panel/theme-options.php:836
+msgid ""
+"Specify show all pages panel outline - outline is a 1px line displayed "
+"around the border."
+msgstr ""
+
+#: ../massive-panel/theme-options.php:842
+msgid "Panel Outline Color"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:860
+msgid "Compact Mode"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:861
+msgid "Compact Mode:"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:875
+msgid "Navigation Settings"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:879
+msgid "Menu alignment"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:880
+msgid "Menu alignment:"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:885 ../massive-panel/theme-options.php:1545
+msgid "Bottom"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:885 ../massive-panel/theme-options.php:1545
+msgid "Top"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:885
+msgid "Aside Left"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:885
+msgid "Aside Right"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:889
+msgid "Stack buttons"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:890
+msgid "Stack buttons:"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:896
+msgid "Enable/Disable buttons stack."
+msgstr ""
+
+#: ../massive-panel/theme-options.php:901
+msgid "Text buttons"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:902
+msgid "Text buttons:"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:908
+msgid "Enable/Disable buttons with only texts."
+msgstr ""
+
+#: ../massive-panel/theme-options.php:914
+msgid "Table of Contents"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:915
+msgid "Table of contents:"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:921
+msgid "Enable/Disable Table of Contents button."
+msgstr ""
+
+#: ../massive-panel/theme-options.php:927 ../massive-panel/theme-options.php:971 .
+#: ./massive-panel/theme-options.php:1015 ../massive-panel/theme-options.php:1070 
+#: ../massive-panel/theme-options.php:1134
+msgid "Menu Order"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:928 ../massive-panel/theme-options.php:972 .
+#: ./massive-panel/theme-options.php:1016 ../massive-panel/theme-options.php:1071 
+#: ../massive-panel/theme-options.php:1135
+msgid "Menu order:"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:937 ../massive-panel/theme-options.php:1820
+msgid "Page Index"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:938
+msgid "Page index:"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:947 ../massive-panel/theme-options.php:1100 
+#: ../massive-panel/theme-options.php:1144
+msgid "Icon"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:948 ../massive-panel/theme-options.php:1101 
+#: ../massive-panel/theme-options.php:1145
+msgid "Icon:"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:958
+msgid "Zoom"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:959
+msgid "Zoom:"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:965
+msgid "Enable/Disable Zoom button."
+msgstr ""
+
+#: ../massive-panel/theme-options.php:981
+msgid "Zoom In Icon"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:982
+msgid "Zoom Icon:"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:991
+msgid "Zoom Out Icon"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:992
+msgid "Zoon Out Icon:"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1002
+msgid "Slide show"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1003
+msgid "Slide show:"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1009
+msgid "Enable/Disable Slide Show button and delay between the slides."
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1025
+msgid "Play Icon"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1026
+msgid "Play Icon:"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1035
+msgid "Stop Icon"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1036
+msgid "Stop Icon:"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1045
+msgid "Delay"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1046
+msgid "Delay:"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1051
+msgid "ms"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1057
+msgid "Show all pages"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1058
+msgid "Show all pages:"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1064
+msgid "Enable/Disable Show All Pages button."
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1080
+msgid "Prev"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1081
+msgid "Prev:"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1090
+msgid "Next"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1091
+msgid "Next:"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1110 ../massive-panel/theme-options.php:1154
+msgid "Close Icon"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1111 ../massive-panel/theme-options.php:1155
+msgid "Close Icon:"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1122
+msgid "Fullscreen:"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1128
+msgid "Enable/Disable Fullscreen button."
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1167
+msgid "Arrows"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1168
+msgid "Arrows:"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1174
+msgid "Enable/Disable Next/Previous navigation buttons."
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1180
+msgid "Group with Navbar"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1181
+msgid "Group with Navbar:"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1189
+msgid "Prev Icon"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1190
+msgid "Prev Icon:"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1199
+msgid "Next Icon"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1200
+msgid "Next Icon:"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1216
+msgid "Enable General Style"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1217
+msgid "Enable General Style:"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1223
+msgid ""
+"Specify the general style (padding, margin, font size, bottom border) nav "
+"button."
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1227
+msgid "Navigation Style"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1232
+msgid "Vertical Padding:"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1243
+msgid "Horizontal Padding:"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1253
+msgid "Margin "
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1254
+msgid "Margin:"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1264
+msgid "Font size"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1265
+msgid "Font Size:"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1275
+msgid "Border Size"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1276
+msgid "Border Size:"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1286
+msgid "Buttons shadow"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1287
+msgid "Buttons shadow:"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1296
+msgid "Regular State"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1297
+msgid "Regular State:"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1303
+msgid ""
+"Specify the color, background color, font size, buttons border radius for "
+"default (unactive) button."
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1319 ../massive-panel/theme-options.php:
+#: 1353 ../massive-panel/theme-options.php:1481
+msgid "Background"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1320 ../massive-panel/theme-options.php:
+#: 1354 ../massive-panel/theme-options.php:1482
+msgid "Background:"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1330
+msgid "Hover State"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1331
+msgid "Hover State:"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1337
+msgid ""
+"Specify the color, background color, font size, buttons border radius for "
+"button hover."
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1364
+msgid "Regular Border State"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1365
+msgid "Regular Border State:"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1371
+msgid "Enable border styles for buttons."
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1386 ../massive-panel/theme-options.php:
+#: 1421 ../massive-panel/theme-options.php:1527
+msgid "Radius"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1387 ../massive-panel/theme-options.php:
+#: 1422 ../massive-panel/theme-options.php:1528
+msgid "Radius:"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1398
+msgid "Hover Border State"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1399
+msgid "Hover Border State:"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1405
+msgid "Enable border styles for hover buttons."
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1440
+msgid "Enable Pagination display"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1441
+msgid "Enable Pagination display:"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1447
+msgid "Select this option to enable automatic pagination display."
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1450
+msgid "Pagination Settings"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1455
+msgid "Hide on first & last page"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1456
+msgid "Hide on first & last page:"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1475
+msgid "Specify background color."
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1492
+msgid "Border"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1493
+msgid "Border:"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1499
+msgid "Enable border styles for pagination."
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1539
+msgid "Vertical Position"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1540
+msgid "Vertical Position:"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1547
+msgid "Select Vertical position for pagination."
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1554
+msgid "Horizontal Position"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1555
+msgid "Horizontal Position:"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1560
+msgid "Center"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1560
+msgid "Aside"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1562
+msgid "Select Horizontical position for pagination."
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1578
+msgid "Specify pagination vertical and horizontal padding."
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1596
+msgid "Vertical Margin"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1597
+msgid "Vertical Margin: "
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1605
+msgid "Specify pagination vertical and horizontal margin."
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1611
+msgid "Horizontal Margin"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1612
+msgid "Horizontal Margin:"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1629
+msgid "Enable hard cover"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1630
+msgid "Enable hard cover:"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1636
+msgid "Select this option to enable hard covers."
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1639
+msgid "Hard Cover"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1643
+msgid "Choose front cover outside image"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1644
+msgid "Choose front cover outside image:"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1647
+msgid "Specify images for front cover."
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1658
+msgid "Choose front cover inside image"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1659
+msgid "Choose front cover inside image:"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1673
+msgid "Front cover side"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1674
+msgid "Front cover side:"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1682
+msgid "Choose back cover outside image"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1683
+msgid "Choose back cover outside image:"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1686
+msgid "Specify images for back cover."
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1697
+msgid "Choose back cover inside image"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1698
+msgid "Choose back cover inside image:"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1712
+msgid "Back cover side"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1713
+msgid "Back cover side:"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1734
+msgid "Pages"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1747
+msgid "Page Type"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1752
+msgid "Single Page"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1752
+msgid "Double Page"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1754
+msgid ""
+"Select page type:</br> - single - normal single page (left or right), </br> -"
+" double - one image displayed across both pages (left and right). "
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1775
+msgid "Background Image"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1776
+msgid "Choose page background:"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1779
+msgid "Specify pages background image."
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1792
+msgid "Background Image Zoom"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1793
+msgid "Choose page hi-res background:"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1796
+msgid ""
+"Specify hi-res page background images, it is used by the zoom feature "
+"(optional)."
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1807 ../massive-panel/mpc_toc/toc_popup.php:8
+msgid "Page Title"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1808
+msgid "Page Title: "
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1813
+msgid "Specify page title."
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1821
+msgid "Page Index: "
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1826
+msgid "Specify page index (better leave default value)."
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1833
+msgid "Page URL"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1834
+msgid "Page URL:"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1840
+msgid ""
+"Specify the page URL. After that the whole page would work as a link to "
+"specified URL (leave empty to disable)."
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1870
+msgid "Left Page Content"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1871
+msgid "Left Page Content:"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1874
+msgid ""
+"Here you can specify the HTML content which will be displayed on the page or "
+"left page (double page). To easily place content in two columns (for left "
+"and right pages) use the button alongside."
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1895
+msgid "Right Page Content"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1896
+msgid "Right Page Content:"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1899
+msgid ""
+"Here you can specify the HTML content which will be displayed on the right "
+"page."
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1908
+msgid "Page Custom Class"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1909
+msgid "Page Custom Class: "
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1914
+msgid ""
+"Specify page custom class (NOTE: Use it in the Page CSS field to target "
+"current page)."
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1921
+msgid "Page CSS"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1922
+msgid "Page CSS:"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1926
+msgid "Here you can specify the CSS which will be applied to the page."
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1936
+msgid "Save Page"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1946
+msgid "Help"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1954
+msgid "Help1"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1959
+msgid "Help2"
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1963
+msgid ""
+"You are using Responsive Flip Book WordPress Plugin v1.4.<br><br>If you have "
+"a support question please visit our <a href=\"http://mpc.ticksy.com\" "
+"target=\"_blank\">support site</a>. If you are looking for a documentation you "
+"can find it inside the ZIP file downloaded from CodeCanyon."
+msgstr ""
+
+#: ../massive-panel/theme-options.php:1974
+msgid "FlipBook"
+msgstr ""
+
+#: ../massive-panel/theme-settings.php:77
+msgid ""
+"There is problem with access to Google Webfonts. Please try again later. If "
+"this message keeps appearing please contact our support at <a href=\"http:"
+"//mpc.ticksy.com/\">mpc.ticksy.com</a>."
+msgstr ""
+
+#: ../massive-panel/theme-settings.php:82
+msgid "Preview Page"
+msgstr ""
+
+#: ../massive-panel/theme-settings.php:84 ../_ADDONS/responsive-flipbook-
+#: pdf/index.php:54
+msgid "Cancel"
+msgstr ""
+
+#: ../massive-panel/theme-settings.php:88
+msgid "last page must be single"
+msgstr ""
+
+#: ../massive-panel/theme-settings.php:89
+msgid "first page must be single"
+msgstr ""
+
+#: ../massive-panel/theme-settings.php:90
+msgid "book needs at least 4 pages"
+msgstr ""
+
+#: ../massive-panel/theme-settings.php:91
+msgid "number of pages must be even"
+msgstr ""
+
+#: ../massive-panel/theme-settings.php:92
+msgid "<span>ERROR: </span>"
+msgstr ""
+
+#: ../massive-panel/theme-settings.php:95
+msgid ""
+"We are sorry but your changes weren't saved. Please increase "
+"\"max_input_vars\" value in your \"php.ini\" file."
+msgstr ""
+
+#: ../massive-panel/theme-settings.php:96
+msgid "Oops! It looks like this page is already at the bottom."
+msgstr ""
+
+#: ../massive-panel/theme-settings.php:97
+msgid "Oops! It looks like this page is already at the top."
+msgstr ""
+
+#: ../massive-panel/theme-settings.php:98
+msgid "Book settings saved successfully."
+msgstr ""
+
+#: ../massive-panel/theme-settings.php:99
+msgid "Import has been successfully finished."
+msgstr ""
+
+#: ../massive-panel/theme-settings.php:100
+msgid "Number of normal and large images don't match."
+msgstr ""
+
+#: ../massive-panel/theme-settings.php:101
+msgid "No images selected to upload."
+msgstr ""
+
+#: ../massive-panel/theme-settings.php:102
+msgid "Wrong book ID."
+msgstr ""
+
+#: ../massive-panel/theme-settings.php:103
+msgid "Select Image"
+msgstr ""
+
+#: ../massive-panel/theme-settings.php:104
+msgid "Insert Image"
+msgstr ""
+
+#: ../massive-panel/theme-settings.php:105
+msgid "Select Images"
+msgstr ""
+
+#: ../massive-panel/theme-settings.php:106
+msgid "Insert Images"
+msgstr ""
+
+#: ../massive-panel/theme-settings.php:107
+msgid "Preset has been loaded."
+msgstr ""
+
+#: ../massive-panel/theme-settings.php:139
+msgid "Massive Panel Options"
+msgstr ""
+
+#: ../massive-panel/theme-settings.php:217
+msgid "Welcome to Flipbook "
+msgstr ""
+
+#: ../massive-panel/theme-settings.php:218
+msgid ""
+"We have rewrited a lot o things here to improve your experience with our "
+"plugin. We're trying our best to make it issues free but some bugs might "
+"still be there waiting to appear. Please backup your Flipbooks before using "
+"this new update."
+msgstr ""
+
+#: ../massive-panel/theme-settings.php:219
+msgid ""
+"If you found any issues please feel free to send us a support ticket and we "
+"will fix it as soon as possible."
+msgstr ""
+
+#: ../massive-panel/theme-settings.php:220
+msgid "I understand, dismiss"
+msgstr ""
+
+#: ../massive-panel/theme-settings.php:221
+msgid "Download Backup"
+msgstr ""
+
+#: ../massive-panel/theme-settings.php:255
+msgid "Tools"
+msgstr ""
+
+#: ../massive-panel/theme-settings.php:260
+msgid "Import Flipbook settings:"
+msgstr ""
+
+#: ../massive-panel/theme-settings.php:269
+msgid "Import"
+msgstr ""
+
+#: ../massive-panel/theme-settings.php:273
+msgid ""
+"Use this field to import all Flipbooks and pages settings from previously "
+"created backup. <br /><br /> (NOTE: File must have .rfb extension)."
+msgstr ""
+
+#: ../massive-panel/theme-settings.php:279
+msgid "Export Flipbook settings:"
+msgstr ""
+
+#: ../massive-panel/theme-settings.php:282
+msgid "Export"
+msgstr ""
+
+#: ../massive-panel/theme-settings.php:286
+msgid ""
+"Use this field to export all Flipbooks and pages settings to a file. <br "
+"/><br /> (NOTE: This exports only settings. To export used images you will "
+"have to use other plugin)."
+msgstr ""
+
+#: ../massive-panel/theme-settings.php:291
+msgid "Batch Images upload:"
+msgstr ""
+
+#: ../massive-panel/theme-settings.php:294
+msgid ""
+"Use this feature to import multiple images at once. Please notice that the "
+"order and amount of Normal and Large images must be exactly the same. <br "
+"/><br />If you do not wish to use zoomed (large) images you can left this "
+"field empty."
+msgstr ""
+
+#: ../massive-panel/theme-settings.php:301
+msgid "Select Normal"
+msgstr ""
+
+#: ../massive-panel/theme-settings.php:305 ../massive-panel/theme-settings.php:317
+msgid "Delete"
+msgstr ""
+
+#: ../massive-panel/theme-settings.php:313
+msgid "Select Large"
+msgstr ""
+
+#: ../massive-panel/theme-settings.php:324
+msgid "Upload"
+msgstr ""
+
+#: ../massive-panel/theme-settings.php:326
+msgid "Double Pages:"
+msgstr ""
+
+#: ../massive-panel/theme-settings.php:336
+msgid "Click anywhere to close."
+msgstr ""
+
+#: ../massive-panel/theme-settings.php:497
+msgid "Expecting comma separated numeric values"
+msgstr ""
+
+#. error ID
+#: ../massive-panel/theme-settings.php:507
+msgid "Expecting comma separated numeric values!"
+msgstr ""
+
+#: ../massive-panel/theme-settings.php:555
+msgid "Invalid email! Please re-enter!"
+msgstr ""
+
+#: ../massive-panel/theme-settings.php:558
+msgid "This setting field cannot be empty! Please enter a valid email address."
+msgstr ""
+
+#. error ID
+#: ../massive-panel/theme-settings.php:566
+msgid "Please enter a valid email address."
+msgstr ""
+
+#: ../massive-panel/theme-tools.php:58
+msgid "Wrong file uploaded."
+msgstr ""
+
+#: ../massive-panel/theme-tools.php:75
+msgid "Empty file content."
+msgstr ""
+
+#: ../massive-panel/theme-tools.php:77
+msgid "Importing..."
+msgstr ""
+
+#: ../massive-panel/theme-tools.php:95
+msgid "All settings were imported."
+msgstr ""
+
+#: ../massive-panel/theme-tools.php:98 ../massive-panel/theme-tools.php:104
+msgid "Something went wrong. Please try again."
+msgstr ""
+
+#: ../massive-panel/theme-tools.php:108
+msgid "Return to panel"
+msgstr ""
+
+#: ../massive-panel/mpc_toc/toc_popup.php:7
+msgid "Lp."
+msgstr ""
+
+#: ../massive-panel/mpc_toc/toc_popup.php:9
+msgid "Page Number"
+msgstr ""
+
+#: ../tinymce/setup.php:20
+msgid "Insert Flip Book"
+msgstr ""
+
+#: ../tinymce/setup.php:25 ../tinymce/setup.php:75
+msgid "Select which FlipBook you would like to display"
+msgstr ""
+
+#: ../tinymce/setup.php:33
+msgid "Insert Flip Book Shelf"
+msgstr ""
+
+#: ../tinymce/setup.php:38
+msgid "Select which FlipBooks you would like to display"
+msgstr ""
+
+#: ../tinymce/setup.php:44
+msgid "Select which shelf style you would like to display"
+msgstr ""
+
+#: ../tinymce/setup.php:70
+msgid "Insert Flip Book Popup"
+msgstr ""
+
+#: ../tinymce/setup.php:74
+msgid "Select flip book"
+msgstr ""
+
+#: ../tinymce/setup.php:80
+msgid "Specify custom class"
+msgstr ""
+
+#: ../tinymce/setup.php:81
+msgid "Specify your custom CSS class for FlipBook popup"
+msgstr ""
+
+#: ../tinymce/window-content.php:68
+msgid "Select image"
+msgstr ""
+
+#: ../tinymce/window-content.php:68
+msgid "Select"
+msgstr ""
+
+#: ../tinymce/window-content.php:88
+msgid "Add new Flip Book"
+msgstr ""
+
+#: ../tinymce/window-content.php:190 ../tinymce/window-content.php:192
+msgid "Insert Shortcode"
+msgstr ""
+
+#: ../_ADDONS/responsive-flipbook-pdf/index.php:46 ../_ADDONS/responsive-flipbook-
+#: pdf/pdf_wizard.php:128
+msgid "Convert PDF"
+msgstr ""
+
+#: ../_ADDONS/responsive-flipbook-pdf/pdf_wizard.php:9
+msgid "Server connection issue."
+msgstr ""
+
+#: ../_ADDONS/responsive-flipbook-pdf/pdf_wizard.php:10
+msgid "Server didn't respond to request."
+msgstr ""
+
+#: ../_ADDONS/responsive-flipbook-pdf/pdf_wizard.php:11 ../_ADDONS/responsive-
+#: flipbook-pdf/pdf_wizard.php:16 ../_ADDONS/responsive-flipbook-pdf/pdf_wizard.
+#: php:21 ../_ADDONS/responsive-flipbook-pdf/pdf_wizard.php:26 ..
+#: /_ADDONS/responsive-flipbook-pdf/pdf_wizard.php:31 ../_ADDONS/responsive-
+#: flipbook-pdf/pdf_wizard.php:36 ../_ADDONS/responsive-flipbook-pdf/pdf_wizard.
+#: php:41 ../_ADDONS/responsive-flipbook-pdf/pdf_wizard.php:46 ..
+#: /_ADDONS/responsive-flipbook-pdf/pdf_wizard.php:51
+msgid ""
+"Please <a href=\"#\" class=\"rfbwp-restart\">try again</a>. If the issue would "
+"repeat contact our support team :)"
+msgstr ""
+
+#: ../_ADDONS/responsive-flipbook-pdf/pdf_wizard.php:14
+msgid "PDF size issue."
+msgstr ""
+
+#: ../_ADDONS/responsive-flipbook-pdf/pdf_wizard.php:15
+msgid "PDF size is larger then 50MB."
+msgstr ""
+
+#: ../_ADDONS/responsive-flipbook-pdf/pdf_wizard.php:19
+msgid "PDF upload issue."
+msgstr ""
+
+#: ../_ADDONS/responsive-flipbook-pdf/pdf_wizard.php:20
+msgid "PDF couldn't be uploaded to the server."
+msgstr ""
+
+#: ../_ADDONS/responsive-flipbook-pdf/pdf_wizard.php:24
+msgid "PDF pages issue."
+msgstr ""
+
+#: ../_ADDONS/responsive-flipbook-pdf/pdf_wizard.php:25
+msgid "PDF have too few pages. It should have at least 3 pages."
+msgstr ""
+
+#: ../_ADDONS/responsive-flipbook-pdf/pdf_wizard.php:29
+msgid "PDF data issue."
+msgstr ""
+
+#: ../_ADDONS/responsive-flipbook-pdf/pdf_wizard.php:30
+msgid "Server couldn't extract PDF data for convertion."
+msgstr ""
+
+#: ../_ADDONS/responsive-flipbook-pdf/pdf_wizard.php:34
+msgid "PDF convertion issue."
+msgstr ""
+
+#: ../_ADDONS/responsive-flipbook-pdf/pdf_wizard.php:35
+msgid "Server couldn't convert PDF to images."
+msgstr ""
+
+#: ../_ADDONS/responsive-flipbook-pdf/pdf_wizard.php:39
+msgid "Images list issue."
+msgstr ""
+
+#: ../_ADDONS/responsive-flipbook-pdf/pdf_wizard.php:40
+msgid "Server couldn't list converted images."
+msgstr ""
+
+#: ../_ADDONS/responsive-flipbook-pdf/pdf_wizard.php:44
+msgid "Images import issue."
+msgstr ""
+
+#: ../_ADDONS/responsive-flipbook-pdf/pdf_wizard.php:45
+msgid "Server couldn't import converted images."
+msgstr ""
+
+#: ../_ADDONS/responsive-flipbook-pdf/pdf_wizard.php:49
+msgid "Imported images issue."
+msgstr ""
+
+#: ../_ADDONS/responsive-flipbook-pdf/pdf_wizard.php:50
+msgid "Too few images imported. Flipbook should have at least 3 pages."
+msgstr ""
+
+#: ../_ADDONS/responsive-flipbook-pdf/pdf_wizard.php:55
+msgid "Step 1: <em>Set Flipbook options</em>"
+msgstr ""
+
+#: ../_ADDONS/responsive-flipbook-pdf/pdf_wizard.php:56
+msgid "Flipbook name:"
+msgstr ""
+
+#: ../_ADDONS/responsive-flipbook-pdf/pdf_wizard.php:57
+msgid "Flipbook name"
+msgstr ""
+
+#: ../_ADDONS/responsive-flipbook-pdf/pdf_wizard.php:60
+msgid "Normal page"
+msgstr ""
+
+#: ../_ADDONS/responsive-flipbook-pdf/pdf_wizard.php:62 ../_ADDONS/responsive-
+#: flipbook-pdf/pdf_wizard.php:94
+msgid "Max width:"
+msgstr ""
+
+#: ../_ADDONS/responsive-flipbook-pdf/pdf_wizard.php:63 ../_ADDONS/responsive-
+#: flipbook-pdf/pdf_wizard.php:95
+msgid "Width"
+msgstr ""
+
+#: ../_ADDONS/responsive-flipbook-pdf/pdf_wizard.php:70 ../_ADDONS/responsive-
+#: flipbook-pdf/pdf_wizard.php:102
+msgid "Max height:"
+msgstr ""
+
+#: ../_ADDONS/responsive-flipbook-pdf/pdf_wizard.php:71 ../_ADDONS/responsive-
+#: flipbook-pdf/pdf_wizard.php:103
+msgid "Height"
+msgstr ""
+
+#: ../_ADDONS/responsive-flipbook-pdf/pdf_wizard.php:78 ../_ADDONS/responsive-
+#: flipbook-pdf/pdf_wizard.php:110
+msgid "Quality:"
+msgstr ""
+
+#: ../_ADDONS/responsive-flipbook-pdf/pdf_wizard.php:79 ../_ADDONS/responsive-
+#: flipbook-pdf/pdf_wizard.php:111
+msgid "Quality"
+msgstr ""
+
+#: ../_ADDONS/responsive-flipbook-pdf/pdf_wizard.php:88
+msgid "Zoom page"
+msgstr ""
+
+#: ../_ADDONS/responsive-flipbook-pdf/pdf_wizard.php:91
+msgid "Enabled"
+msgstr ""
+
+#: ../_ADDONS/responsive-flipbook-pdf/pdf_wizard.php:120
+msgid "Step 2: <em>Select PDF</em>"
+msgstr ""
+
+#: ../_ADDONS/responsive-flipbook-pdf/pdf_wizard.php:123 ../_ADDONS/responsive-
+#: flipbook-pdf/pdf_wizard.php:123
+msgid "Click to select file"
+msgstr ""
+
+#: ../_ADDONS/responsive-flipbook-pdf/pdf_wizard.php:127
+msgid "Step 3: <em>Start convertion</em>"
+msgstr ""
+
+#: ../_ADDONS/responsive-flipbook-pdf/pdf_wizard.php:131
+msgid "Convertion in progress"
+msgstr ""
+
+#: ../_ADDONS/responsive-flipbook-pdf/pdf_wizard.php:133
+msgid "Uploading: "
+msgstr ""
+
+#: ../_ADDONS/responsive-flipbook-pdf/pdf_wizard.php:135 ../_ADDONS/responsive-
+#: flipbook-pdf/pdf_wizard.php:135 ../_ADDONS/responsive-flipbook-pdf/pdf_wizard.
+#: php:141 ../_ADDONS/responsive-flipbook-pdf/pdf_wizard.php:141 ..
+#: /_ADDONS/responsive-flipbook-pdf/pdf_wizard.php:147 ../_ADDONS/responsive-
+#: flipbook-pdf/pdf_wizard.php:147
+msgid "( calculating... )"
+msgstr ""
+
+#: ../_ADDONS/responsive-flipbook-pdf/pdf_wizard.php:139
+msgid "Converting: "
+msgstr ""
+
+#: ../_ADDONS/responsive-flipbook-pdf/pdf_wizard.php:145
+msgid "Importing: "
+msgstr ""
+
+#: ../_THEME/landing_fb/404.php:16
+msgid "Not Found"
+msgstr ""
+
+#: ../_THEME/landing_fb/404.php:21
+msgid "This is somewhat embarrassing, isn&rsquo;t it?"
+msgstr ""
+
+#: ../_THEME/landing_fb/404.php:22
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+
+#: ../_THEME/landing_fb/archive.php:29
+#, php-format
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: ../_THEME/landing_fb/archive.php:31
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: ../_THEME/landing_fb/archive.php:31
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: ../_THEME/landing_fb/archive.php:33
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: ../_THEME/landing_fb/archive.php:33
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: ../_THEME/landing_fb/archive.php:35
+msgid "Archives"
+msgstr ""
+
+#: ../_THEME/landing_fb/comments.php:25
+#, php-format
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../_THEME/landing_fb/comments.php:45
+msgid "Comment navigation"
+msgstr ""
+
+#: ../_THEME/landing_fb/comments.php:46
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: ../_THEME/landing_fb/comments.php:47
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: ../_THEME/landing_fb/comments.php:52
+msgid "Comments are closed."
+msgstr ""
+
+#: ../_THEME/landing_fb/content-none.php:12
+msgid "Nothing Found"
+msgstr ""
+
+#: ../_THEME/landing_fb/content-none.php:18
+#, php-format
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: ../_THEME/landing_fb/content-none.php:22
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with "
+"different keywords."
+msgstr ""
+
+#: ../_THEME/landing_fb/content-none.php:27
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: ../_THEME/landing_fb/content.php:31
+msgid "Edit"
+msgstr ""
+
+#. translators: %s: Name of current post
+#. translators: %s: Name of current post
+#: ../_THEME/landing_fb/content.php:44 ../_THEME/landing_fb/functions.php:452
+#, php-format
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../_THEME/landing_fb/content.php:48
+msgid "Pages:"
+msgstr ""
+
+#: ../_THEME/landing_fb/content.php:56
+msgid "Leave a comment"
+msgstr ""
+
+#: ../_THEME/landing_fb/content.php:56
+msgid "One comment so far"
+msgstr ""
+
+#: ../_THEME/landing_fb/content.php:56
+#, php-format
+msgid "View all % comments"
+msgstr ""
+
+#: ../_THEME/landing_fb/functions.php:91
+msgid "Navigation Menu"
+msgstr ""
+
+#: ../_THEME/landing_fb/functions.php:92
+msgid "Bottom Navigation Menu"
+msgstr ""
+
+#. Translators: If there are characters in your language that are not
+#. supported by Source Sans Pro, translate this to 'off'. Do not translate
+#. into your own language.
+#: ../_THEME/landing_fb/functions.php:123
+msgctxt "Source Sans Pro font: on or off"
+msgid "on"
+msgstr ""
+
+#. Translators: If there are characters in your language that are not
+#. supported by Bitter, translate this to 'off'. Do not translate into your
+#. own language.
+#: ../_THEME/landing_fb/functions.php:129
+msgctxt "Bitter font: on or off"
+msgid "on"
+msgstr ""
+
+#: ../_THEME/landing_fb/functions.php:192
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: ../_THEME/landing_fb/functions.php:205
+msgid "Main Widget Area"
+msgstr ""
+
+#: ../_THEME/landing_fb/functions.php:207
+msgid "Appears in the footer section of the site."
+msgstr ""
+
+#: ../_THEME/landing_fb/functions.php:215
+msgid "Secondary Widget Area"
+msgstr ""
+
+#: ../_THEME/landing_fb/functions.php:217
+msgid "Appears on posts and pages in the sidebar."
+msgstr ""
+
+#: ../_THEME/landing_fb/functions.php:240
+msgid "Posts navigation"
+msgstr ""
+
+#: ../_THEME/landing_fb/functions.php:244
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr ""
+
+#: ../_THEME/landing_fb/functions.php:248
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../_THEME/landing_fb/functions.php:274
+msgid "Post navigation"
+msgstr ""
+
+#: ../_THEME/landing_fb/functions.php:277
+msgctxt "Previous post link"
+msgid "<span class=\"meta-nav\">&larr;</span> %title"
+msgstr ""
+
+#: ../_THEME/landing_fb/functions.php:278
+msgctxt "Next post link"
+msgid "%title <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../_THEME/landing_fb/functions.php:296
+msgid "Sticky"
+msgstr ""
+
+#. Translators: used between list items, there is a space after the comma.
+#. Translators: used between list items, there is a space after the comma.
+#: ../_THEME/landing_fb/functions.php:302 ../_THEME/landing_fb/functions.php:308
+msgid ", "
+msgstr ""
+
+#: ../_THEME/landing_fb/functions.php:317
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+#: ../_THEME/landing_fb/functions.php:337
+#, php-format
+msgctxt "1: post format name. 2: date"
+msgid "%1$s on %2$s"
+msgstr ""
+
+#: ../_THEME/landing_fb/functions.php:343
+#, php-format
+msgid "Permalink to %s"
+msgstr ""
+
+#: ../_THEME/landing_fb/header.php:58 ../_THEME/landing_fb/header.php:58
+msgid "Skip to content"
+msgstr ""
+
+#: ../_THEME/landing_fb/search.php:18
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""

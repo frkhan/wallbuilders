@@ -1,0 +1,10 @@
+/* VC icons */
+.vc_element-icon.icon-rfbwp-flipbook {
+	background-image: url( '../images/icon_1.png' );
+}
+.vc_element-icon.icon-rfbwp-flipbook-popup {
+	background-image: url( '../images/icon_2.png' );
+}
+.vc_element-icon.icon-rfbwp-flipbook-shelf {
+	background-image: url( '../images/icon_3.png' );
+}

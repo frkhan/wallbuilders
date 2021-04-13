@@ -1,0 +1,19 @@
+<?php
+
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}
+?>
+<div class="zorem-layout__header">
+	<h1 class="zorem-layout__header-breadcrumbs">
+		<span><a href="<?php echo esc_url( admin_url( '/admin.php?page=wc-admin' ) ); ?>"><?php _e('WooCommerce', 'woocommerce'); ?></a></span>
+		<span><a href="<?php echo esc_url( admin_url( '/admin.php?page=woocommerce_shop_manager_admin_option' ) ); ?>"><?php _e('Shop manager Admin', 'woocommerce-shop-manager-admin-bar'); ?></a></span>
+		<span class="header-breadcrumbs-last"><?php _e('Settings', 'woocommerce'); ?></span>
+	</h1>
+	<div class="zorem-layout__logo-panel">
+		<a href="https://www.zorem.com/?utm_source=wp-admin&utm_medium=SMA&utm_campaign=header">		
+		<img class="header-plugin-logo" src="<?php echo woo_shop_manager_admin()->plugin_dir_url()?>assets/images/SMA-logo.png">
+		</a>
+	</div>
+</div>
+
